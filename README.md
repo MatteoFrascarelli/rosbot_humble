@@ -84,14 +84,14 @@ Every modification that you make in `ros2_ws/ws` and in `my_ros2_ws` it will rem
 If you exit from the container all things that you install will be lost. You can edit **ONLY THE TOP** of the Dockerfile and then run `build_sim.sh` to mantain the edit. 
 For example if you want to work with `gedit` you can do add gedit here
 
-```{dockerfile, attr.source='.numberLines startFrom="258"'}
+```dockerfile class:"lineNo"
 # Install extra packages
-RUN sudo apt-get update && sudo apt-get install -y \
-    terminator \
-    ranger \
-    ros-humble-plotjuggler-ros \
-    ros-humble-rqt-tf-tree \
-    gedit
+258 RUN sudo apt-get update && sudo apt-get install -y \
+259    terminator \
+260    ranger \
+261    ros-humble-plotjuggler-ros \
+262    ros-humble-rqt-tf-tree \
+263    gedit
 ```
  and then if you run in your local PC `build_sim.sh` and then you enter in the container gedit should be installed forever.
 
