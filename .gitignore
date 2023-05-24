@@ -1,0 +1,7 @@
+my_ros2_ws/build
+my_ros2_ws/install
+my_ros2_ws/log
+
+ros2_ws/ws/build
+ros2_ws/ws/install
+ros2_ws/ws/log

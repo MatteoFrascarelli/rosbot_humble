@@ -26,6 +26,7 @@ ament_target_dependencies(monitor_battery
   "rclcpp"
   "sensor_msgs")
 
+# Install C++ executables
 install(TARGETS
   monitor_battery
   DESTINATION lib/${PROJECT_NAME})

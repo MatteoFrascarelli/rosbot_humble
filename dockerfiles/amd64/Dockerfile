@@ -257,5 +257,7 @@ COPY ./dot_files/fun_bash.sh /home/${USERNAME}/.fun_bash.sh
 RUN echo "alias nvidia="__NV_PRIME_RENDER_OFFLOAD=1 __GLX_VENDOR_LIBRARY_NAME=nvidia"" >> ~/.bashrc && \
     echo "source ~/.fun_bash.sh" >> ~/.bashrc
 
+RUN echo "export DDS_CONFIG=DEFAULT; export RMW_IMPLEMENTATION=rmw_fastrtps_cpp; export ROS_DOMAIN_ID=2" >> ~/.bashrc
+
 ENTRYPOINT [ "/entrypoint.sh" ]
 CMD ["bash"]

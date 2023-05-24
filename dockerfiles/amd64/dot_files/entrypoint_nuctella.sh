@@ -11,8 +11,7 @@ then
     source ~/ros2_ws/ws/install/local_setup.bash
     source ~/my_ros2_ws/install/local_setup.bash
     # cd ~/ros2_ws/ws && colcon build --symlink-install --event-handler console_direct+
-    echo "Welcome to ROS2-RosbotXL!"
-
+    echo "Welcome to ROS2-RosbotXL Docker Container!"
 fi
 
 # bash
