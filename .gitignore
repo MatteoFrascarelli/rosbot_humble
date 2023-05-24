@@ -8,5 +8,5 @@ ros2_ws/ws/install
 ros2_ws/ws/log
 ros2_ws/ws/src
 
-maps/*
-maps/
+maps/*.png
+maps/*.yaml
