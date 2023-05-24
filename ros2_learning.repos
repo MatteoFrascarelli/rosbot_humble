@@ -1,0 +1,6 @@
+repositories:
+
+  ROS2_learning:
+    type: git
+    url: https://github.com/dottantgal/ROS2_learning.git
+    version: humble
