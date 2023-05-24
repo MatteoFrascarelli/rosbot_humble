@@ -238,10 +238,6 @@ RUN sudo apt-get update && \
         ros-$ROS_DISTRO-ros-gz-sim \
         ros-$ROS_DISTRO-ros-gz-bridge
 
-# Install extra packages
-RUN sudo apt-get update && sudo apt-get install -y \
-    terminator \
-    ranger 
     
 WORKDIR /home/${USERNAME}/${ROS2_WS}
 # edit your bashrc
@@ -258,6 +254,13 @@ RUN echo "alias nvidia="__NV_PRIME_RENDER_OFFLOAD=1 __GLX_VENDOR_LIBRARY_NAME=nv
     echo "source ~/.fun_bash.sh" >> ~/.bashrc
 
 RUN echo "export DDS_CONFIG=DEFAULT; export RMW_IMPLEMENTATION=rmw_fastrtps_cpp; export ROS_DOMAIN_ID=2" >> ~/.bashrc
+
+# Install extra packages
+RUN sudo apt-get update && sudo apt-get install -y \
+    terminator \
+    ranger \
+    ros-humble-plotjuggler-ros \
+    ros-humble-rqt-tf-tree
 
 ENTRYPOINT [ "/entrypoint.sh" ]
 CMD ["bash"]
