@@ -80,10 +80,10 @@ There are three workspaces inside the docker container
 - `/home/nuctella/ros2_ws/ws` packages for the simulation 
 - `/home/nuctella/my_ros2_ws` your new packages that you want add
 
-Every modification that you make in `ros2_ws/ws` and in `my_ros2_ws` it will remain also in your local PC, even if you will exit from the docker. These two folders are mounte in `go_sim.sh`, in the root of the project.
+Every modification that you make in `ros2_ws/ws` and in `my_ros2_ws` it will remain also in your local PC, even if you will exit from the docker. These two folders are mounted in `go_sim.sh`, in the root of the project.
 
-If you exit from the container all things that you install will be lost. You can edit **ONLY THE TOP** of the Dockerfile and then run `build_sim.sh` to mantain the edit. 
-For example if you want to work with `gedit` you can do add gedit here
+If you exit from the container all things that you install will be lost. You can edit **ONLY THE BOTTOM** of the Dockerfile and then run `build_sim.sh` to mantain the edit. 
+For example, if you want to work with `gedit` you can add it here
 
 ```dockerfile class:"lineNo"
 # Install extra packages
@@ -94,7 +94,7 @@ For example if you want to work with `gedit` you can do add gedit here
 262    ros-humble-rqt-tf-tree \
 263    gedit
 ```
- and then if you run in your local PC `build_sim.sh` and then you enter in the container gedit should be installed forever.
+Then, if you run in your local PC `build_sim.sh` and then you enter in the container with `./go_sim.sh`, gedit should be installed forever.
 
 ## How to develop code
 
