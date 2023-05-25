@@ -1,4 +1,5 @@
 # rosbot_humble
+A simple way to run [rosbot-xl simulation](https://github.com/husarion/rosbot-xl-mapping) without using docker compose.
 
 ## Prerequisities
 - [Ubuntu 22.04](https://linuxways.net/ubuntu/dual-boot-ubuntu-22-04-alongside-windows-11/) (it should also work in Ubuntu 20.04)
@@ -107,6 +108,7 @@ There is also one useful package called `ROS2_learning`, with a lot of basic exa
 
 If you don't know how to develop using git you can follow [this guide](https://learngitbranching.js.org/) and the [official guide](https://git-scm.com/docs/git-commit) or also [this](https://www.atlassian.com/git/tutorials/saving-changes/git-commit). Or you can use [gitkraken](https://www.gitkraken.com/).
 
+Tip: There are some useful alias in ~/.bashrc (inside the docker)
 ---
 
 ### Bug Report
