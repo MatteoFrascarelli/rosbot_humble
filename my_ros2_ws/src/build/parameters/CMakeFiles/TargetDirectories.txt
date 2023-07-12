@@ -1,0 +1,10 @@
+/home/nuctella/my_ros2_ws/src/build/parameters/CMakeFiles/uninstall.dir
+/home/nuctella/my_ros2_ws/src/build/parameters/CMakeFiles/parameters_uninstall.dir
+/home/nuctella/my_ros2_ws/src/build/parameters/CMakeFiles/parameters.dir
+/home/nuctella/my_ros2_ws/src/build/parameters/CMakeFiles/test.dir
+/home/nuctella/my_ros2_ws/src/build/parameters/CMakeFiles/edit_cache.dir
+/home/nuctella/my_ros2_ws/src/build/parameters/CMakeFiles/rebuild_cache.dir
+/home/nuctella/my_ros2_ws/src/build/parameters/CMakeFiles/list_install_components.dir
+/home/nuctella/my_ros2_ws/src/build/parameters/CMakeFiles/install.dir
+/home/nuctella/my_ros2_ws/src/build/parameters/CMakeFiles/install/local.dir
+/home/nuctella/my_ros2_ws/src/build/parameters/CMakeFiles/install/strip.dir

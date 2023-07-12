@@ -1,0 +1,12 @@
+/home/nuctella/my_ros2_ws/src/build/core/CMakeFiles/uninstall.dir
+/home/nuctella/my_ros2_ws/src/build/core/CMakeFiles/core_uninstall.dir
+/home/nuctella/my_ros2_ws/src/build/core/CMakeFiles/monitor_battery.dir
+/home/nuctella/my_ros2_ws/src/build/core/CMakeFiles/ament_cmake_python_symlink_core.dir
+/home/nuctella/my_ros2_ws/src/build/core/CMakeFiles/ament_cmake_python_build_core_egg.dir
+/home/nuctella/my_ros2_ws/src/build/core/CMakeFiles/test.dir
+/home/nuctella/my_ros2_ws/src/build/core/CMakeFiles/edit_cache.dir
+/home/nuctella/my_ros2_ws/src/build/core/CMakeFiles/rebuild_cache.dir
+/home/nuctella/my_ros2_ws/src/build/core/CMakeFiles/list_install_components.dir
+/home/nuctella/my_ros2_ws/src/build/core/CMakeFiles/install.dir
+/home/nuctella/my_ros2_ws/src/build/core/CMakeFiles/install/local.dir
+/home/nuctella/my_ros2_ws/src/build/core/CMakeFiles/install/strip.dir

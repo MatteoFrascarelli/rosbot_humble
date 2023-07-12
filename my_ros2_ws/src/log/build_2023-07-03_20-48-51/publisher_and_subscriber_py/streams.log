@@ -1,0 +1,53 @@
+[110.903s] Invoking command in '/home/nuctella/my_ros2_ws/src/build/publisher_and_subscriber_py': PYTHONPATH=/home/nuctella/my_ros2_ws/src/build/publisher_and_subscriber_py/prefix_override:/home/nuctella/my_ros2_ws/src/install/publisher_and_subscriber_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/nuctella/my_ros2_ws/src/build/publisher_and_subscriber_py/build --no-deps install_data
+[238.180s] running develop
+[238.187s] running egg_info
+[238.195s] creating publisher_and_subscriber_py.egg-info
+[238.205s] writing publisher_and_subscriber_py.egg-info/PKG-INFO
+[238.213s] writing dependency_links to publisher_and_subscriber_py.egg-info/dependency_links.txt
+[238.220s] writing entry points to publisher_and_subscriber_py.egg-info/entry_points.txt
+[238.231s] writing requirements to publisher_and_subscriber_py.egg-info/requires.txt
+[238.238s] writing top-level names to publisher_and_subscriber_py.egg-info/top_level.txt
+[238.245s] writing manifest file 'publisher_and_subscriber_py.egg-info/SOURCES.txt'
+[238.253s] reading manifest file 'publisher_and_subscriber_py.egg-info/SOURCES.txt'
+[238.261s] writing manifest file 'publisher_and_subscriber_py.egg-info/SOURCES.txt'
+[238.269s] running build_ext
+[238.277s] Creating /home/nuctella/my_ros2_ws/src/install/publisher_and_subscriber_py/lib/python3.10/site-packages/publisher-and-subscriber-py.egg-link (link to .)
+[238.285s] Installing simple_publisher_class_node script to /home/nuctella/my_ros2_ws/src/install/publisher_and_subscriber_py/lib/publisher_and_subscriber_py
+[238.292s] Installing simple_publisher_node script to /home/nuctella/my_ros2_ws/src/install/publisher_and_subscriber_py/lib/publisher_and_subscriber_py
+[238.298s] Installing simple_subscriber_class_node script to /home/nuctella/my_ros2_ws/src/install/publisher_and_subscriber_py/lib/publisher_and_subscriber_py
+[238.306s] Installing simple_subscriber_node script to /home/nuctella/my_ros2_ws/src/install/publisher_and_subscriber_py/lib/publisher_and_subscriber_py
+[238.315s] 
+[238.324s] Installed /home/nuctella/my_ros2_ws/src/build/publisher_and_subscriber_py
+[238.332s] running install_data
+[238.339s] creating /home/nuctella/my_ros2_ws/src/install/publisher_and_subscriber_py/share/ament_index
+[238.346s] creating /home/nuctella/my_ros2_ws/src/install/publisher_and_subscriber_py/share/ament_index/resource_index
+[238.354s] creating /home/nuctella/my_ros2_ws/src/install/publisher_and_subscriber_py/share/ament_index/resource_index/packages
+[238.362s] copying resource/publisher_and_subscriber_py -> /home/nuctella/my_ros2_ws/src/install/publisher_and_subscriber_py/share/ament_index/resource_index/packages
+[238.371s] copying package.xml -> /home/nuctella/my_ros2_ws/src/install/publisher_and_subscriber_py/share/publisher_and_subscriber_py
+[238.379s] /home/nuctella/.local/lib/python3.10/site-packages/setuptools/command/develop.py:40: EasyInstallDeprecationWarning: easy_install command is deprecated.
+[238.386s] !!
+[238.393s] 
+[238.400s]         ********************************************************************************
+[238.412s]         Please avoid running ``setup.py`` and ``easy_install``.
+[238.419s]         Instead, use pypa/build, pypa/installer, pypa/build or
+[238.426s]         other standards-based tools.
+[238.433s] 
+[238.441s]         See https://github.com/pypa/setuptools/issues/917 for details.
+[238.449s]         ********************************************************************************
+[238.457s] 
+[238.464s] !!
+[238.471s]   easy_install.initialize_options(self)
+[238.478s] /home/nuctella/.local/lib/python3.10/site-packages/setuptools/_distutils/cmd.py:66: SetuptoolsDeprecationWarning: setup.py install is deprecated.
+[238.486s] !!
+[238.493s] 
+[238.501s]         ********************************************************************************
+[238.508s]         Please avoid running ``setup.py`` directly.
+[238.517s]         Instead, use pypa/build, pypa/installer, pypa/build or
+[238.524s]         other standards-based tools.
+[238.531s] 
+[238.539s]         See https://blog.ganssle.io/articles/2021/10/setup-py-deprecated.html for details.
+[238.546s]         ********************************************************************************
+[238.554s] 
+[238.563s] !!
+[238.570s]   self.initialize_options()
+[238.790s] Invoked command in '/home/nuctella/my_ros2_ws/src/build/publisher_and_subscriber_py' returned '0': PYTHONPATH=/home/nuctella/my_ros2_ws/src/build/publisher_and_subscriber_py/prefix_override:/home/nuctella/my_ros2_ws/src/install/publisher_and_subscriber_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/nuctella/my_ros2_ws/src/build/publisher_and_subscriber_py/build --no-deps install_data

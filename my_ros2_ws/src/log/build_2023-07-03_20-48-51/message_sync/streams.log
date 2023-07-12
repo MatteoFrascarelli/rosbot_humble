@@ -1,0 +1,74 @@
+[3.133s] Invoking command in '/home/nuctella/my_ros2_ws/src/build/message_sync': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nuctella/my_ros2_ws/install/start_with_simple_nodes_py:/home/nuctella/my_ros2_ws/install/rosbot_object_recognition:/home/nuctella/my_ros2_ws/install/publisher_and_subscriber_py:/opt/ros/humble /usr/bin/cmake /home/nuctella/my_ros2_ws/src/ROS2_learning/CPP/message_sync -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/nuctella/my_ros2_ws/src/install/message_sync
+[702.311s] -- The C compiler identification is GNU 11.3.0
+[702.316s] -- The CXX compiler identification is GNU 11.3.0
+[702.322s] -- Detecting C compiler ABI info
+[702.329s] -- Detecting C compiler ABI info - done
+[702.335s] -- Check for working C compiler: /usr/bin/cc - skipped
+[702.342s] -- Detecting C compile features
+[702.348s] -- Detecting C compile features - done
+[702.354s] -- Detecting CXX compiler ABI info
+[702.361s] -- Detecting CXX compiler ABI info - done
+[702.368s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[702.383s] -- Detecting CXX compile features
+[702.390s] -- Detecting CXX compile features - done
+[702.397s] -- Found ament_cmake: 1.3.4 (/opt/ros/humble/share/ament_cmake/cmake)
+[702.403s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+[702.411s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[702.417s] -- Found rclcpp: 16.0.4 (/opt/ros/humble/share/rclcpp/cmake)
+[702.424s] -- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[702.430s] -- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[702.436s] -- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[702.442s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[702.448s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[702.454s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[702.461s] -- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[702.467s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[702.474s] -- Found FastRTPS: /opt/ros/humble/include  
+[702.482s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[702.488s] -- Looking for pthread.h
+[702.495s] -- Looking for pthread.h - found
+[702.502s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[702.510s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[702.517s] -- Found Threads: TRUE  
+[704.728s] -- Found message_filters: 4.3.3 (/opt/ros/humble/share/message_filters/cmake)
+[709.229s] -- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)
+[725.900s] -- Found ament_lint_auto: 0.12.6 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[821.399s] -- Added test 'copyright' to check source files copyright and LICENSE
+[824.074s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[824.081s] -- Configured cppcheck include dirs: 
+[824.092s] -- Configured cppcheck exclude dirs and/or files: 
+[826.996s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[827.003s] -- Configured cpplint exclude dirs and/or files: 
+[828.935s] -- Added test 'lint_cmake' to check CMake code style
+[831.983s] -- Added test 'uncrustify' to check C / C++ code style
+[831.990s] -- Configured uncrustify additional arguments: 
+[833.472s] -- Added test 'xmllint' to check XML markup files
+[837.244s] -- Configuring done
+[839.968s] -- Generating done
+[840.499s] -- Build files have been written to: /home/nuctella/my_ros2_ws/src/build/message_sync
+[841.211s] Invoked command in '/home/nuctella/my_ros2_ws/src/build/message_sync' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nuctella/my_ros2_ws/install/start_with_simple_nodes_py:/home/nuctella/my_ros2_ws/install/rosbot_object_recognition:/home/nuctella/my_ros2_ws/install/publisher_and_subscriber_py:/opt/ros/humble /usr/bin/cmake /home/nuctella/my_ros2_ws/src/ROS2_learning/CPP/message_sync -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/nuctella/my_ros2_ws/src/install/message_sync
+[841.274s] Invoking command in '/home/nuctella/my_ros2_ws/src/build/message_sync': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nuctella/my_ros2_ws/install/start_with_simple_nodes_py:/home/nuctella/my_ros2_ws/install/rosbot_object_recognition:/home/nuctella/my_ros2_ws/install/publisher_and_subscriber_py:/opt/ros/humble /usr/bin/cmake --build /home/nuctella/my_ros2_ws/src/build/message_sync -- -j8 -l8
+[865.960s] [ 50%] [32mBuilding CXX object CMakeFiles/message_sync.dir/src/message_sync.cpp.o[0m
+[959.881s] [100%] [32m[1mLinking CXX executable message_sync[0m
+[1035.950s] [100%] Built target message_sync
+[1039.828s] Invoked command in '/home/nuctella/my_ros2_ws/src/build/message_sync' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nuctella/my_ros2_ws/install/start_with_simple_nodes_py:/home/nuctella/my_ros2_ws/install/rosbot_object_recognition:/home/nuctella/my_ros2_ws/install/publisher_and_subscriber_py:/opt/ros/humble /usr/bin/cmake --build /home/nuctella/my_ros2_ws/src/build/message_sync -- -j8 -l8
+[1063.400s] Invoking command in '/home/nuctella/my_ros2_ws/src/build/message_sync': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nuctella/my_ros2_ws/install/start_with_simple_nodes_py:/home/nuctella/my_ros2_ws/install/rosbot_object_recognition:/home/nuctella/my_ros2_ws/install/publisher_and_subscriber_py:/opt/ros/humble /usr/bin/cmake --install /home/nuctella/my_ros2_ws/src/build/message_sync
+[1075.667s] -- Install configuration: ""
+[1075.674s] -- Execute custom install script
+[1075.682s] -- Symlinking: /home/nuctella/my_ros2_ws/src/install/message_sync/lib/message_sync/message_sync
+[1075.692s] -- Symlinking: /home/nuctella/my_ros2_ws/src/install/message_sync/share/ament_index/resource_index/package_run_dependencies/message_sync
+[1075.932s] -- Symlinking: /home/nuctella/my_ros2_ws/src/install/message_sync/share/ament_index/resource_index/parent_prefix_path/message_sync
+[1079.838s] -- Symlinking: /home/nuctella/my_ros2_ws/src/install/message_sync/share/message_sync/environment/ament_prefix_path.sh
+[1084.539s] -- Symlinking: /home/nuctella/my_ros2_ws/src/install/message_sync/share/message_sync/environment/ament_prefix_path.dsv
+[1088.438s] -- Symlinking: /home/nuctella/my_ros2_ws/src/install/message_sync/share/message_sync/environment/path.sh
+[1094.719s] -- Symlinking: /home/nuctella/my_ros2_ws/src/install/message_sync/share/message_sync/environment/path.dsv
+[1099.091s] -- Symlinking: /home/nuctella/my_ros2_ws/src/install/message_sync/share/message_sync/local_setup.bash
+[1103.997s] -- Symlinking: /home/nuctella/my_ros2_ws/src/install/message_sync/share/message_sync/local_setup.sh
+[1108.804s] -- Symlinking: /home/nuctella/my_ros2_ws/src/install/message_sync/share/message_sync/local_setup.zsh
+[1112.828s] -- Symlinking: /home/nuctella/my_ros2_ws/src/install/message_sync/share/message_sync/local_setup.dsv
+[1117.659s] -- Symlinking: /home/nuctella/my_ros2_ws/src/install/message_sync/share/message_sync/package.dsv
+[1122.188s] -- Symlinking: /home/nuctella/my_ros2_ws/src/install/message_sync/share/ament_index/resource_index/packages/message_sync
+[1126.866s] -- Symlinking: /home/nuctella/my_ros2_ws/src/install/message_sync/share/message_sync/cmake/message_syncConfig.cmake
+[1130.710s] -- Symlinking: /home/nuctella/my_ros2_ws/src/install/message_sync/share/message_sync/cmake/message_syncConfig-version.cmake
+[1134.155s] -- Symlinking: /home/nuctella/my_ros2_ws/src/install/message_sync/share/message_sync/package.xml
+[1137.567s] Invoked command in '/home/nuctella/my_ros2_ws/src/build/message_sync' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nuctella/my_ros2_ws/install/start_with_simple_nodes_py:/home/nuctella/my_ros2_ws/install/rosbot_object_recognition:/home/nuctella/my_ros2_ws/install/publisher_and_subscriber_py:/opt/ros/humble /usr/bin/cmake --install /home/nuctella/my_ros2_ws/src/build/message_sync

@@ -1,0 +1,2 @@
+[console_scripts]
+object_recognition = rosbot_object_recognition.object_recognition_clean_withorientation:main

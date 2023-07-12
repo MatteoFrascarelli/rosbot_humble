@@ -1,0 +1,12 @@
+package.xml
+setup.cfg
+setup.py
+resource/rosbot_object_recognition
+rosbot_object_recognition/__init__.py
+rosbot_object_recognition.egg-info/PKG-INFO
+rosbot_object_recognition.egg-info/SOURCES.txt
+rosbot_object_recognition.egg-info/dependency_links.txt
+rosbot_object_recognition.egg-info/entry_points.txt
+rosbot_object_recognition.egg-info/requires.txt
+rosbot_object_recognition.egg-info/top_level.txt
+rosbot_object_recognition.egg-info/zip-safe

@@ -1,0 +1,50 @@
+[100.905s] Invoking command in '/home/nuctella/my_ros2_ws/src/build/rosbot_object_recognition': AMENT_PREFIX_PATH=/home/nuctella/my_ros2_ws/src/install/rosbot_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nuctella/my_ros2_ws/src/install/rosbot_interfaces:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/nuctella/my_ros2_ws/src/install/rosbot_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/nuctella/my_ros2_ws/src/build/rosbot_object_recognition/prefix_override:/home/nuctella/my_ros2_ws/src/install/rosbot_object_recognition/lib/python3.10/site-packages:/home/nuctella/my_ros2_ws/src/install/rosbot_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/nuctella/my_ros2_ws/src/build/rosbot_object_recognition/build --no-deps install_data
+[159.491s] running develop
+[159.500s] /home/nuctella/.local/lib/python3.10/site-packages/setuptools/command/develop.py:40: EasyInstallDeprecationWarning: easy_install command is deprecated.
+[159.509s] !!
+[159.518s] 
+[159.528s]         ********************************************************************************
+[159.537s]         Please avoid running ``setup.py`` and ``easy_install``.
+[159.547s]         Instead, use pypa/build, pypa/installer, pypa/build or
+[159.556s]         other standards-based tools.
+[159.564s] 
+[159.574s]         See https://github.com/pypa/setuptools/issues/917 for details.
+[159.579s]         ********************************************************************************
+[159.588s] 
+[159.596s] !!
+[159.603s]   easy_install.initialize_options(self)
+[161.135s] /home/nuctella/.local/lib/python3.10/site-packages/setuptools/_distutils/cmd.py:66: SetuptoolsDeprecationWarning: setup.py install is deprecated.
+[161.144s] !!
+[161.151s] 
+[161.159s]         ********************************************************************************
+[161.166s]         Please avoid running ``setup.py`` directly.
+[161.174s]         Instead, use pypa/build, pypa/installer, pypa/build or
+[161.184s]         other standards-based tools.
+[161.194s] 
+[161.201s]         See https://blog.ganssle.io/articles/2021/10/setup-py-deprecated.html for details.
+[161.209s]         ********************************************************************************
+[161.217s] 
+[161.226s] !!
+[161.235s]   self.initialize_options()
+[170.328s] running egg_info
+[170.336s] creating rosbot_object_recognition.egg-info
+[170.799s] writing rosbot_object_recognition.egg-info/PKG-INFO
+[170.848s] writing dependency_links to rosbot_object_recognition.egg-info/dependency_links.txt
+[170.873s] writing entry points to rosbot_object_recognition.egg-info/entry_points.txt
+[170.901s] writing requirements to rosbot_object_recognition.egg-info/requires.txt
+[170.919s] writing top-level names to rosbot_object_recognition.egg-info/top_level.txt
+[170.950s] writing manifest file 'rosbot_object_recognition.egg-info/SOURCES.txt'
+[172.139s] reading manifest file 'rosbot_object_recognition.egg-info/SOURCES.txt'
+[172.467s] writing manifest file 'rosbot_object_recognition.egg-info/SOURCES.txt'
+[173.467s] running build_ext
+[173.476s] Creating /home/nuctella/my_ros2_ws/src/install/rosbot_object_recognition/lib/python3.10/site-packages/rosbot-object-recognition.egg-link (link to .)
+[173.644s] Installing object_recognition script to /home/nuctella/my_ros2_ws/src/install/rosbot_object_recognition/lib/rosbot_object_recognition
+[173.759s] 
+[173.766s] Installed /home/nuctella/my_ros2_ws/src/build/rosbot_object_recognition
+[173.788s] running install_data
+[173.830s] creating /home/nuctella/my_ros2_ws/src/install/rosbot_object_recognition/share/ament_index
+[173.846s] creating /home/nuctella/my_ros2_ws/src/install/rosbot_object_recognition/share/ament_index/resource_index
+[173.863s] creating /home/nuctella/my_ros2_ws/src/install/rosbot_object_recognition/share/ament_index/resource_index/packages
+[173.969s] copying resource/rosbot_object_recognition -> /home/nuctella/my_ros2_ws/src/install/rosbot_object_recognition/share/ament_index/resource_index/packages
+[174.210s] copying package.xml -> /home/nuctella/my_ros2_ws/src/install/rosbot_object_recognition/share/rosbot_object_recognition
+[174.458s] Invoked command in '/home/nuctella/my_ros2_ws/src/build/rosbot_object_recognition' returned '0': AMENT_PREFIX_PATH=/home/nuctella/my_ros2_ws/src/install/rosbot_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nuctella/my_ros2_ws/src/install/rosbot_interfaces:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/nuctella/my_ros2_ws/src/install/rosbot_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/nuctella/my_ros2_ws/src/build/rosbot_object_recognition/prefix_override:/home/nuctella/my_ros2_ws/src/install/rosbot_object_recognition/lib/python3.10/site-packages:/home/nuctella/my_ros2_ws/src/install/rosbot_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/nuctella/my_ros2_ws/src/build/rosbot_object_recognition/build --no-deps install_data

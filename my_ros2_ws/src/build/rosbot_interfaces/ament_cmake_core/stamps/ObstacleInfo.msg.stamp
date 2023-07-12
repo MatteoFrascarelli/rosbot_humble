@@ -1,0 +1,5 @@
+string name
+string shape
+geometry_msgs/Pose2D position
+int16 area
+

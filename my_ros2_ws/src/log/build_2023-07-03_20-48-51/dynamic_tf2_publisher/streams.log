@@ -1,0 +1,82 @@
+[3.623s] Invoking command in '/home/nuctella/my_ros2_ws/src/build/dynamic_tf2_publisher': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nuctella/my_ros2_ws/install/start_with_simple_nodes_py:/home/nuctella/my_ros2_ws/install/rosbot_object_recognition:/home/nuctella/my_ros2_ws/install/publisher_and_subscriber_py:/opt/ros/humble /usr/bin/cmake /home/nuctella/my_ros2_ws/src/ROS2_learning/CPP/dynamic_tf2_publisher -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/nuctella/my_ros2_ws/src/install/dynamic_tf2_publisher
+[403.088s] -- The C compiler identification is GNU 11.3.0
+[403.095s] -- The CXX compiler identification is GNU 11.3.0
+[403.105s] -- Detecting C compiler ABI info
+[403.112s] -- Detecting C compiler ABI info - done
+[403.122s] -- Check for working C compiler: /usr/bin/cc - skipped
+[403.130s] -- Detecting C compile features
+[403.137s] -- Detecting C compile features - done
+[403.153s] -- Detecting CXX compiler ABI info
+[403.160s] -- Detecting CXX compiler ABI info - done
+[403.168s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[403.175s] -- Detecting CXX compile features
+[403.182s] -- Detecting CXX compile features - done
+[403.191s] -- Found ament_cmake: 1.3.4 (/opt/ros/humble/share/ament_cmake/cmake)
+[403.198s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+[403.206s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[403.212s] -- Found rclcpp: 16.0.4 (/opt/ros/humble/share/rclcpp/cmake)
+[403.219s] -- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[403.226s] -- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[403.233s] -- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[403.240s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[403.247s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[457.327s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[461.863s] -- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[537.528s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[549.836s] -- Found FastRTPS: /opt/ros/humble/include  
+[570.334s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[598.830s] -- Looking for pthread.h
+[627.294s] -- Looking for pthread.h - found
+[627.397s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[655.568s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[655.601s] -- Found Threads: TRUE  
+[682.778s] -- Found tf2_ros: 0.25.2 (/opt/ros/humble/share/tf2_ros/cmake)
+[778.765s] -- Found tf2_geometry_msgs: 0.25.2 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+[813.861s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[813.868s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[813.874s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[821.988s] -- Found ament_lint_auto: 0.12.6 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[910.301s] -- Added test 'copyright' to check source files copyright and LICENSE
+[915.935s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[915.943s] -- Configured cppcheck include dirs: /home/nuctella/my_ros2_ws/src/ROS2_learning/CPP/dynamic_tf2_publisher/include
+[915.950s] -- Configured cppcheck exclude dirs and/or files: 
+[921.865s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[921.872s] -- Configured cpplint exclude dirs and/or files: 
+[923.615s] -- Added test 'flake8' to check Python code syntax and style conventions
+[925.965s] -- Added test 'lint_cmake' to check CMake code style
+[927.683s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[933.399s] -- Added test 'uncrustify' to check C / C++ code style
+[933.406s] -- Configured uncrustify additional arguments: 
+[935.345s] -- Added test 'xmllint' to check XML markup files
+[939.498s] -- Configuring done
+[942.361s] -- Generating done
+[942.916s] -- Build files have been written to: /home/nuctella/my_ros2_ws/src/build/dynamic_tf2_publisher
+[943.128s] Invoked command in '/home/nuctella/my_ros2_ws/src/build/dynamic_tf2_publisher' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nuctella/my_ros2_ws/install/start_with_simple_nodes_py:/home/nuctella/my_ros2_ws/install/rosbot_object_recognition:/home/nuctella/my_ros2_ws/install/publisher_and_subscriber_py:/opt/ros/humble /usr/bin/cmake /home/nuctella/my_ros2_ws/src/ROS2_learning/CPP/dynamic_tf2_publisher -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/nuctella/my_ros2_ws/src/install/dynamic_tf2_publisher
+[943.145s] Invoking command in '/home/nuctella/my_ros2_ws/src/build/dynamic_tf2_publisher': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nuctella/my_ros2_ws/install/start_with_simple_nodes_py:/home/nuctella/my_ros2_ws/install/rosbot_object_recognition:/home/nuctella/my_ros2_ws/install/publisher_and_subscriber_py:/opt/ros/humble /usr/bin/cmake --build /home/nuctella/my_ros2_ws/src/build/dynamic_tf2_publisher -- -j8 -l8
+[1038.518s] [ 33%] [32mBuilding CXX object CMakeFiles/tf2_publisher_node.dir/src/tf2_publisher.cpp.o[0m
+[1038.524s] [ 66%] [32mBuilding CXX object CMakeFiles/tf2_publisher_node.dir/src/tf2_publisher_node.cpp.o[0m
+[1048.530s] [100%] [32m[1mLinking CXX executable tf2_publisher_node[0m
+[1073.217s] [100%] Built target tf2_publisher_node
+[1076.889s] Invoked command in '/home/nuctella/my_ros2_ws/src/build/dynamic_tf2_publisher' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nuctella/my_ros2_ws/install/start_with_simple_nodes_py:/home/nuctella/my_ros2_ws/install/rosbot_object_recognition:/home/nuctella/my_ros2_ws/install/publisher_and_subscriber_py:/opt/ros/humble /usr/bin/cmake --build /home/nuctella/my_ros2_ws/src/build/dynamic_tf2_publisher -- -j8 -l8
+[1110.029s] Invoking command in '/home/nuctella/my_ros2_ws/src/build/dynamic_tf2_publisher': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nuctella/my_ros2_ws/install/start_with_simple_nodes_py:/home/nuctella/my_ros2_ws/install/rosbot_object_recognition:/home/nuctella/my_ros2_ws/install/publisher_and_subscriber_py:/opt/ros/humble /usr/bin/cmake --install /home/nuctella/my_ros2_ws/src/build/dynamic_tf2_publisher
+[1192.509s] -- Install configuration: ""
+[1192.519s] -- Execute custom install script
+[1192.525s] -- Symlinking: /home/nuctella/my_ros2_ws/src/install/dynamic_tf2_publisher/lib/dynamic_tf2_publisher/tf2_publisher_node
+[1192.531s] -- Symlinking: /home/nuctella/my_ros2_ws/src/install/dynamic_tf2_publisher/share/dynamic_tf2_publisher/launch/tf2_pub.py
+[1192.536s] -- Symlinking: /home/nuctella/my_ros2_ws/src/install/dynamic_tf2_publisher/share/ament_index/resource_index/package_run_dependencies/dynamic_tf2_publisher
+[1192.542s] -- Symlinking: /home/nuctella/my_ros2_ws/src/install/dynamic_tf2_publisher/share/ament_index/resource_index/parent_prefix_path/dynamic_tf2_publisher
+[1192.549s] -- Symlinking: /home/nuctella/my_ros2_ws/src/install/dynamic_tf2_publisher/share/dynamic_tf2_publisher/environment/ament_prefix_path.sh
+[1192.554s] -- Symlinking: /home/nuctella/my_ros2_ws/src/install/dynamic_tf2_publisher/share/dynamic_tf2_publisher/environment/ament_prefix_path.dsv
+[1192.560s] -- Symlinking: /home/nuctella/my_ros2_ws/src/install/dynamic_tf2_publisher/share/dynamic_tf2_publisher/environment/path.sh
+[1192.566s] -- Symlinking: /home/nuctella/my_ros2_ws/src/install/dynamic_tf2_publisher/share/dynamic_tf2_publisher/environment/path.dsv
+[1192.572s] -- Symlinking: /home/nuctella/my_ros2_ws/src/install/dynamic_tf2_publisher/share/dynamic_tf2_publisher/local_setup.bash
+[1192.579s] -- Symlinking: /home/nuctella/my_ros2_ws/src/install/dynamic_tf2_publisher/share/dynamic_tf2_publisher/local_setup.sh
+[1192.585s] -- Symlinking: /home/nuctella/my_ros2_ws/src/install/dynamic_tf2_publisher/share/dynamic_tf2_publisher/local_setup.zsh
+[1192.590s] -- Symlinking: /home/nuctella/my_ros2_ws/src/install/dynamic_tf2_publisher/share/dynamic_tf2_publisher/local_setup.dsv
+[1192.596s] -- Symlinking: /home/nuctella/my_ros2_ws/src/install/dynamic_tf2_publisher/share/dynamic_tf2_publisher/package.dsv
+[1192.602s] -- Symlinking: /home/nuctella/my_ros2_ws/src/install/dynamic_tf2_publisher/share/ament_index/resource_index/packages/dynamic_tf2_publisher
+[1192.608s] -- Symlinking: /home/nuctella/my_ros2_ws/src/install/dynamic_tf2_publisher/share/dynamic_tf2_publisher/cmake/ament_cmake_export_dependencies-extras.cmake
+[1192.614s] -- Symlinking: /home/nuctella/my_ros2_ws/src/install/dynamic_tf2_publisher/share/dynamic_tf2_publisher/cmake/dynamic_tf2_publisherConfig.cmake
+[1192.621s] -- Symlinking: /home/nuctella/my_ros2_ws/src/install/dynamic_tf2_publisher/share/dynamic_tf2_publisher/cmake/dynamic_tf2_publisherConfig-version.cmake
+[1192.628s] -- Symlinking: /home/nuctella/my_ros2_ws/src/install/dynamic_tf2_publisher/share/dynamic_tf2_publisher/package.xml
+[1195.488s] Invoked command in '/home/nuctella/my_ros2_ws/src/build/dynamic_tf2_publisher' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nuctella/my_ros2_ws/install/start_with_simple_nodes_py:/home/nuctella/my_ros2_ws/install/rosbot_object_recognition:/home/nuctella/my_ros2_ws/install/publisher_and_subscriber_py:/opt/ros/humble /usr/bin/cmake --install /home/nuctella/my_ros2_ws/src/build/dynamic_tf2_publisher

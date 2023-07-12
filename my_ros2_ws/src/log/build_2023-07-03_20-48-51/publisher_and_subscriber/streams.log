@@ -1,0 +1,244 @@
+[5.810s] Invoking command in '/home/nuctella/my_ros2_ws/src/build/publisher_and_subscriber': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nuctella/my_ros2_ws/install/start_with_simple_nodes_py:/home/nuctella/my_ros2_ws/install/rosbot_object_recognition:/home/nuctella/my_ros2_ws/install/publisher_and_subscriber_py:/opt/ros/humble /usr/bin/cmake /home/nuctella/my_ros2_ws/src/ROS2_learning/CPP/publisher_and_subscriber -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/nuctella/my_ros2_ws/src/install/publisher_and_subscriber
+[60.147s] -- The C compiler identification is GNU 11.3.0
+[60.154s] -- The CXX compiler identification is GNU 11.3.0
+[60.159s] -- Detecting C compiler ABI info
+[64.764s] -- Detecting C compiler ABI info - done
+[64.970s] -- Check for working C compiler: /usr/bin/cc - skipped
+[64.978s] -- Detecting C compile features
+[64.985s] -- Detecting C compile features - done
+[65.406s] -- Detecting CXX compiler ABI info
+[91.589s] -- Detecting CXX compiler ABI info - done
+[91.750s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[91.758s] -- Detecting CXX compile features
+[91.765s] -- Detecting CXX compile features - done
+[101.048s] -- Found ament_cmake: 1.3.4 (/opt/ros/humble/share/ament_cmake/cmake)
+[203.981s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+[215.908s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[346.244s] -- Found rclcpp: 16.0.4 (/opt/ros/humble/share/rclcpp/cmake)
+[428.090s] -- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[447.803s] -- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[466.320s] -- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[476.295s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[494.527s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[558.408s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[567.369s] -- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[657.622s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[671.029s] -- Found FastRTPS: /opt/ros/humble/include  
+[688.604s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[714.787s] -- Looking for pthread.h
+[740.638s] -- Looking for pthread.h - found
+[740.727s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[768.876s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[768.914s] -- Found Threads: TRUE  
+[803.388s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[885.672s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[992.252s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1023.834s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1032.124s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.6", minimum required is "3.6") 
+[1040.440s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[1052.069s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.6", minimum required is "3.5") 
+[1052.077s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1052.084s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[1052.090s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[1059.294s] -- Found PythonExtra: .so  
+[1079.254s] -- Found ament_lint_auto: 0.12.6 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1177.891s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1183.343s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1183.351s] -- Configured cppcheck include dirs: 
+[1183.357s] -- Configured cppcheck exclude dirs and/or files: 
+[1189.189s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1189.197s] -- Configured cpplint exclude dirs and/or files: 
+[1192.812s] -- Added test 'lint_cmake' to check CMake code style
+[1197.457s] -- Added test 'uncrustify' to check C / C++ code style
+[1197.463s] -- Configured uncrustify additional arguments: 
+[1199.174s] -- Added test 'xmllint' to check XML markup files
+[1205.782s] -- Configuring done
+[1222.861s] -- Generating done
+[1225.160s] -- Build files have been written to: /home/nuctella/my_ros2_ws/src/build/publisher_and_subscriber
+[1225.208s] Invoked command in '/home/nuctella/my_ros2_ws/src/build/publisher_and_subscriber' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nuctella/my_ros2_ws/install/start_with_simple_nodes_py:/home/nuctella/my_ros2_ws/install/rosbot_object_recognition:/home/nuctella/my_ros2_ws/install/publisher_and_subscriber_py:/opt/ros/humble /usr/bin/cmake /home/nuctella/my_ros2_ws/src/ROS2_learning/CPP/publisher_and_subscriber -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/nuctella/my_ros2_ws/src/install/publisher_and_subscriber
+[1225.272s] Invoking command in '/home/nuctella/my_ros2_ws/src/build/publisher_and_subscriber': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nuctella/my_ros2_ws/install/start_with_simple_nodes_py:/home/nuctella/my_ros2_ws/install/rosbot_object_recognition:/home/nuctella/my_ros2_ws/install/publisher_and_subscriber_py:/opt/ros/humble /usr/bin/cmake --build /home/nuctella/my_ros2_ws/src/build/publisher_and_subscriber -- -j8 -l8
+[1252.772s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[1262.625s] [  4%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[1272.905s] [  4%] Built target ament_cmake_python_symlink_publisher_and_subscriber
+[1307.537s] [  4%] Built target publisher_and_subscriber__cpp
+[1312.785s] [  6%] [32mBuilding C object CMakeFiles/publisher_and_subscriber__rosidl_generator_c.dir/rosidl_generator_c/publisher_and_subscriber/msg/detail/employee_salary__functions.c.o[0m
+[1321.483s] [  9%] [32m[1mLinking C shared library libpublisher_and_subscriber__rosidl_generator_c.so[0m
+[1329.025s] [ 11%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[1335.410s] [ 11%] Built target publisher_and_subscriber__rosidl_generator_c
+[1341.959s] [ 13%] [32mBuilding CXX object CMakeFiles/sub_pub_pipeline.dir/src/sub_pub_pipeline.cpp.o[0m
+[1344.091s] [ 16%] [32mBuilding CXX object CMakeFiles/simple_subscriber_class_node.dir/src/simple_subscriber_class_node.cpp.o[0m
+[1347.097s] [ 18%] [32mBuilding CXX object CMakeFiles/simple_publisher_class_node.dir/src/simple_publisher_class_node.cpp.o[0m
+[1361.201s] running egg_info
+[1361.208s] creating publisher_and_subscriber.egg-info
+[1361.814s] writing publisher_and_subscriber.egg-info/PKG-INFO
+[1361.850s] writing dependency_links to publisher_and_subscriber.egg-info/dependency_links.txt
+[1361.901s] writing top-level names to publisher_and_subscriber.egg-info/top_level.txt
+[1361.939s] writing manifest file 'publisher_and_subscriber.egg-info/SOURCES.txt'
+[1363.452s] reading manifest file 'publisher_and_subscriber.egg-info/SOURCES.txt'
+[1363.638s] writing manifest file 'publisher_and_subscriber.egg-info/SOURCES.txt'
+[1367.817s] [ 20%] [32mBuilding CXX object CMakeFiles/publisher_and_subscriber__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/publisher_and_subscriber/msg/employee_salary__type_support.cpp.o[0m
+[1369.886s] [ 20%] Built target ament_cmake_python_build_publisher_and_subscriber_egg
+[1379.652s] [ 23%] [32m[1mLinking CXX shared library libpublisher_and_subscriber__rosidl_typesupport_cpp.so[0m
+[1381.466s] [ 25%] [32m[1mLinking CXX executable simple_publisher_class_node[0m
+[1395.414s] [ 25%] Built target publisher_and_subscriber__rosidl_typesupport_cpp
+[1404.750s] [ 27%] [32m[1mLinking CXX executable sub_pub_pipeline[0m
+[1406.055s] [ 30%] [32m[1mLinking CXX executable simple_subscriber_class_node[0m
+[1406.825s] [ 30%] Built target simple_publisher_class_node
+[1419.554s] [ 32%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[1423.255s] [ 34%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[1425.502s] [ 37%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[1427.800s] [ 39%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[1439.947s] [ 41%] [32mBuilding CXX object CMakeFiles/simple_publisher_node.dir/src/simple_publisher_node.cpp.o[0m
+[1459.322s] [ 44%] [32mBuilding CXX object CMakeFiles/publisher_and_subscriber__rosidl_typesupport_c.dir/rosidl_typesupport_c/publisher_and_subscriber/msg/employee_salary__type_support.cpp.o[0m
+[1462.497s] [ 44%] Built target sub_pub_pipeline
+[1462.826s] [ 44%] Built target simple_subscriber_class_node
+[1462.901s] [ 46%] [32mBuilding CXX object CMakeFiles/publisher_and_subscriber__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/publisher_and_subscriber/msg/detail/employee_salary__type_support.cpp.o[0m
+[1464.550s] [ 48%] [32mBuilding C object CMakeFiles/publisher_and_subscriber__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/publisher_and_subscriber/msg/detail/employee_salary__type_support.c.o[0m
+[1468.570s] [ 51%] [32mBuilding CXX object CMakeFiles/publisher_and_subscriber__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/publisher_and_subscriber/msg/detail/dds_fastrtps/employee_salary__type_support.cpp.o[0m
+[1470.275s] [ 53%] [32m[1mLinking CXX shared library libpublisher_and_subscriber__rosidl_typesupport_c.so[0m
+[1471.577s] [ 55%] [32m[1mLinking CXX executable simple_publisher_node[0m
+[1475.035s] [ 58%] [32m[1mLinking C shared library libpublisher_and_subscriber__rosidl_typesupport_introspection_c.so[0m
+[1476.641s] [ 60%] [32m[1mLinking CXX shared library libpublisher_and_subscriber__rosidl_typesupport_introspection_cpp.so[0m
+[1483.675s] [ 62%] [32m[1mLinking CXX shared library libpublisher_and_subscriber__rosidl_typesupport_fastrtps_cpp.so[0m
+[1485.482s] [ 62%] Built target publisher_and_subscriber__rosidl_typesupport_c
+[1491.409s] [ 62%] Built target publisher_and_subscriber__rosidl_typesupport_introspection_c
+[1493.810s] [ 62%] Built target publisher_and_subscriber__rosidl_typesupport_introspection_cpp
+[1497.641s] [ 62%] Built target simple_publisher_node
+[1498.113s] [ 62%] Built target publisher_and_subscriber__rosidl_typesupport_fastrtps_cpp
+[1503.782s] [ 65%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[1526.077s] [ 67%] [32mBuilding CXX object CMakeFiles/publisher_and_subscriber__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/publisher_and_subscriber/msg/detail/employee_salary__type_support_c.cpp.o[0m
+[1535.448s] [ 69%] [32m[1mLinking CXX shared library libpublisher_and_subscriber__rosidl_typesupport_fastrtps_c.so[0m
+[1545.232s] [ 69%] Built target publisher_and_subscriber__rosidl_typesupport_fastrtps_c
+[1554.602s] [ 69%] Built target publisher_and_subscriber
+[1554.731s] [ 72%] [32mBuilding CXX object CMakeFiles/publish_custom_message.dir/src/publish_custom_message.cpp.o[0m
+[1556.053s] [ 74%] [32mBuilding CXX object CMakeFiles/simple_subscriber_node.dir/src/simple_subscriber_node.cpp.o[0m
+[1565.208s] [ 76%] [34m[1mGenerating Python code for ROS interfaces[0m
+[1587.635s] [ 79%] [32m[1mLinking CXX executable publish_custom_message[0m
+[1589.414s] [ 79%] Built target publisher_and_subscriber__py
+[1602.010s] [ 81%] [32mBuilding C object CMakeFiles/publisher_and_subscriber__rosidl_generator_py.dir/rosidl_generator_py/publisher_and_subscriber/msg/_employee_salary_s.c.o[0m
+[1607.496s] [ 83%] [32m[1mLinking CXX executable simple_subscriber_node[0m
+[1609.071s] [ 83%] Built target publish_custom_message
+[1610.531s] [ 86%] [32m[1mLinking C shared library rosidl_generator_py/publisher_and_subscriber/libpublisher_and_subscriber__rosidl_generator_py.so[0m
+[1620.354s] [ 86%] Built target publisher_and_subscriber__rosidl_generator_py
+[1632.070s] [ 88%] [32mBuilding C object CMakeFiles/publisher_and_subscriber__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/publisher_and_subscriber/_publisher_and_subscriber_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[1632.287s] [ 90%] [32mBuilding C object CMakeFiles/publisher_and_subscriber__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/publisher_and_subscriber/_publisher_and_subscriber_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[1633.532s] [ 93%] [32mBuilding C object CMakeFiles/publisher_and_subscriber__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/publisher_and_subscriber/_publisher_and_subscriber_s.ep.rosidl_typesupport_c.c.o[0m
+[1642.403s] [ 95%] [32m[1mLinking C shared library rosidl_generator_py/publisher_and_subscriber/publisher_and_subscriber_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[1642.917s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/publisher_and_subscriber/publisher_and_subscriber_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[1643.573s] [100%] [32m[1mLinking C shared library rosidl_generator_py/publisher_and_subscriber/publisher_and_subscriber_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[1644.820s] [100%] Built target simple_subscriber_node
+[1653.371s] [100%] Built target publisher_and_subscriber__rosidl_typesupport_c__pyext
+[1653.840s] [100%] Built target publisher_and_subscriber__rosidl_typesupport_introspection_c__pyext
+[1654.106s] [100%] Built target publisher_and_subscriber__rosidl_typesupport_fastrtps_c__pyext
+[1657.033s] Invoked command in '/home/nuctella/my_ros2_ws/src/build/publisher_and_subscriber' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nuctella/my_ros2_ws/install/start_with_simple_nodes_py:/home/nuctella/my_ros2_ws/install/rosbot_object_recognition:/home/nuctella/my_ros2_ws/install/publisher_and_subscriber_py:/opt/ros/humble /usr/bin/cmake --build /home/nuctella/my_ros2_ws/src/build/publisher_and_subscriber -- -j8 -l8
+[1731.181s] Invoking command in '/home/nuctella/my_ros2_ws/src/build/publisher_and_subscriber': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nuctella/my_ros2_ws/install/start_with_simple_nodes_py:/home/nuctella/my_ros2_ws/install/rosbot_object_recognition:/home/nuctella/my_ros2_ws/install/publisher_and_subscriber_py:/opt/ros/humble /usr/bin/cmake --install /home/nuctella/my_ros2_ws/src/build/publisher_and_subscriber
+[1733.351s] -- Install configuration: ""
+[1733.392s] -- Execute custom install script
+[1733.475s] -- Symlinking: /home/nuctella/my_ros2_ws/src/install/publisher_and_subscriber/share/ament_index/resource_index/rosidl_interfaces/publisher_and_subscriber
+[1736.345s] -- Symlinking: /home/nuctella/my_ros2_ws/src/install/publisher_and_subscriber/include/publisher_and_subscriber/publisher_and_subscriber/msg/detail/employee_salary__functions.h
+[1738.497s] -- Symlinking: /home/nuctella/my_ros2_ws/src/install/publisher_and_subscriber/include/publisher_and_subscriber/publisher_and_subscriber/msg/detail/employee_salary__struct.h
+[1740.891s] -- Symlinking: /home/nuctella/my_ros2_ws/src/install/publisher_and_subscriber/include/publisher_and_subscriber/publisher_and_subscriber/msg/detail/employee_salary__type_support.h
+[1743.424s] -- Symlinking: /home/nuctella/my_ros2_ws/src/install/publisher_and_subscriber/include/publisher_and_subscriber/publisher_and_subscriber/msg/employee_salary.h
+[1745.551s] -- Symlinking: /home/nuctella/my_ros2_ws/src/install/publisher_and_subscriber/include/publisher_and_subscriber/publisher_and_subscriber/msg/rosidl_generator_c__visibility_control.h
+[1748.322s] -- Symlinking: /home/nuctella/my_ros2_ws/src/install/publisher_and_subscriber/share/publisher_and_subscriber/environment/library_path.sh
+[1750.950s] -- Symlinking: /home/nuctella/my_ros2_ws/src/install/publisher_and_subscriber/share/publisher_and_subscriber/environment/library_path.dsv
+[1753.730s] -- Symlinking: /home/nuctella/my_ros2_ws/src/install/publisher_and_subscriber/include/publisher_and_subscriber/publisher_and_subscriber/msg/detail/employee_salary__rosidl_typesupport_fastrtps_c.h
+[1756.242s] -- Symlinking: /home/nuctella/my_ros2_ws/src/install/publisher_and_subscriber/include/publisher_and_subscriber/publisher_and_subscriber/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[1759.048s] -- Symlinking: /home/nuctella/my_ros2_ws/src/install/publisher_and_subscriber/include/publisher_and_subscriber/publisher_and_subscriber/msg/detail/employee_salary__builder.hpp
+[1761.559s] -- Symlinking: /home/nuctella/my_ros2_ws/src/install/publisher_and_subscriber/include/publisher_and_subscriber/publisher_and_subscriber/msg/detail/employee_salary__struct.hpp
+[1764.292s] -- Symlinking: /home/nuctella/my_ros2_ws/src/install/publisher_and_subscriber/include/publisher_and_subscriber/publisher_and_subscriber/msg/detail/employee_salary__traits.hpp
+[1767.000s] -- Symlinking: /home/nuctella/my_ros2_ws/src/install/publisher_and_subscriber/include/publisher_and_subscriber/publisher_and_subscriber/msg/employee_salary.hpp
+[1769.911s] -- Symlinking: /home/nuctella/my_ros2_ws/src/install/publisher_and_subscriber/include/publisher_and_subscriber/publisher_and_subscriber/msg/detail/employee_salary__rosidl_typesupport_fastrtps_cpp.hpp
+[1772.632s] -- Symlinking: /home/nuctella/my_ros2_ws/src/install/publisher_and_subscriber/include/publisher_and_subscriber/publisher_and_subscriber/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[1775.584s] -- Symlinking: /home/nuctella/my_ros2_ws/src/install/publisher_and_subscriber/include/publisher_and_subscriber/publisher_and_subscriber/msg/detail/employee_salary__rosidl_typesupport_introspection_c.h
+[1778.267s] -- Symlinking: /home/nuctella/my_ros2_ws/src/install/publisher_and_subscriber/include/publisher_and_subscriber/publisher_and_subscriber/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[1781.054s] -- Symlinking: /home/nuctella/my_ros2_ws/src/install/publisher_and_subscriber/include/publisher_and_subscriber/publisher_and_subscriber/msg/detail/employee_salary__rosidl_typesupport_introspection_cpp.hpp
+[1783.703s] -- Symlinking: /home/nuctella/my_ros2_ws/src/install/publisher_and_subscriber/share/publisher_and_subscriber/environment/pythonpath.sh
+[1786.353s] -- Symlinking: /home/nuctella/my_ros2_ws/src/install/publisher_and_subscriber/share/publisher_and_subscriber/environment/pythonpath.dsv
+[1789.081s] -- Symlinking: /home/nuctella/my_ros2_ws/src/install/publisher_and_subscriber/local/lib/python3.10/dist-packages/publisher_and_subscriber-0.0.0-py3.10.egg-info/PKG-INFO
+[1791.704s] -- Symlinking: /home/nuctella/my_ros2_ws/src/install/publisher_and_subscriber/local/lib/python3.10/dist-packages/publisher_and_subscriber-0.0.0-py3.10.egg-info/SOURCES.txt
+[1794.380s] -- Symlinking: /home/nuctella/my_ros2_ws/src/install/publisher_and_subscriber/local/lib/python3.10/dist-packages/publisher_and_subscriber-0.0.0-py3.10.egg-info/dependency_links.txt
+[1797.040s] -- Symlinking: /home/nuctella/my_ros2_ws/src/install/publisher_and_subscriber/local/lib/python3.10/dist-packages/publisher_and_subscriber-0.0.0-py3.10.egg-info/top_level.txt
+[1800.385s] -- Symlinking: /home/nuctella/my_ros2_ws/src/install/publisher_and_subscriber/local/lib/python3.10/dist-packages/publisher_and_subscriber/__init__.py
+[1803.126s] -- Symlinking: /home/nuctella/my_ros2_ws/src/install/publisher_and_subscriber/local/lib/python3.10/dist-packages/publisher_and_subscriber/_publisher_and_subscriber_s.ep.rosidl_typesupport_c.c
+[1805.949s] -- Symlinking: /home/nuctella/my_ros2_ws/src/install/publisher_and_subscriber/local/lib/python3.10/dist-packages/publisher_and_subscriber/_publisher_and_subscriber_s.ep.rosidl_typesupport_fastrtps_c.c
+[1808.695s] -- Symlinking: /home/nuctella/my_ros2_ws/src/install/publisher_and_subscriber/local/lib/python3.10/dist-packages/publisher_and_subscriber/_publisher_and_subscriber_s.ep.rosidl_typesupport_introspection_c.c
+[1811.888s] -- Symlinking: /home/nuctella/my_ros2_ws/src/install/publisher_and_subscriber/local/lib/python3.10/dist-packages/publisher_and_subscriber/libpublisher_and_subscriber__rosidl_generator_py.so
+[1814.382s] -- Symlinking: /home/nuctella/my_ros2_ws/src/install/publisher_and_subscriber/local/lib/python3.10/dist-packages/publisher_and_subscriber/msg/__init__.py
+[1816.886s] -- Symlinking: /home/nuctella/my_ros2_ws/src/install/publisher_and_subscriber/local/lib/python3.10/dist-packages/publisher_and_subscriber/msg/_employee_salary.py
+[1819.459s] -- Symlinking: /home/nuctella/my_ros2_ws/src/install/publisher_and_subscriber/local/lib/python3.10/dist-packages/publisher_and_subscriber/msg/_employee_salary_s.c
+[1822.040s] -- Symlinking: /home/nuctella/my_ros2_ws/src/install/publisher_and_subscriber/local/lib/python3.10/dist-packages/publisher_and_subscriber/publisher_and_subscriber_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[1824.807s] -- Symlinking: /home/nuctella/my_ros2_ws/src/install/publisher_and_subscriber/local/lib/python3.10/dist-packages/publisher_and_subscriber/publisher_and_subscriber_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[1827.593s] -- Symlinking: /home/nuctella/my_ros2_ws/src/install/publisher_and_subscriber/local/lib/python3.10/dist-packages/publisher_and_subscriber/publisher_and_subscriber_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[1831.059s] -- Up-to-date symlink: /home/nuctella/my_ros2_ws/src/install/publisher_and_subscriber/local/lib/python3.10/dist-packages/publisher_and_subscriber/publisher_and_subscriber_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[1831.271s] -- Up-to-date symlink: /home/nuctella/my_ros2_ws/src/install/publisher_and_subscriber/local/lib/python3.10/dist-packages/publisher_and_subscriber/publisher_and_subscriber_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[1831.478s] -- Up-to-date symlink: /home/nuctella/my_ros2_ws/src/install/publisher_and_subscriber/local/lib/python3.10/dist-packages/publisher_and_subscriber/publisher_and_subscriber_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[1831.563s] -- Symlinking: /home/nuctella/my_ros2_ws/src/install/publisher_and_subscriber/share/publisher_and_subscriber/msg/EmployeeSalary.idl
+[1834.488s] -- Symlinking: /home/nuctella/my_ros2_ws/src/install/publisher_and_subscriber/share/publisher_and_subscriber/msg/EmployeeSalary.msg
+[1837.923s] -- Symlinking: /home/nuctella/my_ros2_ws/src/install/publisher_and_subscriber/lib/publisher_and_subscriber/simple_subscriber_node
+[1841.632s] -- Symlinking: /home/nuctella/my_ros2_ws/src/install/publisher_and_subscriber/lib/publisher_and_subscriber/simple_publisher_node
+[1845.004s] -- Symlinking: /home/nuctella/my_ros2_ws/src/install/publisher_and_subscriber/lib/publisher_and_subscriber/simple_publisher_class_node
+[1848.335s] -- Symlinking: /home/nuctella/my_ros2_ws/src/install/publisher_and_subscriber/lib/publisher_and_subscriber/simple_subscriber_class_node
+[1851.910s] -- Symlinking: /home/nuctella/my_ros2_ws/src/install/publisher_and_subscriber/lib/publisher_and_subscriber/sub_pub_pipeline
+[1855.461s] -- Symlinking: /home/nuctella/my_ros2_ws/src/install/publisher_and_subscriber/lib/publisher_and_subscriber/publish_custom_message
+[1859.181s] -- Symlinking: /home/nuctella/my_ros2_ws/src/install/publisher_and_subscriber/share/ament_index/resource_index/package_run_dependencies/publisher_and_subscriber
+[1863.372s] -- Symlinking: /home/nuctella/my_ros2_ws/src/install/publisher_and_subscriber/share/ament_index/resource_index/parent_prefix_path/publisher_and_subscriber
+[1866.861s] -- Symlinking: /home/nuctella/my_ros2_ws/src/install/publisher_and_subscriber/share/publisher_and_subscriber/environment/ament_prefix_path.sh
+[1870.211s] -- Symlinking: /home/nuctella/my_ros2_ws/src/install/publisher_and_subscriber/share/publisher_and_subscriber/environment/ament_prefix_path.dsv
+[1873.186s] -- Symlinking: /home/nuctella/my_ros2_ws/src/install/publisher_and_subscriber/share/publisher_and_subscriber/environment/path.sh
+[1876.816s] -- Symlinking: /home/nuctella/my_ros2_ws/src/install/publisher_and_subscriber/share/publisher_and_subscriber/environment/path.dsv
+[1879.756s] -- Symlinking: /home/nuctella/my_ros2_ws/src/install/publisher_and_subscriber/share/publisher_and_subscriber/local_setup.bash
+[1882.311s] -- Symlinking: /home/nuctella/my_ros2_ws/src/install/publisher_and_subscriber/share/publisher_and_subscriber/local_setup.sh
+[1884.937s] -- Symlinking: /home/nuctella/my_ros2_ws/src/install/publisher_and_subscriber/share/publisher_and_subscriber/local_setup.zsh
+[1887.181s] -- Symlinking: /home/nuctella/my_ros2_ws/src/install/publisher_and_subscriber/share/publisher_and_subscriber/local_setup.dsv
+[1890.229s] -- Symlinking: /home/nuctella/my_ros2_ws/src/install/publisher_and_subscriber/share/publisher_and_subscriber/package.dsv
+[1893.441s] -- Symlinking: /home/nuctella/my_ros2_ws/src/install/publisher_and_subscriber/share/ament_index/resource_index/packages/publisher_and_subscriber
+[1896.398s] -- Symlinking: /home/nuctella/my_ros2_ws/src/install/publisher_and_subscriber/share/publisher_and_subscriber/cmake/rosidl_cmake-extras.cmake
+[1899.630s] -- Symlinking: /home/nuctella/my_ros2_ws/src/install/publisher_and_subscriber/share/publisher_and_subscriber/cmake/ament_cmake_export_include_directories-extras.cmake
+[1903.406s] -- Symlinking: /home/nuctella/my_ros2_ws/src/install/publisher_and_subscriber/share/publisher_and_subscriber/cmake/ament_cmake_export_libraries-extras.cmake
+[1906.532s] -- Symlinking: /home/nuctella/my_ros2_ws/src/install/publisher_and_subscriber/share/publisher_and_subscriber/cmake/ament_cmake_export_targets-extras.cmake
+[1909.961s] -- Symlinking: /home/nuctella/my_ros2_ws/src/install/publisher_and_subscriber/share/publisher_and_subscriber/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[1913.451s] -- Symlinking: /home/nuctella/my_ros2_ws/src/install/publisher_and_subscriber/share/publisher_and_subscriber/cmake/ament_cmake_export_dependencies-extras.cmake
+[1916.312s] -- Symlinking: /home/nuctella/my_ros2_ws/src/install/publisher_and_subscriber/share/publisher_and_subscriber/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[1920.329s] -- Symlinking: /home/nuctella/my_ros2_ws/src/install/publisher_and_subscriber/share/publisher_and_subscriber/cmake/publisher_and_subscriberConfig.cmake
+[1923.415s] -- Symlinking: /home/nuctella/my_ros2_ws/src/install/publisher_and_subscriber/share/publisher_and_subscriber/cmake/publisher_and_subscriberConfig-version.cmake
+[1926.714s] -- Symlinking: /home/nuctella/my_ros2_ws/src/install/publisher_and_subscriber/share/publisher_and_subscriber/package.xml
+[1929.980s] -- Installing: /home/nuctella/my_ros2_ws/src/install/publisher_and_subscriber/lib/libpublisher_and_subscriber__rosidl_generator_c.so
+[1930.400s] -- Set runtime path of "/home/nuctella/my_ros2_ws/src/install/publisher_and_subscriber/lib/libpublisher_and_subscriber__rosidl_generator_c.so" to ""
+[1930.485s] -- Installing: /home/nuctella/my_ros2_ws/src/install/publisher_and_subscriber/lib/libpublisher_and_subscriber__rosidl_typesupport_fastrtps_c.so
+[1930.917s] -- Set runtime path of "/home/nuctella/my_ros2_ws/src/install/publisher_and_subscriber/lib/libpublisher_and_subscriber__rosidl_typesupport_fastrtps_c.so" to ""
+[1931.001s] -- Installing: /home/nuctella/my_ros2_ws/src/install/publisher_and_subscriber/lib/libpublisher_and_subscriber__rosidl_typesupport_fastrtps_cpp.so
+[1931.430s] -- Set runtime path of "/home/nuctella/my_ros2_ws/src/install/publisher_and_subscriber/lib/libpublisher_and_subscriber__rosidl_typesupport_fastrtps_cpp.so" to ""
+[1931.503s] -- Installing: /home/nuctella/my_ros2_ws/src/install/publisher_and_subscriber/lib/libpublisher_and_subscriber__rosidl_typesupport_introspection_c.so
+[1931.888s] -- Set runtime path of "/home/nuctella/my_ros2_ws/src/install/publisher_and_subscriber/lib/libpublisher_and_subscriber__rosidl_typesupport_introspection_c.so" to ""
+[1931.956s] -- Installing: /home/nuctella/my_ros2_ws/src/install/publisher_and_subscriber/lib/libpublisher_and_subscriber__rosidl_typesupport_c.so
+[1932.313s] -- Set runtime path of "/home/nuctella/my_ros2_ws/src/install/publisher_and_subscriber/lib/libpublisher_and_subscriber__rosidl_typesupport_c.so" to ""
+[1932.382s] -- Installing: /home/nuctella/my_ros2_ws/src/install/publisher_and_subscriber/lib/libpublisher_and_subscriber__rosidl_typesupport_introspection_cpp.so
+[1932.762s] -- Set runtime path of "/home/nuctella/my_ros2_ws/src/install/publisher_and_subscriber/lib/libpublisher_and_subscriber__rosidl_typesupport_introspection_cpp.so" to ""
+[1932.824s] -- Installing: /home/nuctella/my_ros2_ws/src/install/publisher_and_subscriber/lib/libpublisher_and_subscriber__rosidl_typesupport_cpp.so
+[1933.169s] -- Set runtime path of "/home/nuctella/my_ros2_ws/src/install/publisher_and_subscriber/lib/libpublisher_and_subscriber__rosidl_typesupport_cpp.so" to ""
+[1944.326s] Listing '/home/nuctella/my_ros2_ws/src/install/publisher_and_subscriber/local/lib/python3.10/dist-packages/publisher_and_subscriber'...
+[1944.329s] Compiling '/home/nuctella/my_ros2_ws/src/install/publisher_and_subscriber/local/lib/python3.10/dist-packages/publisher_and_subscriber/__init__.py'...
+[1944.334s] Listing '/home/nuctella/my_ros2_ws/src/install/publisher_and_subscriber/local/lib/python3.10/dist-packages/publisher_and_subscriber/msg'...
+[1944.342s] Compiling '/home/nuctella/my_ros2_ws/src/install/publisher_and_subscriber/local/lib/python3.10/dist-packages/publisher_and_subscriber/msg/__init__.py'...
+[1944.347s] Compiling '/home/nuctella/my_ros2_ws/src/install/publisher_and_subscriber/local/lib/python3.10/dist-packages/publisher_and_subscriber/msg/_employee_salary.py'...
+[1944.425s] -- Installing: /home/nuctella/my_ros2_ws/src/install/publisher_and_subscriber/lib/libpublisher_and_subscriber__rosidl_generator_py.so
+[1944.842s] -- Set runtime path of "/home/nuctella/my_ros2_ws/src/install/publisher_and_subscriber/lib/libpublisher_and_subscriber__rosidl_generator_py.so" to ""
+[1944.973s] -- Installing: /home/nuctella/my_ros2_ws/src/install/publisher_and_subscriber/share/publisher_and_subscriber/cmake/export_publisher_and_subscriber__rosidl_generator_cExport.cmake
+[1945.386s] -- Installing: /home/nuctella/my_ros2_ws/src/install/publisher_and_subscriber/share/publisher_and_subscriber/cmake/export_publisher_and_subscriber__rosidl_generator_cExport-noconfig.cmake
+[1945.817s] -- Installing: /home/nuctella/my_ros2_ws/src/install/publisher_and_subscriber/share/publisher_and_subscriber/cmake/export_publisher_and_subscriber__rosidl_typesupport_fastrtps_cExport.cmake
+[1946.166s] -- Installing: /home/nuctella/my_ros2_ws/src/install/publisher_and_subscriber/share/publisher_and_subscriber/cmake/export_publisher_and_subscriber__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[1946.558s] -- Installing: /home/nuctella/my_ros2_ws/src/install/publisher_and_subscriber/share/publisher_and_subscriber/cmake/export_publisher_and_subscriber__rosidl_generator_cppExport.cmake
+[1946.946s] -- Installing: /home/nuctella/my_ros2_ws/src/install/publisher_and_subscriber/share/publisher_and_subscriber/cmake/export_publisher_and_subscriber__rosidl_typesupport_fastrtps_cppExport.cmake
+[1947.288s] -- Installing: /home/nuctella/my_ros2_ws/src/install/publisher_and_subscriber/share/publisher_and_subscriber/cmake/export_publisher_and_subscriber__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[1947.628s] -- Installing: /home/nuctella/my_ros2_ws/src/install/publisher_and_subscriber/share/publisher_and_subscriber/cmake/publisher_and_subscriber__rosidl_typesupport_introspection_cExport.cmake
+[1947.968s] -- Installing: /home/nuctella/my_ros2_ws/src/install/publisher_and_subscriber/share/publisher_and_subscriber/cmake/publisher_and_subscriber__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[1948.321s] -- Installing: /home/nuctella/my_ros2_ws/src/install/publisher_and_subscriber/share/publisher_and_subscriber/cmake/publisher_and_subscriber__rosidl_typesupport_cExport.cmake
+[1948.666s] -- Installing: /home/nuctella/my_ros2_ws/src/install/publisher_and_subscriber/share/publisher_and_subscriber/cmake/publisher_and_subscriber__rosidl_typesupport_cExport-noconfig.cmake
+[1949.043s] -- Installing: /home/nuctella/my_ros2_ws/src/install/publisher_and_subscriber/share/publisher_and_subscriber/cmake/publisher_and_subscriber__rosidl_typesupport_introspection_cppExport.cmake
+[1949.408s] -- Installing: /home/nuctella/my_ros2_ws/src/install/publisher_and_subscriber/share/publisher_and_subscriber/cmake/publisher_and_subscriber__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[1949.762s] -- Installing: /home/nuctella/my_ros2_ws/src/install/publisher_and_subscriber/share/publisher_and_subscriber/cmake/publisher_and_subscriber__rosidl_typesupport_cppExport.cmake
+[1950.103s] -- Installing: /home/nuctella/my_ros2_ws/src/install/publisher_and_subscriber/share/publisher_and_subscriber/cmake/publisher_and_subscriber__rosidl_typesupport_cppExport-noconfig.cmake
+[1950.450s] -- Installing: /home/nuctella/my_ros2_ws/src/install/publisher_and_subscriber/share/publisher_and_subscriber/cmake/export_publisher_and_subscriber__rosidl_generator_pyExport.cmake
+[1950.784s] -- Installing: /home/nuctella/my_ros2_ws/src/install/publisher_and_subscriber/share/publisher_and_subscriber/cmake/export_publisher_and_subscriber__rosidl_generator_pyExport-noconfig.cmake
+[1951.059s] Invoked command in '/home/nuctella/my_ros2_ws/src/build/publisher_and_subscriber' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nuctella/my_ros2_ws/install/start_with_simple_nodes_py:/home/nuctella/my_ros2_ws/install/rosbot_object_recognition:/home/nuctella/my_ros2_ws/install/publisher_and_subscriber_py:/opt/ros/humble /usr/bin/cmake --install /home/nuctella/my_ros2_ws/src/build/publisher_and_subscriber

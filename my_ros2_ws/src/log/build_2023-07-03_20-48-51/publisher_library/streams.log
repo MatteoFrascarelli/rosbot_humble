@@ -1,0 +1,68 @@
+[8.030s] Invoking command in '/home/nuctella/my_ros2_ws/src/build/publisher_library': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nuctella/my_ros2_ws/install/start_with_simple_nodes_py:/home/nuctella/my_ros2_ws/install/rosbot_object_recognition:/home/nuctella/my_ros2_ws/install/publisher_and_subscriber_py:/opt/ros/humble /usr/bin/cmake /home/nuctella/my_ros2_ws/src/ROS2_learning/CPP/create_library_with_header/publisher_library -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/nuctella/my_ros2_ws/src/install/publisher_library
+[25.480s] -- The C compiler identification is GNU 11.3.0
+[33.111s] -- The CXX compiler identification is GNU 11.3.0
+[35.088s] -- Detecting C compiler ABI info
+[56.002s] -- Detecting C compiler ABI info - done
+[56.179s] -- Check for working C compiler: /usr/bin/cc - skipped
+[56.186s] -- Detecting C compile features
+[56.192s] -- Detecting C compile features - done
+[56.685s] -- Detecting CXX compiler ABI info
+[77.824s] -- Detecting CXX compiler ABI info - done
+[78.054s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[78.060s] -- Detecting CXX compile features
+[78.067s] -- Detecting CXX compile features - done
+[87.554s] -- Found ament_cmake: 1.3.4 (/opt/ros/humble/share/ament_cmake/cmake)
+[184.046s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+[194.128s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[277.744s] -- Found rclcpp: 16.0.4 (/opt/ros/humble/share/rclcpp/cmake)
+[334.408s] -- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[346.519s] -- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[358.845s] -- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[367.396s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[387.984s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[454.851s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[462.387s] -- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[539.721s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[552.447s] -- Found FastRTPS: /opt/ros/humble/include  
+[571.901s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[599.345s] -- Looking for pthread.h
+[629.967s] -- Looking for pthread.h - found
+[630.052s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[660.364s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[660.400s] -- Found Threads: TRUE  
+[705.027s] -- Configuring done
+[707.915s] -- Generating done
+[708.520s] -- Build files have been written to: /home/nuctella/my_ros2_ws/src/build/publisher_library
+[708.762s] Invoked command in '/home/nuctella/my_ros2_ws/src/build/publisher_library' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nuctella/my_ros2_ws/install/start_with_simple_nodes_py:/home/nuctella/my_ros2_ws/install/rosbot_object_recognition:/home/nuctella/my_ros2_ws/install/publisher_and_subscriber_py:/opt/ros/humble /usr/bin/cmake /home/nuctella/my_ros2_ws/src/ROS2_learning/CPP/create_library_with_header/publisher_library -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/nuctella/my_ros2_ws/src/install/publisher_library
+[708.776s] Invoking command in '/home/nuctella/my_ros2_ws/src/build/publisher_library': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nuctella/my_ros2_ws/install/start_with_simple_nodes_py:/home/nuctella/my_ros2_ws/install/rosbot_object_recognition:/home/nuctella/my_ros2_ws/install/publisher_and_subscriber_py:/opt/ros/humble /usr/bin/cmake --build /home/nuctella/my_ros2_ws/src/build/publisher_library -- -j8 -l8
+[746.249s] [ 50%] [32mBuilding CXX object CMakeFiles/publisher_library.dir/src/publisher_library.cpp.o[0m
+[797.084s] [100%] [32m[1mLinking CXX static library libpublisher_library.a[0m
+[825.766s] [100%] Built target publisher_library
+[830.010s] Invoked command in '/home/nuctella/my_ros2_ws/src/build/publisher_library' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nuctella/my_ros2_ws/install/start_with_simple_nodes_py:/home/nuctella/my_ros2_ws/install/rosbot_object_recognition:/home/nuctella/my_ros2_ws/install/publisher_and_subscriber_py:/opt/ros/humble /usr/bin/cmake --build /home/nuctella/my_ros2_ws/src/build/publisher_library -- -j8 -l8
+[857.244s] Invoking command in '/home/nuctella/my_ros2_ws/src/build/publisher_library': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nuctella/my_ros2_ws/install/start_with_simple_nodes_py:/home/nuctella/my_ros2_ws/install/rosbot_object_recognition:/home/nuctella/my_ros2_ws/install/publisher_and_subscriber_py:/opt/ros/humble /usr/bin/cmake --install /home/nuctella/my_ros2_ws/src/build/publisher_library
+[947.994s] -- Install configuration: ""
+[948.002s] -- Execute custom install script
+[948.010s] -- Symlinking: /home/nuctella/my_ros2_ws/src/install/publisher_library/share/publisher_library/environment/library_path.sh
+[948.017s] -- Symlinking: /home/nuctella/my_ros2_ws/src/install/publisher_library/share/publisher_library/environment/library_path.dsv
+[948.026s] -- Symlinking: /home/nuctella/my_ros2_ws/src/install/publisher_library/include/publisher_library//publisher_library.h
+[948.038s] -- Symlinking: /home/nuctella/my_ros2_ws/src/install/publisher_library/share/ament_index/resource_index/package_run_dependencies/publisher_library
+[948.045s] -- Symlinking: /home/nuctella/my_ros2_ws/src/install/publisher_library/share/ament_index/resource_index/parent_prefix_path/publisher_library
+[948.053s] -- Symlinking: /home/nuctella/my_ros2_ws/src/install/publisher_library/share/publisher_library/environment/ament_prefix_path.sh
+[948.061s] -- Symlinking: /home/nuctella/my_ros2_ws/src/install/publisher_library/share/publisher_library/environment/ament_prefix_path.dsv
+[948.077s] -- Symlinking: /home/nuctella/my_ros2_ws/src/install/publisher_library/share/publisher_library/environment/path.sh
+[948.084s] -- Symlinking: /home/nuctella/my_ros2_ws/src/install/publisher_library/share/publisher_library/environment/path.dsv
+[948.091s] -- Symlinking: /home/nuctella/my_ros2_ws/src/install/publisher_library/share/publisher_library/local_setup.bash
+[948.098s] -- Symlinking: /home/nuctella/my_ros2_ws/src/install/publisher_library/share/publisher_library/local_setup.sh
+[948.106s] -- Symlinking: /home/nuctella/my_ros2_ws/src/install/publisher_library/share/publisher_library/local_setup.zsh
+[948.114s] -- Symlinking: /home/nuctella/my_ros2_ws/src/install/publisher_library/share/publisher_library/local_setup.dsv
+[948.121s] -- Symlinking: /home/nuctella/my_ros2_ws/src/install/publisher_library/share/publisher_library/package.dsv
+[948.129s] -- Symlinking: /home/nuctella/my_ros2_ws/src/install/publisher_library/share/ament_index/resource_index/packages/publisher_library
+[948.138s] -- Symlinking: /home/nuctella/my_ros2_ws/src/install/publisher_library/share/publisher_library/cmake/ament_cmake_export_dependencies-extras.cmake
+[948.145s] -- Symlinking: /home/nuctella/my_ros2_ws/src/install/publisher_library/share/publisher_library/cmake/ament_cmake_export_targets-extras.cmake
+[948.154s] -- Symlinking: /home/nuctella/my_ros2_ws/src/install/publisher_library/share/publisher_library/cmake/publisher_libraryConfig.cmake
+[948.162s] -- Symlinking: /home/nuctella/my_ros2_ws/src/install/publisher_library/share/publisher_library/cmake/publisher_libraryConfig-version.cmake
+[948.170s] -- Symlinking: /home/nuctella/my_ros2_ws/src/install/publisher_library/share/publisher_library/package.xml
+[948.187s] -- Installing: /home/nuctella/my_ros2_ws/src/install/publisher_library/lib/libpublisher_library.a
+[949.392s] -- Installing: /home/nuctella/my_ros2_ws/src/install/publisher_library/share/publisher_library/cmake/export_publisher_libraryExport.cmake
+[949.963s] -- Installing: /home/nuctella/my_ros2_ws/src/install/publisher_library/share/publisher_library/cmake/export_publisher_libraryExport-noconfig.cmake
+[950.569s] Invoked command in '/home/nuctella/my_ros2_ws/src/build/publisher_library' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nuctella/my_ros2_ws/install/start_with_simple_nodes_py:/home/nuctella/my_ros2_ws/install/rosbot_object_recognition:/home/nuctella/my_ros2_ws/install/publisher_and_subscriber_py:/opt/ros/humble /usr/bin/cmake --install /home/nuctella/my_ros2_ws/src/build/publisher_library

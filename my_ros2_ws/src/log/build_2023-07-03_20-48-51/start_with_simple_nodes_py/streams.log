@@ -1,0 +1,53 @@
+[80.370s] Invoking command in '/home/nuctella/my_ros2_ws/src/build/start_with_simple_nodes_py': PYTHONPATH=/home/nuctella/my_ros2_ws/src/build/start_with_simple_nodes_py/prefix_override:/home/nuctella/my_ros2_ws/src/install/start_with_simple_nodes_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/nuctella/my_ros2_ws/src/build/start_with_simple_nodes_py/build --no-deps install_data
+[162.199s] running develop
+[162.206s] running egg_info
+[162.214s] creating start_with_simple_nodes_py.egg-info
+[162.223s] writing start_with_simple_nodes_py.egg-info/PKG-INFO
+[162.233s] writing dependency_links to start_with_simple_nodes_py.egg-info/dependency_links.txt
+[162.240s] writing entry points to start_with_simple_nodes_py.egg-info/entry_points.txt
+[162.250s] writing requirements to start_with_simple_nodes_py.egg-info/requires.txt
+[162.259s] writing top-level names to start_with_simple_nodes_py.egg-info/top_level.txt
+[162.268s] writing manifest file 'start_with_simple_nodes_py.egg-info/SOURCES.txt'
+[162.275s] reading manifest file 'start_with_simple_nodes_py.egg-info/SOURCES.txt'
+[162.283s] writing manifest file 'start_with_simple_nodes_py.egg-info/SOURCES.txt'
+[162.291s] running build_ext
+[162.299s] Creating /home/nuctella/my_ros2_ws/src/install/start_with_simple_nodes_py/lib/python3.10/site-packages/start-with-simple-nodes-py.egg-link (link to .)
+[162.306s] Installing my_first_node script to /home/nuctella/my_ros2_ws/src/install/start_with_simple_nodes_py/lib/start_with_simple_nodes_py
+[162.315s] Installing node_timer_with_class script to /home/nuctella/my_ros2_ws/src/install/start_with_simple_nodes_py/lib/start_with_simple_nodes_py
+[162.323s] Installing node_timer_without_class script to /home/nuctella/my_ros2_ws/src/install/start_with_simple_nodes_py/lib/start_with_simple_nodes_py
+[162.333s] Installing node_with_class script to /home/nuctella/my_ros2_ws/src/install/start_with_simple_nodes_py/lib/start_with_simple_nodes_py
+[162.340s] 
+[162.348s] Installed /home/nuctella/my_ros2_ws/src/build/start_with_simple_nodes_py
+[162.357s] running install_data
+[162.366s] creating /home/nuctella/my_ros2_ws/src/install/start_with_simple_nodes_py/share/ament_index
+[162.374s] creating /home/nuctella/my_ros2_ws/src/install/start_with_simple_nodes_py/share/ament_index/resource_index
+[162.381s] creating /home/nuctella/my_ros2_ws/src/install/start_with_simple_nodes_py/share/ament_index/resource_index/packages
+[162.389s] copying resource/start_with_simple_nodes_py -> /home/nuctella/my_ros2_ws/src/install/start_with_simple_nodes_py/share/ament_index/resource_index/packages
+[162.396s] copying package.xml -> /home/nuctella/my_ros2_ws/src/install/start_with_simple_nodes_py/share/start_with_simple_nodes_py
+[162.411s] /home/nuctella/.local/lib/python3.10/site-packages/setuptools/command/develop.py:40: EasyInstallDeprecationWarning: easy_install command is deprecated.
+[162.418s] !!
+[162.426s] 
+[162.436s]         ********************************************************************************
+[162.444s]         Please avoid running ``setup.py`` and ``easy_install``.
+[162.451s]         Instead, use pypa/build, pypa/installer, pypa/build or
+[162.459s]         other standards-based tools.
+[162.468s] 
+[162.476s]         See https://github.com/pypa/setuptools/issues/917 for details.
+[162.486s]         ********************************************************************************
+[162.493s] 
+[162.501s] !!
+[162.508s]   easy_install.initialize_options(self)
+[162.516s] /home/nuctella/.local/lib/python3.10/site-packages/setuptools/_distutils/cmd.py:66: SetuptoolsDeprecationWarning: setup.py install is deprecated.
+[162.523s] !!
+[162.532s] 
+[162.541s]         ********************************************************************************
+[162.550s]         Please avoid running ``setup.py`` directly.
+[162.557s]         Instead, use pypa/build, pypa/installer, pypa/build or
+[162.564s]         other standards-based tools.
+[162.571s] 
+[162.577s]         See https://blog.ganssle.io/articles/2021/10/setup-py-deprecated.html for details.
+[162.585s]         ********************************************************************************
+[162.592s] 
+[162.600s] !!
+[162.608s]   self.initialize_options()
+[167.322s] Invoked command in '/home/nuctella/my_ros2_ws/src/build/start_with_simple_nodes_py' returned '0': PYTHONPATH=/home/nuctella/my_ros2_ws/src/build/start_with_simple_nodes_py/prefix_override:/home/nuctella/my_ros2_ws/src/install/start_with_simple_nodes_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/nuctella/my_ros2_ws/src/build/start_with_simple_nodes_py/build --no-deps install_data

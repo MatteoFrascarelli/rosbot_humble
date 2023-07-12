@@ -1,0 +1,85 @@
+[10.055s] Invoking command in '/home/nuctella/my_ros2_ws/src/build/start_with_simple_nodes': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nuctella/my_ros2_ws/install/start_with_simple_nodes_py:/home/nuctella/my_ros2_ws/install/rosbot_object_recognition:/home/nuctella/my_ros2_ws/install/publisher_and_subscriber_py:/opt/ros/humble /usr/bin/cmake /home/nuctella/my_ros2_ws/src/ROS2_learning/CPP/start_with_simple_nodes -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/nuctella/my_ros2_ws/src/install/start_with_simple_nodes
+[34.204s] -- The C compiler identification is GNU 11.3.0
+[45.052s] -- The CXX compiler identification is GNU 11.3.0
+[47.033s] -- Detecting C compiler ABI info
+[76.780s] -- Detecting C compiler ABI info - done
+[76.954s] -- Check for working C compiler: /usr/bin/cc - skipped
+[76.961s] -- Detecting C compile features
+[76.970s] -- Detecting C compile features - done
+[77.388s] -- Detecting CXX compiler ABI info
+[104.370s] -- Detecting CXX compiler ABI info - done
+[104.500s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[104.506s] -- Detecting CXX compile features
+[104.513s] -- Detecting CXX compile features - done
+[112.151s] -- Found ament_cmake: 1.3.4 (/opt/ros/humble/share/ament_cmake/cmake)
+[219.446s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+[235.698s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[338.029s] -- Found rclcpp: 16.0.4 (/opt/ros/humble/share/rclcpp/cmake)
+[428.649s] -- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[442.925s] -- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[459.935s] -- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[471.960s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[493.077s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[568.705s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[575.327s] -- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[664.505s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[678.867s] -- Found FastRTPS: /opt/ros/humble/include  
+[700.679s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[725.217s] -- Looking for pthread.h
+[754.293s] -- Looking for pthread.h - found
+[754.380s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[781.846s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[781.888s] -- Found Threads: TRUE  
+[823.100s] -- Found ament_lint_auto: 0.12.6 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[935.970s] -- Added test 'copyright' to check source files copyright and LICENSE
+[938.767s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[938.773s] -- Configured cppcheck include dirs: 
+[938.779s] -- Configured cppcheck exclude dirs and/or files: 
+[942.448s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[942.454s] -- Configured cpplint exclude dirs and/or files: 
+[944.869s] -- Added test 'lint_cmake' to check CMake code style
+[949.733s] -- Added test 'uncrustify' to check C / C++ code style
+[949.740s] -- Configured uncrustify additional arguments: 
+[951.318s] -- Added test 'xmllint' to check XML markup files
+[956.310s] -- Configuring done
+[960.807s] -- Generating done
+[961.645s] -- Build files have been written to: /home/nuctella/my_ros2_ws/src/build/start_with_simple_nodes
+[961.679s] Invoked command in '/home/nuctella/my_ros2_ws/src/build/start_with_simple_nodes' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nuctella/my_ros2_ws/install/start_with_simple_nodes_py:/home/nuctella/my_ros2_ws/install/rosbot_object_recognition:/home/nuctella/my_ros2_ws/install/publisher_and_subscriber_py:/opt/ros/humble /usr/bin/cmake /home/nuctella/my_ros2_ws/src/ROS2_learning/CPP/start_with_simple_nodes -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/nuctella/my_ros2_ws/src/install/start_with_simple_nodes
+[961.746s] Invoking command in '/home/nuctella/my_ros2_ws/src/build/start_with_simple_nodes': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nuctella/my_ros2_ws/install/start_with_simple_nodes_py:/home/nuctella/my_ros2_ws/install/rosbot_object_recognition:/home/nuctella/my_ros2_ws/install/publisher_and_subscriber_py:/opt/ros/humble /usr/bin/cmake --build /home/nuctella/my_ros2_ws/src/build/start_with_simple_nodes -- -j8 -l8
+[994.074s] [ 12%] [32mBuilding CXX object CMakeFiles/node_timer_with_class.dir/src/node_timer_with_class.cpp.o[0m
+[994.364s] [ 25%] [32mBuilding CXX object CMakeFiles/node_with_class.dir/src/node_with_class.cpp.o[0m
+[994.428s] [ 37%] [32mBuilding CXX object CMakeFiles/my_first_node.dir/src/my_first_node.cpp.o[0m
+[994.692s] [ 50%] [32mBuilding CXX object CMakeFiles/node_timer_without_class.dir/src/node_timer_without_class.cpp.o[0m
+[1019.541s] [ 62%] [32m[1mLinking CXX executable my_first_node[0m
+[1020.242s] [ 75%] [32m[1mLinking CXX executable node_with_class[0m
+[1021.015s] [ 87%] [32m[1mLinking CXX executable node_timer_with_class[0m
+[1023.015s] [100%] [32m[1mLinking CXX executable node_timer_without_class[0m
+[1038.593s] [100%] Built target my_first_node
+[1038.893s] [100%] Built target node_with_class
+[1041.370s] [100%] Built target node_timer_with_class
+[1043.265s] [100%] Built target node_timer_without_class
+[1047.565s] Invoked command in '/home/nuctella/my_ros2_ws/src/build/start_with_simple_nodes' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nuctella/my_ros2_ws/install/start_with_simple_nodes_py:/home/nuctella/my_ros2_ws/install/rosbot_object_recognition:/home/nuctella/my_ros2_ws/install/publisher_and_subscriber_py:/opt/ros/humble /usr/bin/cmake --build /home/nuctella/my_ros2_ws/src/build/start_with_simple_nodes -- -j8 -l8
+[1087.286s] Invoking command in '/home/nuctella/my_ros2_ws/src/build/start_with_simple_nodes': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nuctella/my_ros2_ws/install/start_with_simple_nodes_py:/home/nuctella/my_ros2_ws/install/rosbot_object_recognition:/home/nuctella/my_ros2_ws/install/publisher_and_subscriber_py:/opt/ros/humble /usr/bin/cmake --install /home/nuctella/my_ros2_ws/src/build/start_with_simple_nodes
+[1094.346s] -- Install configuration: ""
+[1094.424s] -- Execute custom install script
+[1094.598s] -- Symlinking: /home/nuctella/my_ros2_ws/src/install/start_with_simple_nodes/lib/start_with_simple_nodes/my_first_node
+[1100.591s] -- Symlinking: /home/nuctella/my_ros2_ws/src/install/start_with_simple_nodes/lib/start_with_simple_nodes/node_with_class
+[1105.533s] -- Symlinking: /home/nuctella/my_ros2_ws/src/install/start_with_simple_nodes/lib/start_with_simple_nodes/node_timer_with_class
+[1110.909s] -- Symlinking: /home/nuctella/my_ros2_ws/src/install/start_with_simple_nodes/lib/start_with_simple_nodes/node_timer_without_class
+[1116.405s] -- Symlinking: /home/nuctella/my_ros2_ws/src/install/start_with_simple_nodes/share/ament_index/resource_index/package_run_dependencies/start_with_simple_nodes
+[1121.286s] -- Symlinking: /home/nuctella/my_ros2_ws/src/install/start_with_simple_nodes/share/ament_index/resource_index/parent_prefix_path/start_with_simple_nodes
+[1126.030s] -- Symlinking: /home/nuctella/my_ros2_ws/src/install/start_with_simple_nodes/share/start_with_simple_nodes/environment/ament_prefix_path.sh
+[1130.720s] -- Symlinking: /home/nuctella/my_ros2_ws/src/install/start_with_simple_nodes/share/start_with_simple_nodes/environment/ament_prefix_path.dsv
+[1135.593s] -- Symlinking: /home/nuctella/my_ros2_ws/src/install/start_with_simple_nodes/share/start_with_simple_nodes/environment/path.sh
+[1141.731s] -- Symlinking: /home/nuctella/my_ros2_ws/src/install/start_with_simple_nodes/share/start_with_simple_nodes/environment/path.dsv
+[1146.010s] -- Symlinking: /home/nuctella/my_ros2_ws/src/install/start_with_simple_nodes/share/start_with_simple_nodes/local_setup.bash
+[1149.610s] -- Symlinking: /home/nuctella/my_ros2_ws/src/install/start_with_simple_nodes/share/start_with_simple_nodes/local_setup.sh
+[1152.740s] -- Symlinking: /home/nuctella/my_ros2_ws/src/install/start_with_simple_nodes/share/start_with_simple_nodes/local_setup.zsh
+[1156.856s] -- Symlinking: /home/nuctella/my_ros2_ws/src/install/start_with_simple_nodes/share/start_with_simple_nodes/local_setup.dsv
+[1160.635s] -- Symlinking: /home/nuctella/my_ros2_ws/src/install/start_with_simple_nodes/share/start_with_simple_nodes/package.dsv
+[1167.048s] -- Symlinking: /home/nuctella/my_ros2_ws/src/install/start_with_simple_nodes/share/ament_index/resource_index/packages/start_with_simple_nodes
+[1173.634s] -- Symlinking: /home/nuctella/my_ros2_ws/src/install/start_with_simple_nodes/share/start_with_simple_nodes/cmake/ament_cmake_export_dependencies-extras.cmake
+[1180.476s] -- Symlinking: /home/nuctella/my_ros2_ws/src/install/start_with_simple_nodes/share/start_with_simple_nodes/cmake/start_with_simple_nodesConfig.cmake
+[1186.864s] -- Symlinking: /home/nuctella/my_ros2_ws/src/install/start_with_simple_nodes/share/start_with_simple_nodes/cmake/start_with_simple_nodesConfig-version.cmake
+[1193.023s] -- Symlinking: /home/nuctella/my_ros2_ws/src/install/start_with_simple_nodes/share/start_with_simple_nodes/package.xml
+[1197.614s] Invoked command in '/home/nuctella/my_ros2_ws/src/build/start_with_simple_nodes' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nuctella/my_ros2_ws/install/start_with_simple_nodes_py:/home/nuctella/my_ros2_ws/install/rosbot_object_recognition:/home/nuctella/my_ros2_ws/install/publisher_and_subscriber_py:/opt/ros/humble /usr/bin/cmake --install /home/nuctella/my_ros2_ws/src/build/start_with_simple_nodes
