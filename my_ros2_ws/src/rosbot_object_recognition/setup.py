@@ -20,7 +20,7 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-            "obj_rec = rosbot_object_recognition.object_recognition.object_recognition:main"
+            "obj_rec = rosbot_object_recognition.object_recognition:main"
         
         ],
     },
