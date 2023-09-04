@@ -1,0 +1,13 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/publisher_and_subscriber__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/publisher_and_subscriber/msg/detail/employee_salary__type_support.cpp.o"
+  "CMakeFiles/publisher_and_subscriber__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/publisher_and_subscriber/msg/detail/employee_salary__type_support.cpp.o.d"
+  "libpublisher_and_subscriber__rosidl_typesupport_introspection_cpp.pdb"
+  "libpublisher_and_subscriber__rosidl_typesupport_introspection_cpp.so"
+  "rosidl_typesupport_introspection_cpp/publisher_and_subscriber/msg/detail/employee_salary__rosidl_typesupport_introspection_cpp.hpp"
+  "rosidl_typesupport_introspection_cpp/publisher_and_subscriber/msg/detail/employee_salary__type_support.cpp"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang CXX)
+  include(CMakeFiles/publisher_and_subscriber__rosidl_typesupport_introspection_cpp.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

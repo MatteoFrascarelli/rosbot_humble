@@ -1,0 +1,1 @@
+/home/nuctella/my_ros2_ws/build/custom_msg_and_srv/rosidl_generator_c/custom_msg_and_srv/srv/detail/capital_full_name__struct.h

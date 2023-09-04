@@ -1,0 +1,1 @@
+/home/nuctella/my_ros2_ws/build/message_sync/ament_cmake_core/message_syncConfig-version.cmake

@@ -1,0 +1,16 @@
+/home/nuctella/my_ros2_ws/install/message_sync/lib/message_sync/message_sync
+/home/nuctella/my_ros2_ws/install/message_sync/share/ament_index/resource_index/package_run_dependencies/message_sync
+/home/nuctella/my_ros2_ws/install/message_sync/share/ament_index/resource_index/parent_prefix_path/message_sync
+/home/nuctella/my_ros2_ws/install/message_sync/share/message_sync/environment/ament_prefix_path.sh
+/home/nuctella/my_ros2_ws/install/message_sync/share/message_sync/environment/ament_prefix_path.dsv
+/home/nuctella/my_ros2_ws/install/message_sync/share/message_sync/environment/path.sh
+/home/nuctella/my_ros2_ws/install/message_sync/share/message_sync/environment/path.dsv
+/home/nuctella/my_ros2_ws/install/message_sync/share/message_sync/local_setup.bash
+/home/nuctella/my_ros2_ws/install/message_sync/share/message_sync/local_setup.sh
+/home/nuctella/my_ros2_ws/install/message_sync/share/message_sync/local_setup.zsh
+/home/nuctella/my_ros2_ws/install/message_sync/share/message_sync/local_setup.dsv
+/home/nuctella/my_ros2_ws/install/message_sync/share/message_sync/package.dsv
+/home/nuctella/my_ros2_ws/install/message_sync/share/ament_index/resource_index/packages/message_sync
+/home/nuctella/my_ros2_ws/install/message_sync/share/message_sync/cmake/message_syncConfig.cmake
+/home/nuctella/my_ros2_ws/install/message_sync/share/message_sync/cmake/message_syncConfig-version.cmake
+/home/nuctella/my_ros2_ws/install/message_sync/share/message_sync/package.xml
