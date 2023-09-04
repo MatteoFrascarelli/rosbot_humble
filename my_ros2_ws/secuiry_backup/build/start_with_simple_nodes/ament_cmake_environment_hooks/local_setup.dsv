@@ -1,0 +1,2 @@
+source;share/start_with_simple_nodes/environment/ament_prefix_path.sh
+source;share/start_with_simple_nodes/environment/path.sh

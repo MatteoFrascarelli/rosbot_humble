@@ -1,0 +1,8 @@
+setup.py
+publisher_and_subscriber/__init__.py
+publisher_and_subscriber.egg-info/PKG-INFO
+publisher_and_subscriber.egg-info/SOURCES.txt
+publisher_and_subscriber.egg-info/dependency_links.txt
+publisher_and_subscriber.egg-info/top_level.txt
+publisher_and_subscriber/msg/__init__.py
+publisher_and_subscriber/msg/_employee_salary.py

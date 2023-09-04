@@ -1,0 +1,1 @@
+/home/nuctella/my_ros2_ws/build/publisher_and_subscriber/rosidl_typesupport_introspection_c/publisher_and_subscriber/msg/rosidl_typesupport_introspection_c__visibility_control.h

@@ -1,0 +1,4 @@
+source;share/dynamic_tf2_publisher/local_setup.bash
+source;share/dynamic_tf2_publisher/local_setup.dsv
+source;share/dynamic_tf2_publisher/local_setup.sh
+source;share/dynamic_tf2_publisher/local_setup.zsh

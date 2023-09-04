@@ -1,0 +1,21 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from publisher_and_subscriber/msg/EmployeeSalary.msg
+// generated code does not contain a copyright notice
+
+
+module publisher_and_subscriber {
+  module msg {
+    typedef string string__3[3];
+    @verbatim (language="comment", text=
+      "tasks is an array up to three strings")
+    struct EmployeeSalary {
+      string name;
+
+      string surname;
+
+      string__3 tasks;
+
+      int16 salary;
+    };
+  };
+};
