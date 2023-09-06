@@ -1,1 +1,0 @@
-/home/nuctella/my_ros2_ws/build/service_server_and_client/ament_cmake_core/service_server_and_clientConfig.cmake

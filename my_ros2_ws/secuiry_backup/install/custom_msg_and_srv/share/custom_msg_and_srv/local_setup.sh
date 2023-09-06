@@ -1,1 +1,0 @@
-/home/nuctella/my_ros2_ws/build/custom_msg_and_srv/ament_cmake_environment_hooks/local_setup.sh

@@ -1,1 +1,0 @@
-/home/nuctella/my_ros2_ws/build/custom_msg_and_srv/rosidl_generator_py/custom_msg_and_srv/srv/_capital_full_name.py

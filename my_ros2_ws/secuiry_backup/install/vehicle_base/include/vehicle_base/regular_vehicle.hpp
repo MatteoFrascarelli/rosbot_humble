@@ -1,1 +1,0 @@
-/home/nuctella/my_ros2_ws/src/ROS2_learning/CPP/plugins/vehicle_base/include/vehicle_base/regular_vehicle.hpp

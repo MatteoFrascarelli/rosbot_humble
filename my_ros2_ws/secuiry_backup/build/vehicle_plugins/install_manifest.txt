@@ -1,3 +1,0 @@
-/home/nuctella/my_ros2_ws/install/vehicle_plugins/lib/libvehicle_plugins.so
-/home/nuctella/my_ros2_ws/install/vehicle_plugins/share/vehicle_plugins/cmake/export_vehicle_pluginsExport.cmake
-/home/nuctella/my_ros2_ws/install/vehicle_plugins/share/vehicle_plugins/cmake/export_vehicle_pluginsExport-noconfig.cmake

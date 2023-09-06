@@ -1,0 +1,202 @@
+[0.134s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.134s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=20, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7fde24226620>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7fde243b3c70>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7fde243b3c70>>, mixin_verb=('build',))
+[0.150s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.151s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.151s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.151s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.151s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.151s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.151s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/nuctella/my_ros2_ws/src'
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(core) by extensions ['ignore', 'ignore_ament_install']
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(core) by extension 'ignore'
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(core) by extension 'ignore_ament_install'
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(core) by extensions ['colcon_pkg']
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(core) by extension 'colcon_pkg'
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(core) by extensions ['colcon_meta']
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(core) by extension 'colcon_meta'
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(core) by extensions ['ros']
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(core) by extension 'ros'
+[0.161s] DEBUG:colcon.colcon_core.package_identification:Package 'core' with type 'ros.ament_cmake' and name 'core'
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(rosbot_object_recognition) by extensions ['ignore', 'ignore_ament_install']
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(rosbot_object_recognition) by extension 'ignore'
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(rosbot_object_recognition) by extension 'ignore_ament_install'
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(rosbot_object_recognition) by extensions ['colcon_pkg']
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(rosbot_object_recognition) by extension 'colcon_pkg'
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(rosbot_object_recognition) by extensions ['colcon_meta']
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(rosbot_object_recognition) by extension 'colcon_meta'
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(rosbot_object_recognition) by extensions ['ros']
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(rosbot_object_recognition) by extension 'ros'
+[0.161s] DEBUG:colcon.colcon_core.package_identification:Package 'rosbot_object_recognition' with type 'ros.ament_python' and name 'rosbot_object_recognition'
+[0.161s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.161s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.161s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.161s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.161s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.174s] Level 5:colcon.colcon_core.verb:set package 'core' build argument 'cmake_args' from command line to 'None'
+[0.174s] Level 5:colcon.colcon_core.verb:set package 'core' build argument 'cmake_target' from command line to 'None'
+[0.174s] Level 5:colcon.colcon_core.verb:set package 'core' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.174s] Level 5:colcon.colcon_core.verb:set package 'core' build argument 'cmake_clean_cache' from command line to 'False'
+[0.174s] Level 5:colcon.colcon_core.verb:set package 'core' build argument 'cmake_clean_first' from command line to 'False'
+[0.174s] Level 5:colcon.colcon_core.verb:set package 'core' build argument 'cmake_force_configure' from command line to 'False'
+[0.174s] Level 5:colcon.colcon_core.verb:set package 'core' build argument 'ament_cmake_args' from command line to 'None'
+[0.174s] Level 5:colcon.colcon_core.verb:set package 'core' build argument 'catkin_cmake_args' from command line to 'None'
+[0.174s] Level 5:colcon.colcon_core.verb:set package 'core' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.174s] DEBUG:colcon.colcon_core.verb:Building package 'core' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/nuctella/my_ros2_ws/src/build/core', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/nuctella/my_ros2_ws/src/install/core', 'merge_install': False, 'path': '/home/nuctella/my_ros2_ws/src/core', 'symlink_install': False, 'test_result_base': None}
+[0.175s] Level 5:colcon.colcon_core.verb:set package 'rosbot_object_recognition' build argument 'cmake_args' from command line to 'None'
+[0.175s] Level 5:colcon.colcon_core.verb:set package 'rosbot_object_recognition' build argument 'cmake_target' from command line to 'None'
+[0.175s] Level 5:colcon.colcon_core.verb:set package 'rosbot_object_recognition' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.175s] Level 5:colcon.colcon_core.verb:set package 'rosbot_object_recognition' build argument 'cmake_clean_cache' from command line to 'False'
+[0.175s] Level 5:colcon.colcon_core.verb:set package 'rosbot_object_recognition' build argument 'cmake_clean_first' from command line to 'False'
+[0.175s] Level 5:colcon.colcon_core.verb:set package 'rosbot_object_recognition' build argument 'cmake_force_configure' from command line to 'False'
+[0.175s] Level 5:colcon.colcon_core.verb:set package 'rosbot_object_recognition' build argument 'ament_cmake_args' from command line to 'None'
+[0.175s] Level 5:colcon.colcon_core.verb:set package 'rosbot_object_recognition' build argument 'catkin_cmake_args' from command line to 'None'
+[0.175s] Level 5:colcon.colcon_core.verb:set package 'rosbot_object_recognition' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.175s] DEBUG:colcon.colcon_core.verb:Building package 'rosbot_object_recognition' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/nuctella/my_ros2_ws/src/build/rosbot_object_recognition', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/nuctella/my_ros2_ws/src/install/rosbot_object_recognition', 'merge_install': False, 'path': '/home/nuctella/my_ros2_ws/src/rosbot_object_recognition', 'symlink_install': False, 'test_result_base': None}
+[0.175s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.177s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.177s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/nuctella/my_ros2_ws/src/core' with build type 'ament_cmake'
+[0.177s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/nuctella/my_ros2_ws/src/core'
+[0.179s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.179s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.179s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.180s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/nuctella/my_ros2_ws/install/vehicle_plugins' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.180s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/nuctella/my_ros2_ws/install/vehicle_base' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.180s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/nuctella/my_ros2_ws/install/use_library' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.180s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/nuctella/my_ros2_ws/install/start_with_simple_nodes_py' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.180s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/nuctella/my_ros2_ws/install/start_with_simple_nodes' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.180s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/nuctella/my_ros2_ws/install/service_server_and_client' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.180s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/nuctella/my_ros2_ws/install/publisher_library' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.180s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/nuctella/my_ros2_ws/install/publisher_and_subscriber_py' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.180s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/nuctella/my_ros2_ws/install/publisher_and_subscriber' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.180s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/nuctella/my_ros2_ws/install/parameters' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.180s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/nuctella/my_ros2_ws/install/message_sync' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.180s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/nuctella/my_ros2_ws/install/dynamic_tf2_publisher' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.180s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/nuctella/my_ros2_ws/install/custom_msg_and_srv' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.180s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/nuctella/my_ros2_ws/install/action_tutorial' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.180s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/nuctella/my_ros2_ws/install/custom_action' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.181s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/nuctella/my_ros2_ws/install/vehicle_plugins' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.181s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/nuctella/my_ros2_ws/install/vehicle_base' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.181s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/nuctella/my_ros2_ws/install/use_library' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.181s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/nuctella/my_ros2_ws/install/start_with_simple_nodes' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.181s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/nuctella/my_ros2_ws/install/service_server_and_client' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.181s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/nuctella/my_ros2_ws/install/publisher_library' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.181s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/nuctella/my_ros2_ws/install/publisher_and_subscriber' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.181s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/nuctella/my_ros2_ws/install/parameters' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.181s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/nuctella/my_ros2_ws/install/message_sync' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.181s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/nuctella/my_ros2_ws/install/dynamic_tf2_publisher' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.181s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/nuctella/my_ros2_ws/install/custom_msg_and_srv' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.181s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/nuctella/my_ros2_ws/install/action_tutorial' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.181s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/nuctella/my_ros2_ws/install/custom_action' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.185s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/nuctella/my_ros2_ws/src/rosbot_object_recognition' with build type 'ament_python'
+[0.185s] Level 1:colcon.colcon_core.shell:create_environment_hook('rosbot_object_recognition', 'ament_prefix_path')
+[0.186s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nuctella/my_ros2_ws/src/install/rosbot_object_recognition/share/rosbot_object_recognition/hook/ament_prefix_path.ps1'
+[0.186s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/nuctella/my_ros2_ws/src/install/rosbot_object_recognition/share/rosbot_object_recognition/hook/ament_prefix_path.dsv'
+[0.186s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nuctella/my_ros2_ws/src/install/rosbot_object_recognition/share/rosbot_object_recognition/hook/ament_prefix_path.sh'
+[0.187s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.187s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.194s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/nuctella/my_ros2_ws/src/build/core': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nuctella/my_ros2_ws/src/install/start_with_simple_nodes_py:/home/nuctella/my_ros2_ws/src/install/rosbot_object_recognition:/home/nuctella/my_ros2_ws/src/install/publisher_and_subscriber_py:/home/nuctella/my_ros2_ws/install/start_with_simple_nodes_py:/home/nuctella/my_ros2_ws/install/rosbot_object_recognition:/home/nuctella/my_ros2_ws/install/publisher_and_subscriber_py:/opt/ros/humble /usr/bin/cmake --build /home/nuctella/my_ros2_ws/src/build/core -- -j20 -l20
+[0.299s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/nuctella/my_ros2_ws/src/rosbot_object_recognition'
+[0.301s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.301s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.374s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/nuctella/my_ros2_ws/src/build/core' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nuctella/my_ros2_ws/src/install/start_with_simple_nodes_py:/home/nuctella/my_ros2_ws/src/install/rosbot_object_recognition:/home/nuctella/my_ros2_ws/src/install/publisher_and_subscriber_py:/home/nuctella/my_ros2_ws/install/start_with_simple_nodes_py:/home/nuctella/my_ros2_ws/install/rosbot_object_recognition:/home/nuctella/my_ros2_ws/install/publisher_and_subscriber_py:/opt/ros/humble /usr/bin/cmake --build /home/nuctella/my_ros2_ws/src/build/core -- -j20 -l20
+[0.395s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/nuctella/my_ros2_ws/src/build/core': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nuctella/my_ros2_ws/src/install/start_with_simple_nodes_py:/home/nuctella/my_ros2_ws/src/install/rosbot_object_recognition:/home/nuctella/my_ros2_ws/src/install/publisher_and_subscriber_py:/home/nuctella/my_ros2_ws/install/start_with_simple_nodes_py:/home/nuctella/my_ros2_ws/install/rosbot_object_recognition:/home/nuctella/my_ros2_ws/install/publisher_and_subscriber_py:/opt/ros/humble /usr/bin/cmake --install /home/nuctella/my_ros2_ws/src/build/core
+[0.429s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(core)
+[0.430s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/nuctella/my_ros2_ws/src/build/core' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nuctella/my_ros2_ws/src/install/start_with_simple_nodes_py:/home/nuctella/my_ros2_ws/src/install/rosbot_object_recognition:/home/nuctella/my_ros2_ws/src/install/publisher_and_subscriber_py:/home/nuctella/my_ros2_ws/install/start_with_simple_nodes_py:/home/nuctella/my_ros2_ws/install/rosbot_object_recognition:/home/nuctella/my_ros2_ws/install/publisher_and_subscriber_py:/opt/ros/humble /usr/bin/cmake --install /home/nuctella/my_ros2_ws/src/build/core
+[0.432s] Level 1:colcon.colcon_core.environment:checking '/home/nuctella/my_ros2_ws/src/install/core' for CMake module files
+[0.432s] Level 1:colcon.colcon_core.environment:checking '/home/nuctella/my_ros2_ws/src/install/core' for CMake config files
+[0.433s] Level 1:colcon.colcon_core.shell:create_environment_hook('core', 'cmake_prefix_path')
+[0.433s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nuctella/my_ros2_ws/src/install/core/share/core/hook/cmake_prefix_path.ps1'
+[0.434s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/nuctella/my_ros2_ws/src/install/core/share/core/hook/cmake_prefix_path.dsv'
+[0.434s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nuctella/my_ros2_ws/src/install/core/share/core/hook/cmake_prefix_path.sh'
+[0.434s] Level 1:colcon.colcon_core.environment:checking '/home/nuctella/my_ros2_ws/src/install/core/lib'
+[0.434s] Level 1:colcon.colcon_core.environment:checking '/home/nuctella/my_ros2_ws/src/install/core/bin'
+[0.434s] Level 1:colcon.colcon_core.environment:checking '/home/nuctella/my_ros2_ws/src/install/core/lib/pkgconfig/core.pc'
+[0.434s] Level 1:colcon.colcon_core.environment:checking '/home/nuctella/my_ros2_ws/src/install/core/lib/python3.10/site-packages'
+[0.434s] Level 1:colcon.colcon_core.environment:checking '/home/nuctella/my_ros2_ws/src/install/core/bin'
+[0.435s] INFO:colcon.colcon_core.shell:Creating package script '/home/nuctella/my_ros2_ws/src/install/core/share/core/package.ps1'
+[0.435s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/nuctella/my_ros2_ws/src/install/core/share/core/package.dsv'
+[0.436s] INFO:colcon.colcon_core.shell:Creating package script '/home/nuctella/my_ros2_ws/src/install/core/share/core/package.sh'
+[0.436s] INFO:colcon.colcon_core.shell:Creating package script '/home/nuctella/my_ros2_ws/src/install/core/share/core/package.bash'
+[0.436s] INFO:colcon.colcon_core.shell:Creating package script '/home/nuctella/my_ros2_ws/src/install/core/share/core/package.zsh'
+[0.437s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/nuctella/my_ros2_ws/src/install/core/share/colcon-core/packages/core)
+[0.454s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(core)
+[0.455s] Level 1:colcon.colcon_core.environment:checking '/home/nuctella/my_ros2_ws/src/install/core' for CMake module files
+[0.455s] Level 1:colcon.colcon_core.environment:checking '/home/nuctella/my_ros2_ws/src/install/core' for CMake config files
+[0.455s] Level 1:colcon.colcon_core.shell:create_environment_hook('core', 'cmake_prefix_path')
+[0.456s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nuctella/my_ros2_ws/src/install/core/share/core/hook/cmake_prefix_path.ps1'
+[0.456s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/nuctella/my_ros2_ws/src/install/core/share/core/hook/cmake_prefix_path.dsv'
+[0.456s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nuctella/my_ros2_ws/src/install/core/share/core/hook/cmake_prefix_path.sh'
+[0.457s] Level 1:colcon.colcon_core.environment:checking '/home/nuctella/my_ros2_ws/src/install/core/lib'
+[0.457s] Level 1:colcon.colcon_core.environment:checking '/home/nuctella/my_ros2_ws/src/install/core/bin'
+[0.457s] Level 1:colcon.colcon_core.environment:checking '/home/nuctella/my_ros2_ws/src/install/core/lib/pkgconfig/core.pc'
+[0.457s] Level 1:colcon.colcon_core.environment:checking '/home/nuctella/my_ros2_ws/src/install/core/lib/python3.10/site-packages'
+[0.457s] Level 1:colcon.colcon_core.environment:checking '/home/nuctella/my_ros2_ws/src/install/core/bin'
+[0.458s] INFO:colcon.colcon_core.shell:Creating package script '/home/nuctella/my_ros2_ws/src/install/core/share/core/package.ps1'
+[0.458s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/nuctella/my_ros2_ws/src/install/core/share/core/package.dsv'
+[0.458s] INFO:colcon.colcon_core.shell:Creating package script '/home/nuctella/my_ros2_ws/src/install/core/share/core/package.sh'
+[0.458s] INFO:colcon.colcon_core.shell:Creating package script '/home/nuctella/my_ros2_ws/src/install/core/share/core/package.bash'
+[0.458s] INFO:colcon.colcon_core.shell:Creating package script '/home/nuctella/my_ros2_ws/src/install/core/share/core/package.zsh'
+[0.459s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/nuctella/my_ros2_ws/src/install/core/share/colcon-core/packages/core)
+[0.561s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/nuctella/my_ros2_ws/src/rosbot_object_recognition': PYTHONPATH=/home/nuctella/my_ros2_ws/src/build/rosbot_object_recognition/prefix_override:/home/nuctella/my_ros2_ws/src/install/rosbot_object_recognition/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/rosbot_object_recognition build --build-base /home/nuctella/my_ros2_ws/src/build/rosbot_object_recognition/build install --record /home/nuctella/my_ros2_ws/src/build/rosbot_object_recognition/install.log --single-version-externally-managed
+[0.783s] Level 1:colcon.colcon_core.environment:checking '/home/nuctella/my_ros2_ws/src/install/rosbot_object_recognition' for CMake module files
+[0.783s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/nuctella/my_ros2_ws/src/rosbot_object_recognition' returned '0': PYTHONPATH=/home/nuctella/my_ros2_ws/src/build/rosbot_object_recognition/prefix_override:/home/nuctella/my_ros2_ws/src/install/rosbot_object_recognition/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/rosbot_object_recognition build --build-base /home/nuctella/my_ros2_ws/src/build/rosbot_object_recognition/build install --record /home/nuctella/my_ros2_ws/src/build/rosbot_object_recognition/install.log --single-version-externally-managed
+[0.783s] Level 1:colcon.colcon_core.environment:checking '/home/nuctella/my_ros2_ws/src/install/rosbot_object_recognition' for CMake config files
+[0.784s] Level 1:colcon.colcon_core.environment:checking '/home/nuctella/my_ros2_ws/src/install/rosbot_object_recognition/lib'
+[0.784s] Level 1:colcon.colcon_core.environment:checking '/home/nuctella/my_ros2_ws/src/install/rosbot_object_recognition/bin'
+[0.784s] Level 1:colcon.colcon_core.environment:checking '/home/nuctella/my_ros2_ws/src/install/rosbot_object_recognition/lib/pkgconfig/rosbot_object_recognition.pc'
+[0.784s] Level 1:colcon.colcon_core.environment:checking '/home/nuctella/my_ros2_ws/src/install/rosbot_object_recognition/lib/python3.10/site-packages'
+[0.784s] Level 1:colcon.colcon_core.shell:create_environment_hook('rosbot_object_recognition', 'pythonpath')
+[0.785s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nuctella/my_ros2_ws/src/install/rosbot_object_recognition/share/rosbot_object_recognition/hook/pythonpath.ps1'
+[0.785s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/nuctella/my_ros2_ws/src/install/rosbot_object_recognition/share/rosbot_object_recognition/hook/pythonpath.dsv'
+[0.785s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nuctella/my_ros2_ws/src/install/rosbot_object_recognition/share/rosbot_object_recognition/hook/pythonpath.sh'
+[0.785s] Level 1:colcon.colcon_core.environment:checking '/home/nuctella/my_ros2_ws/src/install/rosbot_object_recognition/bin'
+[0.785s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rosbot_object_recognition)
+[0.786s] INFO:colcon.colcon_core.shell:Creating package script '/home/nuctella/my_ros2_ws/src/install/rosbot_object_recognition/share/rosbot_object_recognition/package.ps1'
+[0.786s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/nuctella/my_ros2_ws/src/install/rosbot_object_recognition/share/rosbot_object_recognition/package.dsv'
+[0.787s] INFO:colcon.colcon_core.shell:Creating package script '/home/nuctella/my_ros2_ws/src/install/rosbot_object_recognition/share/rosbot_object_recognition/package.sh'
+[0.787s] INFO:colcon.colcon_core.shell:Creating package script '/home/nuctella/my_ros2_ws/src/install/rosbot_object_recognition/share/rosbot_object_recognition/package.bash'
+[0.787s] INFO:colcon.colcon_core.shell:Creating package script '/home/nuctella/my_ros2_ws/src/install/rosbot_object_recognition/share/rosbot_object_recognition/package.zsh'
+[0.787s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/nuctella/my_ros2_ws/src/install/rosbot_object_recognition/share/colcon-core/packages/rosbot_object_recognition)
+[0.787s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[0.787s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[0.787s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[0.787s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[0.790s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[0.790s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[0.790s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[0.790s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[0.792s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.Spawn.ExecFailed: /usr/bin/dbus-launch terminated abnormally without any error message
+[0.792s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[0.793s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/nuctella/my_ros2_ws/src/install/local_setup.ps1'
+[0.794s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/nuctella/my_ros2_ws/src/install/_local_setup_util_ps1.py'
+[0.795s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/nuctella/my_ros2_ws/src/install/setup.ps1'
+[0.796s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/nuctella/my_ros2_ws/src/install/local_setup.sh'
+[0.796s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/nuctella/my_ros2_ws/src/install/_local_setup_util_sh.py'
+[0.796s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/nuctella/my_ros2_ws/src/install/setup.sh'
+[0.797s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/nuctella/my_ros2_ws/src/install/local_setup.bash'
+[0.798s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/nuctella/my_ros2_ws/src/install/setup.bash'
+[0.799s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/nuctella/my_ros2_ws/src/install/local_setup.zsh'
+[0.799s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/nuctella/my_ros2_ws/src/install/setup.zsh'

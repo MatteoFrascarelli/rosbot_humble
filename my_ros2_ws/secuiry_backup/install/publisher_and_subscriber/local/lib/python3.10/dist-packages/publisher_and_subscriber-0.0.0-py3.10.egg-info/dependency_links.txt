@@ -1,1 +1,0 @@
-/home/nuctella/my_ros2_ws/build/publisher_and_subscriber/ament_cmake_python/publisher_and_subscriber/publisher_and_subscriber.egg-info/dependency_links.txt

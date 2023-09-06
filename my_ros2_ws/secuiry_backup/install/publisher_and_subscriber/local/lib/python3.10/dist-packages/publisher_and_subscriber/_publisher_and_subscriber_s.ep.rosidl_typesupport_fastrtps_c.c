@@ -1,1 +1,0 @@
-/home/nuctella/my_ros2_ws/build/publisher_and_subscriber/rosidl_generator_py/publisher_and_subscriber/_publisher_and_subscriber_s.ep.rosidl_typesupport_fastrtps_c.c

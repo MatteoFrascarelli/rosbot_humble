@@ -1,1 +1,0 @@
-/home/nuctella/my_ros2_ws/src/ROS2_learning/PYTHON/publisher_and_subscriber_py/setup.py

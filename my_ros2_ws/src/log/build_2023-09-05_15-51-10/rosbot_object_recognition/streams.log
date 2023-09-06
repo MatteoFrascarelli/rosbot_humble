@@ -1,0 +1,45 @@
+[0.365s] Invoking command in '/home/nuctella/my_ros2_ws/src/rosbot_object_recognition': PYTHONPATH=/home/nuctella/my_ros2_ws/src/build/rosbot_object_recognition/prefix_override:/home/nuctella/my_ros2_ws/src/install/rosbot_object_recognition/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/rosbot_object_recognition build --build-base /home/nuctella/my_ros2_ws/src/build/rosbot_object_recognition/build install --record /home/nuctella/my_ros2_ws/src/build/rosbot_object_recognition/install.log --single-version-externally-managed
+[0.468s] running egg_info
+[0.473s] writing ../build/rosbot_object_recognition/rosbot_object_recognition.egg-info/PKG-INFO
+[0.474s] writing dependency_links to ../build/rosbot_object_recognition/rosbot_object_recognition.egg-info/dependency_links.txt
+[0.474s] writing entry points to ../build/rosbot_object_recognition/rosbot_object_recognition.egg-info/entry_points.txt
+[0.474s] writing requirements to ../build/rosbot_object_recognition/rosbot_object_recognition.egg-info/requires.txt
+[0.474s] writing top-level names to ../build/rosbot_object_recognition/rosbot_object_recognition.egg-info/top_level.txt
+[0.486s] reading manifest file '../build/rosbot_object_recognition/rosbot_object_recognition.egg-info/SOURCES.txt'
+[0.487s] writing manifest file '../build/rosbot_object_recognition/rosbot_object_recognition.egg-info/SOURCES.txt'
+[0.487s] running build
+[0.487s] running build_py
+[0.487s] creating /home/nuctella/my_ros2_ws/src/build/rosbot_object_recognition/build
+[0.487s] creating /home/nuctella/my_ros2_ws/src/build/rosbot_object_recognition/build/lib
+[0.487s] creating /home/nuctella/my_ros2_ws/src/build/rosbot_object_recognition/build/lib/rosbot_object_recognition
+[0.487s] copying rosbot_object_recognition/object_recognition.py -> /home/nuctella/my_ros2_ws/src/build/rosbot_object_recognition/build/lib/rosbot_object_recognition
+[0.487s] copying rosbot_object_recognition/__init__.py -> /home/nuctella/my_ros2_ws/src/build/rosbot_object_recognition/build/lib/rosbot_object_recognition
+[0.487s] running install
+[0.488s] /home/nuctella/.local/lib/python3.10/site-packages/setuptools/_distutils/cmd.py:66: SetuptoolsDeprecationWarning: setup.py install is deprecated.
+[0.488s] !!
+[0.488s] 
+[0.488s]         ********************************************************************************
+[0.488s]         Please avoid running ``setup.py`` directly.
+[0.488s]         Instead, use pypa/build, pypa/installer or other
+[0.488s]         standards-based tools.
+[0.488s] 
+[0.488s]         See https://blog.ganssle.io/articles/2021/10/setup-py-deprecated.html for details.
+[0.488s]         ********************************************************************************
+[0.488s] 
+[0.488s] !!
+[0.488s]   self.initialize_options()
+[0.490s] running install_lib
+[0.497s] creating /home/nuctella/my_ros2_ws/src/install/rosbot_object_recognition/lib/python3.10/site-packages/rosbot_object_recognition
+[0.497s] copying /home/nuctella/my_ros2_ws/src/build/rosbot_object_recognition/build/lib/rosbot_object_recognition/object_recognition.py -> /home/nuctella/my_ros2_ws/src/install/rosbot_object_recognition/lib/python3.10/site-packages/rosbot_object_recognition
+[0.497s] copying /home/nuctella/my_ros2_ws/src/build/rosbot_object_recognition/build/lib/rosbot_object_recognition/__init__.py -> /home/nuctella/my_ros2_ws/src/install/rosbot_object_recognition/lib/python3.10/site-packages/rosbot_object_recognition
+[0.497s] byte-compiling /home/nuctella/my_ros2_ws/src/install/rosbot_object_recognition/lib/python3.10/site-packages/rosbot_object_recognition/object_recognition.py to object_recognition.cpython-310.pyc
+[0.498s] byte-compiling /home/nuctella/my_ros2_ws/src/install/rosbot_object_recognition/lib/python3.10/site-packages/rosbot_object_recognition/__init__.py to __init__.cpython-310.pyc
+[0.498s] running install_data
+[0.504s] copying resource/rosbot_object_recognition -> /home/nuctella/my_ros2_ws/src/install/rosbot_object_recognition/share/ament_index/resource_index/packages
+[0.504s] copying package.xml -> /home/nuctella/my_ros2_ws/src/install/rosbot_object_recognition/share/rosbot_object_recognition
+[0.504s] running install_egg_info
+[0.511s] Copying ../build/rosbot_object_recognition/rosbot_object_recognition.egg-info to /home/nuctella/my_ros2_ws/src/install/rosbot_object_recognition/lib/python3.10/site-packages/rosbot_object_recognition-0.0.0-py3.10.egg-info
+[0.511s] running install_scripts
+[0.580s] Installing obj_rec script to /home/nuctella/my_ros2_ws/src/install/rosbot_object_recognition/lib/rosbot_object_recognition
+[0.580s] writing list of installed files to '/home/nuctella/my_ros2_ws/src/build/rosbot_object_recognition/install.log'
+[0.595s] Invoked command in '/home/nuctella/my_ros2_ws/src/rosbot_object_recognition' returned '0': PYTHONPATH=/home/nuctella/my_ros2_ws/src/build/rosbot_object_recognition/prefix_override:/home/nuctella/my_ros2_ws/src/install/rosbot_object_recognition/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/rosbot_object_recognition build --build-base /home/nuctella/my_ros2_ws/src/build/rosbot_object_recognition/build install --record /home/nuctella/my_ros2_ws/src/build/rosbot_object_recognition/install.log --single-version-externally-managed
