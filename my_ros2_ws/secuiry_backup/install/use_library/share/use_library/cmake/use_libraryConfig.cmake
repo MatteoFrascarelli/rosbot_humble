@@ -1,1 +1,0 @@
-/home/nuctella/my_ros2_ws/build/use_library/ament_cmake_core/use_libraryConfig.cmake

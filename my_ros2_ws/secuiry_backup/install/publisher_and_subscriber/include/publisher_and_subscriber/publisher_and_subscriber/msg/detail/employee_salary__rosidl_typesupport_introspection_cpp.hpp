@@ -1,1 +1,0 @@
-/home/nuctella/my_ros2_ws/build/publisher_and_subscriber/rosidl_typesupport_introspection_cpp/publisher_and_subscriber/msg/detail/employee_salary__rosidl_typesupport_introspection_cpp.hpp

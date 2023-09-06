@@ -1,1 +1,0 @@
-/home/nuctella/my_ros2_ws/build/custom_msg_and_srv/rosidl_cmake/srv/CapitalFullName_Response.msg
