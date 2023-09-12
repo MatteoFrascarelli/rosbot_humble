@@ -1,6 +1,0 @@
-{
-  "package_name": "rosbot_interfaces",
-  "non_idl_tuples": [
-    "/home/nuctella/my_ros2_ws/src/rosbot_interfaces:msg/ObstacleInfo.msg"
-  ]
-}

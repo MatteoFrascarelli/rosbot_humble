@@ -1,2 +1,0 @@
-[console_scripts]
-obj_rec = rosbot_object_recognition.object_recognition:main
