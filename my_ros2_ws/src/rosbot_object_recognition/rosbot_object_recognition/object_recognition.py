@@ -37,7 +37,7 @@ class ObjectRecognitionNode(Node):
         self.get_logger().info("Obstacle_info Node has been started complete!")
 
         #DATA AND VARIABLES
-        self.map_metadata = MapMetaData()
+        self.map_metadata = MapMetaData() #https://docs.ros2.org/foxy/api/nav_msgs/msg/MapMetaData.html
 
     def init_publishers(self):
         self.obj_pub = self.create_publisher(
@@ -145,10 +145,10 @@ class ObjectRecognitionNode(Node):
             # Detect the center of the object in pixels and convert it to metres
             # {Fixed} dimensions of the room in pixels:
             #TODO
-            px = 391
-            py = 580
+            self.map_metadata.width = 391
+            self.map_metadata.height = 580
 
-            resolution = 0.05 #[m/pixel]
+            self.map_metadata.resolution = 0.05 #[m/pixel]
 
             # # Fixed dimensions of the room in metres
             # mx = 8
