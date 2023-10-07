@@ -1,0 +1,1 @@
+rosbot_xl_description;launch;launch_ros;xacro;controller_manager;robot_state_publisher;joint_state_broadcaster;imu_sensor_broadcaster;diff_drive_controller;mecanum_drive_controller;rosbot_hardware_interfaces

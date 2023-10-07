@@ -1,0 +1,115 @@
+[0.007s] Invoking command in '/home/nuctella/ros2_ws/ws/build/ign_ros2_control_demos': AMENT_PREFIX_PATH=/home/nuctella/ros2_ws/ws/install/ign_ros2_control:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nuctella/ros2_ws/ws/install/ign_ros2_control:/home/nuctella/my_ros2_ws/install/core:/home/nuctella/ros2_ws/deps/install/sllidar_ros2:/home/nuctella/ros2_ws/deps/install/micro_ros_setup:/home/nuctella/ros2_ws/deps/install/micro_ros_agent:/home/nuctella/ros2_ws/deps/install/micro_ros_msgs:/home/nuctella/my_ros2_ws/install/rosbot_object_recognition:/opt/ros/humble LD_LIBRARY_PATH=/home/nuctella/ros2_ws/ws/install/ign_ros2_control/lib:${LD_LIBRARY_PATH} /usr/bin/cmake /home/nuctella/ros2_ws/ws/src/gazebosim/gz_ros2_control/ign_ros2_control_demos -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/nuctella/ros2_ws/ws/install/ign_ros2_control_demos
+[0.037s] -- The C compiler identification is GNU 11.4.0
+[0.068s] -- The CXX compiler identification is GNU 11.4.0
+[0.072s] -- Detecting C compiler ABI info
+[0.108s] -- Detecting C compiler ABI info - done
+[0.112s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.113s] -- Detecting C compile features
+[0.113s] -- Detecting C compile features - done
+[0.114s] -- Detecting CXX compiler ABI info
+[0.157s] -- Detecting CXX compiler ABI info - done
+[0.164s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.164s] -- Detecting CXX compile features
+[0.164s] -- Detecting CXX compile features - done
+[0.167s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.380s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[0.419s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.445s] -- Found control_msgs: 4.4.0 (/opt/ros/humble/share/control_msgs/cmake)
+[0.473s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.477s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.484s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.493s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.506s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.830s] -- Found rclcpp: 16.0.5 (/opt/ros/humble/share/rclcpp/cmake)
+[0.875s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.877s] -- Found rmw_fastrtps_cpp: 6.2.3 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.940s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.962s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.998s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.005s] -- Looking for pthread.h
+[1.045s] -- Looking for pthread.h - found
+[1.045s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.084s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.085s] -- Found Threads: TRUE  
+[1.162s] -- Found rclcpp_action: 16.0.5 (/opt/ros/humble/share/rclcpp_action/cmake)
+[1.196s] -- Found ament_cmake_gtest: 1.3.5 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+[1.202s] -- Found ament_lint_auto: 0.12.7 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.257s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.258s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.258s] -- Configured cppcheck include dirs: 
+[1.258s] -- Configured cppcheck exclude dirs and/or files: 
+[1.259s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.259s] -- Configured cpplint exclude dirs and/or files: 
+[1.259s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.260s] -- Added test 'lint_cmake' to check CMake code style
+[1.260s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.261s] -- Added test 'uncrustify' to check C / C++ code style
+[1.261s] -- Configured uncrustify additional arguments: 
+[1.262s] -- Added test 'xmllint' to check XML markup files
+[1.262s] -- Configuring done
+[1.276s] -- Generating done
+[1.277s] -- Build files have been written to: /home/nuctella/ros2_ws/ws/build/ign_ros2_control_demos
+[1.283s] Invoked command in '/home/nuctella/ros2_ws/ws/build/ign_ros2_control_demos' returned '0': AMENT_PREFIX_PATH=/home/nuctella/ros2_ws/ws/install/ign_ros2_control:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nuctella/ros2_ws/ws/install/ign_ros2_control:/home/nuctella/my_ros2_ws/install/core:/home/nuctella/ros2_ws/deps/install/sllidar_ros2:/home/nuctella/ros2_ws/deps/install/micro_ros_setup:/home/nuctella/ros2_ws/deps/install/micro_ros_agent:/home/nuctella/ros2_ws/deps/install/micro_ros_msgs:/home/nuctella/my_ros2_ws/install/rosbot_object_recognition:/opt/ros/humble LD_LIBRARY_PATH=/home/nuctella/ros2_ws/ws/install/ign_ros2_control/lib:${LD_LIBRARY_PATH} /usr/bin/cmake /home/nuctella/ros2_ws/ws/src/gazebosim/gz_ros2_control/ign_ros2_control_demos -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/nuctella/ros2_ws/ws/install/ign_ros2_control_demos
+[1.284s] Invoking command in '/home/nuctella/ros2_ws/ws/build/ign_ros2_control_demos': AMENT_PREFIX_PATH=/home/nuctella/ros2_ws/ws/install/ign_ros2_control:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nuctella/ros2_ws/ws/install/ign_ros2_control:/home/nuctella/my_ros2_ws/install/core:/home/nuctella/ros2_ws/deps/install/sllidar_ros2:/home/nuctella/ros2_ws/deps/install/micro_ros_setup:/home/nuctella/ros2_ws/deps/install/micro_ros_agent:/home/nuctella/ros2_ws/deps/install/micro_ros_msgs:/home/nuctella/my_ros2_ws/install/rosbot_object_recognition:/opt/ros/humble LD_LIBRARY_PATH=/home/nuctella/ros2_ws/ws/install/ign_ros2_control/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/nuctella/ros2_ws/ws/build/ign_ros2_control_demos -- -j20 -l20
+[1.312s] [ 16%] Building CXX object CMakeFiles/example_velocity.dir/examples/example_velocity.cpp.o
+[1.313s] [ 16%] Building CXX object CMakeFiles/example_position.dir/examples/example_position.cpp.o
+[1.313s] [ 25%] Building CXX object CMakeFiles/example_effort.dir/examples/example_effort.cpp.o
+[1.313s] [ 33%] Building CXX object CMakeFiles/example_diff_drive.dir/examples/example_diff_drive.cpp.o
+[1.313s] [ 41%] Building CXX object CMakeFiles/example_tricycle_drive.dir/examples/example_tricycle_drive.cpp.o
+[1.317s] [ 50%] Building CXX object CMakeFiles/example_gripper.dir/examples/example_gripper.cpp.o
+[3.963s] [ 58%] Linking CXX executable example_diff_drive
+[3.970s] [ 66%] Linking CXX executable example_tricycle_drive
+[4.012s] [ 75%] Linking CXX executable example_velocity
+[4.018s] [ 83%] Linking CXX executable example_gripper
+[4.020s] [ 91%] Linking CXX executable example_effort
+[4.102s] [ 91%] Built target example_diff_drive
+[4.108s] [ 91%] Built target example_tricycle_drive
+[4.140s] [ 91%] Built target example_velocity
+[4.149s] [ 91%] Built target example_effort
+[4.149s] [ 91%] Built target example_gripper
+[4.237s] [100%] Linking CXX executable example_position
+[4.350s] [100%] Built target example_position
+[4.357s] Invoked command in '/home/nuctella/ros2_ws/ws/build/ign_ros2_control_demos' returned '0': AMENT_PREFIX_PATH=/home/nuctella/ros2_ws/ws/install/ign_ros2_control:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nuctella/ros2_ws/ws/install/ign_ros2_control:/home/nuctella/my_ros2_ws/install/core:/home/nuctella/ros2_ws/deps/install/sllidar_ros2:/home/nuctella/ros2_ws/deps/install/micro_ros_setup:/home/nuctella/ros2_ws/deps/install/micro_ros_agent:/home/nuctella/ros2_ws/deps/install/micro_ros_msgs:/home/nuctella/my_ros2_ws/install/rosbot_object_recognition:/opt/ros/humble LD_LIBRARY_PATH=/home/nuctella/ros2_ws/ws/install/ign_ros2_control/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/nuctella/ros2_ws/ws/build/ign_ros2_control_demos -- -j20 -l20
+[4.374s] Invoking command in '/home/nuctella/ros2_ws/ws/build/ign_ros2_control_demos': AMENT_PREFIX_PATH=/home/nuctella/ros2_ws/ws/install/ign_ros2_control:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nuctella/ros2_ws/ws/install/ign_ros2_control:/home/nuctella/my_ros2_ws/install/core:/home/nuctella/ros2_ws/deps/install/sllidar_ros2:/home/nuctella/ros2_ws/deps/install/micro_ros_setup:/home/nuctella/ros2_ws/deps/install/micro_ros_agent:/home/nuctella/ros2_ws/deps/install/micro_ros_msgs:/home/nuctella/my_ros2_ws/install/rosbot_object_recognition:/opt/ros/humble LD_LIBRARY_PATH=/home/nuctella/ros2_ws/ws/install/ign_ros2_control/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/nuctella/ros2_ws/ws/build/ign_ros2_control_demos
+[4.377s] -- Install configuration: ""
+[4.378s] -- Execute custom install script
+[4.378s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/ign_ros2_control_demos/share/ign_ros2_control_demos//launch/cart_example_effort.launch.py
+[4.382s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/ign_ros2_control_demos/share/ign_ros2_control_demos//launch/cart_example_position.launch.py
+[4.386s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/ign_ros2_control_demos/share/ign_ros2_control_demos//launch/cart_example_velocity.launch.py
+[4.391s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/ign_ros2_control_demos/share/ign_ros2_control_demos//launch/diff_drive_example.launch.py
+[4.395s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/ign_ros2_control_demos/share/ign_ros2_control_demos//launch/gripper_mimic_joint_example.launch.py
+[4.399s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/ign_ros2_control_demos/share/ign_ros2_control_demos//launch/tricycle_drive_example.launch.py
+[4.403s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/ign_ros2_control_demos/share/ign_ros2_control_demos//config/cartpole_controller_effort.yaml
+[4.406s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/ign_ros2_control_demos/share/ign_ros2_control_demos//config/cartpole_controller_position.yaml
+[4.410s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/ign_ros2_control_demos/share/ign_ros2_control_demos//config/cartpole_controller_velocity.yaml
+[4.414s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/ign_ros2_control_demos/share/ign_ros2_control_demos//config/diff_drive_controller_velocity.yaml
+[4.418s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/ign_ros2_control_demos/share/ign_ros2_control_demos//config/gripper_controller.yaml
+[4.423s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/ign_ros2_control_demos/share/ign_ros2_control_demos//config/tricycle_drive_controller.yaml
+[4.427s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/ign_ros2_control_demos/share/ign_ros2_control_demos//urdf/test_cart_effort.xacro.urdf
+[4.431s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/ign_ros2_control_demos/share/ign_ros2_control_demos//urdf/test_cart_position.xacro.urdf
+[4.435s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/ign_ros2_control_demos/share/ign_ros2_control_demos//urdf/test_cart_velocity.xacro.urdf
+[4.438s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/ign_ros2_control_demos/share/ign_ros2_control_demos//urdf/test_diff_drive.xacro.urdf
+[4.442s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/ign_ros2_control_demos/share/ign_ros2_control_demos//urdf/test_gripper_mimic_joint.xacro.urdf
+[4.446s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/ign_ros2_control_demos/share/ign_ros2_control_demos//urdf/test_tricycle_drive.xacro.urdf
+[4.450s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/ign_ros2_control_demos/lib/ign_ros2_control_demos/example_position
+[4.454s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/ign_ros2_control_demos/lib/ign_ros2_control_demos/example_velocity
+[4.457s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/ign_ros2_control_demos/lib/ign_ros2_control_demos/example_effort
+[4.461s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/ign_ros2_control_demos/lib/ign_ros2_control_demos/example_diff_drive
+[4.465s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/ign_ros2_control_demos/lib/ign_ros2_control_demos/example_tricycle_drive
+[4.468s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/ign_ros2_control_demos/lib/ign_ros2_control_demos/example_gripper
+[4.472s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/ign_ros2_control_demos/share/ament_index/resource_index/package_run_dependencies/ign_ros2_control_demos
+[4.476s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/ign_ros2_control_demos/share/ament_index/resource_index/parent_prefix_path/ign_ros2_control_demos
+[4.480s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/ign_ros2_control_demos/share/ign_ros2_control_demos/environment/ament_prefix_path.sh
+[4.484s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/ign_ros2_control_demos/share/ign_ros2_control_demos/environment/ament_prefix_path.dsv
+[4.488s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/ign_ros2_control_demos/share/ign_ros2_control_demos/environment/path.sh
+[4.492s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/ign_ros2_control_demos/share/ign_ros2_control_demos/environment/path.dsv
+[4.495s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/ign_ros2_control_demos/share/ign_ros2_control_demos/local_setup.bash
+[4.499s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/ign_ros2_control_demos/share/ign_ros2_control_demos/local_setup.sh
+[4.503s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/ign_ros2_control_demos/share/ign_ros2_control_demos/local_setup.zsh
+[4.506s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/ign_ros2_control_demos/share/ign_ros2_control_demos/local_setup.dsv
+[4.510s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/ign_ros2_control_demos/share/ign_ros2_control_demos/package.dsv
+[4.514s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/ign_ros2_control_demos/share/ament_index/resource_index/packages/ign_ros2_control_demos
+[4.518s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/ign_ros2_control_demos/share/ign_ros2_control_demos/cmake/ign_ros2_control_demosConfig.cmake
+[4.521s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/ign_ros2_control_demos/share/ign_ros2_control_demos/cmake/ign_ros2_control_demosConfig-version.cmake
+[4.525s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/ign_ros2_control_demos/share/ign_ros2_control_demos/package.xml
+[4.530s] Invoked command in '/home/nuctella/ros2_ws/ws/build/ign_ros2_control_demos' returned '0': AMENT_PREFIX_PATH=/home/nuctella/ros2_ws/ws/install/ign_ros2_control:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nuctella/ros2_ws/ws/install/ign_ros2_control:/home/nuctella/my_ros2_ws/install/core:/home/nuctella/ros2_ws/deps/install/sllidar_ros2:/home/nuctella/ros2_ws/deps/install/micro_ros_setup:/home/nuctella/ros2_ws/deps/install/micro_ros_agent:/home/nuctella/ros2_ws/deps/install/micro_ros_msgs:/home/nuctella/my_ros2_ws/install/rosbot_object_recognition:/opt/ros/humble LD_LIBRARY_PATH=/home/nuctella/ros2_ws/ws/install/ign_ros2_control/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/nuctella/ros2_ws/ws/build/ign_ros2_control_demos

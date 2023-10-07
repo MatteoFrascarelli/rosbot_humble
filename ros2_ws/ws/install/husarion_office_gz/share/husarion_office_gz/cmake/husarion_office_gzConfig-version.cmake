@@ -1,0 +1,1 @@
+/home/nuctella/ros2_ws/ws/build/husarion_office_gz/ament_cmake_core/husarion_office_gzConfig-version.cmake

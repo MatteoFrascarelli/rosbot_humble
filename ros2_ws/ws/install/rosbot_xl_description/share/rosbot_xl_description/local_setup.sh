@@ -1,0 +1,1 @@
+/home/nuctella/ros2_ws/ws/build/rosbot_xl_description/ament_cmake_environment_hooks/local_setup.sh

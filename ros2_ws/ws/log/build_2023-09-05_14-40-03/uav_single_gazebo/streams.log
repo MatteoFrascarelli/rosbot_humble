@@ -1,0 +1,383 @@
+[0.017s] Invoking command in '/home/nuctella/ros2_ws/ws/build/uav_single_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nuctella/my_ros2_ws/install/start_with_simple_nodes_py:/home/nuctella/my_ros2_ws/install/rosbot_object_recognition:/home/nuctella/my_ros2_ws/install/publisher_and_subscriber_py:/opt/ros/humble /usr/bin/cmake /home/nuctella/ros2_ws/ws/src/uav_single_gazebo -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/nuctella/ros2_ws/ws/install/uav_single_gazebo
+[0.096s] -- The C compiler identification is GNU 11.4.0
+[0.141s] -- The CXX compiler identification is GNU 11.4.0
+[0.146s] -- Detecting C compiler ABI info
+[0.185s] -- Detecting C compiler ABI info - done
+[0.192s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.192s] -- Detecting C compile features
+[0.193s] -- Detecting C compile features - done
+[0.196s] -- Detecting CXX compiler ABI info
+[0.243s] -- Detecting CXX compiler ABI info - done
+[0.249s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.249s] -- Detecting CXX compile features
+[0.250s] -- Detecting CXX compile features - done
+[0.254s] -- Looking for ignition-gazebo6 -- found version 6.11.0
+[0.260s] -- Searching for dependencies of ignition-gazebo6
+[0.263s] -- Looking for sdformat12 -- found version 12.5.0
+[0.263s] -- Searching for dependencies of sdformat12
+[0.267s] -- Checking for module 'tinyxml2'
+[0.274s] --   Found tinyxml2, version 9.0.0
+[0.295s] -- Looking for ignition-math6 -- found version 6.12.0
+[0.295s] -- Searching for dependencies of ignition-math6
+[0.297s] -- Looking for ignition-utils1 -- found version 1.4.0
+[0.297s] -- Searching for dependencies of ignition-utils1
+[0.300s] -- Looking for ignition-plugin1 -- found version 1.3.0
+[0.300s] -- Searching for dependencies of ignition-plugin1
+[0.301s] -- Searching for <ignition-plugin1> component [loader]
+[0.304s] -- Looking for ignition-plugin1-loader -- found version 1.3.0
+[0.304s] -- Searching for dependencies of ignition-plugin1-loader
+[0.304s] -- Searching for <ignition-plugin1> component [register]
+[0.307s] -- Looking for ignition-plugin1-register -- found version 1.3.0
+[0.307s] -- Searching for dependencies of ignition-plugin1-register
+[0.311s] -- Looking for ignition-transport11 -- found version 11.2.0
+[0.311s] -- Searching for dependencies of ignition-transport11
+[0.419s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found suitable version "3.12.4", minimum required is "3") 
+[0.429s] -- Config-file not installed for ZeroMQ -- checking for pkg-config
+[0.432s] -- Checking for module 'libzmq >= 4'
+[0.439s] --   Found libzmq , version 4.3.4
+[0.457s] -- Found ZeroMQ: TRUE (Required is at least version "4") 
+[0.460s] -- Checking for module 'uuid'
+[0.466s] --   Found uuid, version 2.37.2
+[0.482s] -- Found UUID: TRUE  
+[0.482s] -- Looking for ignition-utils1 -- found version 1.4.0
+[0.483s] -- Searching for dependencies of ignition-utils1
+[0.483s] -- Searching for <ignition-utils1> component [cli]
+[0.486s] -- Looking for ignition-utils1-cli -- found version 1.4.0
+[0.486s] -- Searching for dependencies of ignition-utils1-cli
+[0.489s] -- Looking for ignition-msgs8 -- found version 8.6.0
+[0.490s] -- Searching for dependencies of ignition-msgs8
+[0.505s] -- Looking for ignition-math6 -- found version 6.12.0
+[0.512s] -- Searching for <ignition-transport11> component [log]
+[0.516s] -- Looking for ignition-transport11-log -- found version 11.2.0
+[0.516s] -- Searching for dependencies of ignition-transport11-log
+[0.516s] -- Looking for ignition-msgs8 -- found version 8.6.0
+[0.519s] -- Looking for ignition-common4 -- found version 4.5.2
+[0.520s] -- Searching for dependencies of ignition-common4
+[0.520s] -- Looking for dlfcn.h - found
+[0.521s] -- Looking for libdl - found
+[0.522s] -- Found DL: TRUE  
+[0.526s] -- Searching for <ignition-common4> component [profiler]
+[0.530s] -- Looking for ignition-common4-profiler -- found version 4.5.2
+[0.530s] -- Searching for dependencies of ignition-common4-profiler
+[0.530s] -- Searching for <ignition-common4> component [events]
+[0.533s] -- Looking for ignition-common4-events -- found version 4.5.2
+[0.533s] -- Searching for dependencies of ignition-common4-events
+[0.533s] -- Looking for ignition-math6 -- found version 6.12.0
+[0.534s] -- Searching for <ignition-common4> component [av]
+[0.537s] -- Looking for ignition-common4-av -- found version 4.5.2
+[0.537s] -- Searching for dependencies of ignition-common4-av
+[0.540s] -- Checking for module 'libswscale'
+[0.547s] --   Found libswscale, version 5.9.100
+[0.564s] -- Found SWSCALE: TRUE  
+[0.566s] -- Checking for module 'libavdevice >= 56.4.100'
+[0.574s] --   Found libavdevice , version 58.13.100
+[0.593s] -- Found AVDEVICE: TRUE (Required is at least version "56.4.100") 
+[0.595s] -- Checking for module 'libavformat'
+[0.602s] --   Found libavformat, version 58.76.100
+[0.620s] -- Found AVFORMAT: TRUE  
+[0.623s] -- Checking for module 'libavcodec'
+[0.630s] --   Found libavcodec, version 58.134.100
+[0.647s] -- Found AVCODEC: TRUE  
+[0.650s] -- Checking for module 'libavutil'
+[0.657s] --   Found libavutil, version 56.70.100
+[0.672s] -- Found AVUTIL: TRUE  
+[0.685s] -- Looking for ignition-fuel_tools7 -- found version 7.1.0
+[0.685s] -- Searching for dependencies of ignition-fuel_tools7
+[0.730s] -- Found CURL: /usr/lib/x86_64-linux-gnu/libcurl.so (found version "7.81.0")  
+[0.736s] -- Checking for module 'jsoncpp'
+[0.743s] --   Found jsoncpp, version 1.9.5
+[0.760s] -- Found JSONCPP: TRUE  
+[0.765s] -- Checking for module 'libzip'
+[0.771s] --   Found libzip, version 1.7.3
+[0.786s] -- Found ZIP: TRUE  
+[0.786s] -- Looking for ignition-common4 -- found version 4.5.2
+[0.787s] -- Looking for ignition-math6 -- found version 6.12.0
+[0.787s] -- Looking for ignition-msgs8 -- found version 8.6.0
+[0.790s] -- Looking for ignition-gui6 -- found version 6.6.1
+[0.790s] -- Searching for dependencies of ignition-gui6
+[0.809s] -- Looking for ignition-math6 -- found version 6.12.0
+[0.809s] -- Looking for ignition-common4 -- found version 4.5.2
+[0.809s] -- Looking for ignition-plugin1 -- found version 1.3.0
+[0.809s] -- Looking for ignition-transport11 -- found version 11.2.0
+[0.813s] -- Looking for ignition-rendering6 -- found version 6.5.1
+[0.813s] -- Searching for dependencies of ignition-rendering6
+[0.814s] -- Looking for ignition-math6 -- found version 6.12.0
+[0.814s] -- Searching for dependencies of ignition-math6
+[0.814s] -- Searching for <ignition-math6> component [eigen3]
+[0.817s] -- Looking for ignition-math6-eigen3 -- found version 6.12.0
+[0.817s] -- Searching for dependencies of ignition-math6-eigen3
+[0.824s] -- Looking for ignition-common4 -- found version 4.5.2
+[0.824s] -- Searching for dependencies of ignition-common4
+[0.824s] -- Looking for dlfcn.h - found
+[0.824s] -- Looking for libdl - found
+[0.829s] -- Searching for <ignition-common4> component [graphics]
+[0.832s] -- Looking for ignition-common4-graphics -- found version 4.5.2
+[0.832s] -- Searching for dependencies of ignition-common4-graphics
+[0.832s] -- Looking for ignition-math6 -- found version 6.12.0
+[0.833s] -- Looking for ignition-utils1 -- found version 1.4.0
+[0.833s] -- Searching for <ignition-common4> component [events]
+[0.833s] -- Looking for ignition-plugin1 -- found version 1.3.0
+[0.833s] -- Searching for dependencies of ignition-plugin1
+[0.834s] -- Searching for <ignition-plugin1> component [all]
+[0.836s] -- Looking for all libraries of ignition-plugin1 -- found version 1.3.0
+[0.836s] -- Looking for ignition-plugin1 -- found version 1.3.0
+[0.838s] -- Looking for ignition-msgs8 -- found version 8.6.0
+[0.854s] -- Looking for ignition-physics5 -- found version 5.2.0
+[0.854s] -- Searching for dependencies of ignition-physics5
+[0.854s] -- Looking for ignition-math6 -- found version 6.12.0
+[0.855s] -- Looking for ignition-plugin1 -- found version 1.3.0
+[0.855s] -- Looking for ignition-utils1 -- found version 1.4.0
+[0.855s] -- Searching for <ignition-physics5> component [heightmap]
+[0.858s] -- Looking for ignition-physics5-heightmap -- found version 5.2.0
+[0.858s] -- Searching for dependencies of ignition-physics5-heightmap
+[0.859s] -- Looking for ignition-common4 -- found version 4.5.2
+[0.859s] -- Searching for <ignition-physics5> component [mesh]
+[0.862s] -- Looking for ignition-physics5-mesh -- found version 5.2.0
+[0.862s] -- Searching for dependencies of ignition-physics5-mesh
+[0.862s] -- Looking for ignition-common4 -- found version 4.5.2
+[0.862s] -- Searching for <ignition-physics5> component [sdf]
+[0.865s] -- Looking for ignition-physics5-sdf -- found version 5.2.0
+[0.865s] -- Searching for dependencies of ignition-physics5-sdf
+[0.865s] -- Looking for sdformat12 -- found version 12.5.0
+[0.869s] -- Looking for ignition-sensors6 -- found version 6.6.0
+[0.869s] -- Searching for dependencies of ignition-sensors6
+[0.883s] -- Looking for ignition-math6 -- found version 6.12.0
+[0.883s] -- Looking for ignition-common4 -- found version 4.5.2
+[0.883s] -- Looking for ignition-transport11 -- found version 11.2.0
+[0.884s] -- Looking for ignition-rendering6 -- found version 6.5.1
+[0.884s] -- Looking for ignition-msgs8 -- found version 8.6.0
+[0.884s] -- Looking for sdformat12 -- found version 12.5.0
+[0.884s] -- Searching for <ignition-sensors6> component [air_pressure]
+[0.887s] -- Looking for ignition-sensors6-air_pressure -- found version 6.6.0
+[0.887s] -- Searching for dependencies of ignition-sensors6-air_pressure
+[0.888s] -- Searching for <ignition-sensors6> component [altimeter]
+[0.890s] -- Looking for ignition-sensors6-altimeter -- found version 6.6.0
+[0.890s] -- Searching for dependencies of ignition-sensors6-altimeter
+[0.891s] -- Searching for <ignition-sensors6> component [imu]
+[0.894s] -- Looking for ignition-sensors6-imu -- found version 6.6.0
+[0.894s] -- Searching for dependencies of ignition-sensors6-imu
+[0.894s] -- Searching for <ignition-sensors6> component [force_torque]
+[0.897s] -- Looking for ignition-sensors6-force_torque -- found version 6.6.0
+[0.897s] -- Searching for dependencies of ignition-sensors6-force_torque
+[0.897s] -- Searching for <ignition-sensors6> component [logical_camera]
+[0.900s] -- Looking for ignition-sensors6-logical_camera -- found version 6.6.0
+[0.900s] -- Searching for dependencies of ignition-sensors6-logical_camera
+[0.900s] -- Searching for <ignition-sensors6> component [magnetometer]
+[0.903s] -- Looking for ignition-sensors6-magnetometer -- found version 6.6.0
+[0.903s] -- Searching for dependencies of ignition-sensors6-magnetometer
+[0.904s] -- Searching for <ignition-sensors6> component [navsat]
+[0.906s] -- Looking for ignition-sensors6-navsat -- found version 6.6.0
+[0.907s] -- Searching for dependencies of ignition-sensors6-navsat
+[0.907s] -- Searching for <ignition-sensors6> component [rendering]
+[0.910s] -- Looking for ignition-sensors6-rendering -- found version 6.6.0
+[0.910s] -- Searching for dependencies of ignition-sensors6-rendering
+[0.910s] -- Searching for <ignition-sensors6> component [lidar]
+[0.913s] -- Looking for ignition-sensors6-lidar -- found version 6.6.0
+[0.913s] -- Searching for dependencies of ignition-sensors6-lidar
+[0.913s] -- Searching for <ignition-sensors6> component [gpu_lidar]
+[0.916s] -- Looking for ignition-sensors6-gpu_lidar -- found version 6.6.0
+[0.916s] -- Searching for dependencies of ignition-sensors6-gpu_lidar
+[0.917s] -- Searching for <ignition-sensors6> component [camera]
+[0.919s] -- Looking for ignition-sensors6-camera -- found version 6.6.0
+[0.919s] -- Searching for dependencies of ignition-sensors6-camera
+[0.920s] -- Searching for <ignition-sensors6> component [boundingbox_camera]
+[0.923s] -- Looking for ignition-sensors6-boundingbox_camera -- found version 6.6.0
+[0.923s] -- Searching for dependencies of ignition-sensors6-boundingbox_camera
+[0.923s] -- Searching for <ignition-sensors6> component [segmentation_camera]
+[0.926s] -- Looking for ignition-sensors6-segmentation_camera -- found version 6.6.0
+[0.926s] -- Searching for dependencies of ignition-sensors6-segmentation_camera
+[0.926s] -- Searching for <ignition-sensors6> component [depth_camera]
+[0.929s] -- Looking for ignition-sensors6-depth_camera -- found version 6.6.0
+[0.929s] -- Searching for dependencies of ignition-sensors6-depth_camera
+[0.930s] -- Searching for <ignition-sensors6> component [rgbd_camera]
+[0.932s] -- Looking for ignition-sensors6-rgbd_camera -- found version 6.6.0
+[0.933s] -- Searching for dependencies of ignition-sensors6-rgbd_camera
+[0.933s] -- Searching for <ignition-sensors6> component [thermal_camera]
+[0.936s] -- Looking for ignition-sensors6-thermal_camera -- found version 6.6.0
+[0.936s] -- Searching for dependencies of ignition-sensors6-thermal_camera
+[0.937s] -- Looking for ignition-rendering6 -- found version 6.5.1
+[0.937s] -- Looking for ignition-math6 -- found version 6.12.0
+[0.939s] -- Looking for ignition-utils1 -- found version 1.4.0
+[0.958s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.169s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[1.205s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.251s] -- Found ament_lint_auto: 0.12.7 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.312s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.325s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.327s] -- Added test 'lint_cmake' to check CMake code style
+[1.329s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.336s] -- Added test 'xmllint' to check XML markup files
+[1.339s] -- Configuring done
+[1.342s] -- Generating done
+[1.342s] -- Build files have been written to: /home/nuctella/ros2_ws/ws/build/uav_single_gazebo
+[1.348s] Invoked command in '/home/nuctella/ros2_ws/ws/build/uav_single_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nuctella/my_ros2_ws/install/start_with_simple_nodes_py:/home/nuctella/my_ros2_ws/install/rosbot_object_recognition:/home/nuctella/my_ros2_ws/install/publisher_and_subscriber_py:/opt/ros/humble /usr/bin/cmake /home/nuctella/ros2_ws/ws/src/uav_single_gazebo -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/nuctella/ros2_ws/ws/install/uav_single_gazebo
+[1.349s] Invoking command in '/home/nuctella/ros2_ws/ws/build/uav_single_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nuctella/my_ros2_ws/install/start_with_simple_nodes_py:/home/nuctella/my_ros2_ws/install/rosbot_object_recognition:/home/nuctella/my_ros2_ws/install/publisher_and_subscriber_py:/opt/ros/humble /usr/bin/cmake --build /home/nuctella/ros2_ws/ws/build/uav_single_gazebo -- -j20 -l20
+[1.375s] [100%] Built target models_gen
+[1.375s] [ 83%] Built target worlds_gen
+[1.381s] Invoked command in '/home/nuctella/ros2_ws/ws/build/uav_single_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nuctella/my_ros2_ws/install/start_with_simple_nodes_py:/home/nuctella/my_ros2_ws/install/rosbot_object_recognition:/home/nuctella/my_ros2_ws/install/publisher_and_subscriber_py:/opt/ros/humble /usr/bin/cmake --build /home/nuctella/ros2_ws/ws/build/uav_single_gazebo -- -j20 -l20
+[1.395s] Invoking command in '/home/nuctella/ros2_ws/ws/build/uav_single_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nuctella/my_ros2_ws/install/start_with_simple_nodes_py:/home/nuctella/my_ros2_ws/install/rosbot_object_recognition:/home/nuctella/my_ros2_ws/install/publisher_and_subscriber_py:/opt/ros/humble /usr/bin/cmake --install /home/nuctella/ros2_ws/ws/build/uav_single_gazebo
+[1.399s] -- Install configuration: ""
+[1.399s] -- Execute custom install script
+[1.399s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/uav_single_gazebo/share/uav_single_gazebo//launch/sample.launch.py
+[1.405s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/uav_single_gazebo/share/uav_single_gazebo//models/axial_scx10/axial_scx10.sdf
+[1.410s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/uav_single_gazebo/share/uav_single_gazebo//models/axial_scx10/axial_scx10.sdf.jinja
+[1.415s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/uav_single_gazebo/share/uav_single_gazebo//models/axial_scx10/axial_scx10.sdf.last_generated
+[1.419s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/uav_single_gazebo/share/uav_single_gazebo//models/axial_scx10/model.config
+[1.423s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/uav_single_gazebo/share/uav_single_gazebo//models/boundaries/model.config
+[1.426s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/uav_single_gazebo/share/uav_single_gazebo//models/boundaries/model.sdf
+[1.430s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/uav_single_gazebo/share/uav_single_gazebo//models/boundaries_outside/model.config
+[1.434s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/uav_single_gazebo/share/uav_single_gazebo//models/boundaries_outside/model.sdf
+[1.438s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/uav_single_gazebo/share/uav_single_gazebo//models/everblock_black/meshes/everblock_black.blend
+[1.442s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/uav_single_gazebo/share/uav_single_gazebo//models/everblock_black/meshes/everblock_black.dae
+[1.446s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/uav_single_gazebo/share/uav_single_gazebo//models/everblock_black/meshes/textures/everblock_black_albedo.png
+[1.450s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/uav_single_gazebo/share/uav_single_gazebo//models/everblock_black/meshes/textures/everblock_black_ao.png
+[1.454s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/uav_single_gazebo/share/uav_single_gazebo//models/everblock_black/meshes/textures/everblock_black_normal.png
+[1.458s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/uav_single_gazebo/share/uav_single_gazebo//models/everblock_black/meshes/textures/everblock_black_roughness.png
+[1.462s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/uav_single_gazebo/share/uav_single_gazebo//models/everblock_black/model.config
+[1.466s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/uav_single_gazebo/share/uav_single_gazebo//models/everblock_black/model.sdf
+[1.470s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/uav_single_gazebo/share/uav_single_gazebo//models/everblock_blue/meshes/everblock_blue.blend
+[1.474s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/uav_single_gazebo/share/uav_single_gazebo//models/everblock_blue/meshes/everblock_blue.dae
+[1.478s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/uav_single_gazebo/share/uav_single_gazebo//models/everblock_blue/meshes/textures/everblock_blue_albedo.png
+[1.482s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/uav_single_gazebo/share/uav_single_gazebo//models/everblock_blue/meshes/textures/everblock_blue_ao.png
+[1.486s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/uav_single_gazebo/share/uav_single_gazebo//models/everblock_blue/meshes/textures/everblock_blue_normal.png
+[1.490s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/uav_single_gazebo/share/uav_single_gazebo//models/everblock_blue/meshes/textures/everblock_blue_roughness.png
+[1.493s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/uav_single_gazebo/share/uav_single_gazebo//models/everblock_blue/model.config
+[1.497s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/uav_single_gazebo/share/uav_single_gazebo//models/everblock_blue/model.sdf
+[1.501s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/uav_single_gazebo/share/uav_single_gazebo//models/everblock_green/meshes/everblock_green.blend
+[1.506s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/uav_single_gazebo/share/uav_single_gazebo//models/everblock_green/meshes/everblock_green.dae
+[1.510s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/uav_single_gazebo/share/uav_single_gazebo//models/everblock_green/meshes/textures/everblock_green_albedo.png
+[1.515s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/uav_single_gazebo/share/uav_single_gazebo//models/everblock_green/meshes/textures/everblock_green_ao.png
+[1.520s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/uav_single_gazebo/share/uav_single_gazebo//models/everblock_green/meshes/textures/everblock_green_normal.png
+[1.526s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/uav_single_gazebo/share/uav_single_gazebo//models/everblock_green/meshes/textures/everblock_green_roughness.png
+[1.531s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/uav_single_gazebo/share/uav_single_gazebo//models/everblock_green/model.config
+[1.536s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/uav_single_gazebo/share/uav_single_gazebo//models/everblock_green/model.sdf
+[1.540s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/uav_single_gazebo/share/uav_single_gazebo//models/everblock_grey/meshes/everblock_grey.blend
+[1.544s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/uav_single_gazebo/share/uav_single_gazebo//models/everblock_grey/meshes/everblock_grey.dae
+[1.548s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/uav_single_gazebo/share/uav_single_gazebo//models/everblock_grey/meshes/textures/everblock_grey_albedo.png
+[1.552s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/uav_single_gazebo/share/uav_single_gazebo//models/everblock_grey/meshes/textures/everblock_grey_ao.png
+[1.556s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/uav_single_gazebo/share/uav_single_gazebo//models/everblock_grey/meshes/textures/everblock_grey_normal.png
+[1.560s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/uav_single_gazebo/share/uav_single_gazebo//models/everblock_grey/meshes/textures/everblock_grey_roughness.png
+[1.564s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/uav_single_gazebo/share/uav_single_gazebo//models/everblock_grey/model.config
+[1.568s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/uav_single_gazebo/share/uav_single_gazebo//models/everblock_grey/model.sdf
+[1.572s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/uav_single_gazebo/share/uav_single_gazebo//models/everblock_high_green/meshes/everblock_green.blend
+[1.575s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/uav_single_gazebo/share/uav_single_gazebo//models/everblock_high_green/meshes/everblock_green.dae
+[1.579s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/uav_single_gazebo/share/uav_single_gazebo//models/everblock_high_green/meshes/textures/everblock_green_albedo.png
+[1.583s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/uav_single_gazebo/share/uav_single_gazebo//models/everblock_high_green/meshes/textures/everblock_green_ao.png
+[1.587s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/uav_single_gazebo/share/uav_single_gazebo//models/everblock_high_green/meshes/textures/everblock_green_normal.png
+[1.591s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/uav_single_gazebo/share/uav_single_gazebo//models/everblock_high_green/meshes/textures/everblock_green_roughness.png
+[1.595s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/uav_single_gazebo/share/uav_single_gazebo//models/everblock_high_green/model.config
+[1.599s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/uav_single_gazebo/share/uav_single_gazebo//models/everblock_high_green/model.sdf
+[1.603s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/uav_single_gazebo/share/uav_single_gazebo//models/everblock_red/materials/scripts/block_red.material
+[1.607s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/uav_single_gazebo/share/uav_single_gazebo//models/everblock_red/materials/textures/block.png
+[1.611s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/uav_single_gazebo/share/uav_single_gazebo//models/everblock_red/meshes/everblock_red.blend
+[1.615s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/uav_single_gazebo/share/uav_single_gazebo//models/everblock_red/meshes/everblock_red.dae
+[1.619s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/uav_single_gazebo/share/uav_single_gazebo//models/everblock_red/meshes/textures/everblock_red_albedo.png
+[1.622s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/uav_single_gazebo/share/uav_single_gazebo//models/everblock_red/meshes/textures/everblock_red_ao.png
+[1.626s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/uav_single_gazebo/share/uav_single_gazebo//models/everblock_red/meshes/textures/everblock_red_normal.png
+[1.630s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/uav_single_gazebo/share/uav_single_gazebo//models/everblock_red/meshes/textures/everblock_red_roughness.png
+[1.634s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/uav_single_gazebo/share/uav_single_gazebo//models/everblock_red/model.config
+[1.638s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/uav_single_gazebo/share/uav_single_gazebo//models/everblock_red/model.sdf
+[1.642s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/uav_single_gazebo/share/uav_single_gazebo//models/everblock_small_black/materials/scripts/block_small_black.material
+[1.646s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/uav_single_gazebo/share/uav_single_gazebo//models/everblock_small_black/materials/textures/block.png
+[1.650s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/uav_single_gazebo/share/uav_single_gazebo//models/everblock_small_black/meshes/block.dae
+[1.654s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/uav_single_gazebo/share/uav_single_gazebo//models/everblock_small_black/model.config
+[1.658s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/uav_single_gazebo/share/uav_single_gazebo//models/everblock_small_black/model.sdf
+[1.662s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/uav_single_gazebo/share/uav_single_gazebo//models/everblock_small_tunnel/model.config
+[1.666s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/uav_single_gazebo/share/uav_single_gazebo//models/everblock_small_tunnel/model.sdf
+[1.670s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/uav_single_gazebo/share/uav_single_gazebo//models/everblock_tiny_black/materials/scripts/block_tiny_black.material
+[1.673s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/uav_single_gazebo/share/uav_single_gazebo//models/everblock_tiny_black/materials/textures/block.png
+[1.677s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/uav_single_gazebo/share/uav_single_gazebo//models/everblock_tiny_black/meshes/block.dae
+[1.681s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/uav_single_gazebo/share/uav_single_gazebo//models/everblock_tiny_black/model.config
+[1.685s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/uav_single_gazebo/share/uav_single_gazebo//models/everblock_tiny_black/model.sdf
+[1.689s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/uav_single_gazebo/share/uav_single_gazebo//models/everblock_tunnel/model.config
+[1.692s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/uav_single_gazebo/share/uav_single_gazebo//models/everblock_tunnel/model.sdf
+[1.696s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/uav_single_gazebo/share/uav_single_gazebo//models/everblock_white/meshes/everblock_white.blend
+[1.700s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/uav_single_gazebo/share/uav_single_gazebo//models/everblock_white/meshes/everblock_white.dae
+[1.704s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/uav_single_gazebo/share/uav_single_gazebo//models/everblock_white/meshes/textures/everblock_white_albedo.png
+[1.708s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/uav_single_gazebo/share/uav_single_gazebo//models/everblock_white/meshes/textures/everblock_white_ao.png
+[1.711s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/uav_single_gazebo/share/uav_single_gazebo//models/everblock_white/meshes/textures/everblock_white_normal.png
+[1.715s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/uav_single_gazebo/share/uav_single_gazebo//models/everblock_white/meshes/textures/everblock_white_roughness.png
+[1.719s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/uav_single_gazebo/share/uav_single_gazebo//models/everblock_white/model.config
+[1.723s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/uav_single_gazebo/share/uav_single_gazebo//models/everblock_white/model.sdf
+[1.727s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/uav_single_gazebo/share/uav_single_gazebo//models/everblock_yellow/meshes/everblock_yellow.blend
+[1.731s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/uav_single_gazebo/share/uav_single_gazebo//models/everblock_yellow/meshes/everblock_yellow.dae
+[1.735s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/uav_single_gazebo/share/uav_single_gazebo//models/everblock_yellow/meshes/textures/everblock_yellow_albedo.png
+[1.739s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/uav_single_gazebo/share/uav_single_gazebo//models/everblock_yellow/meshes/textures/everblock_yellow_ao.png
+[1.742s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/uav_single_gazebo/share/uav_single_gazebo//models/everblock_yellow/meshes/textures/everblock_yellow_normal.png
+[1.746s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/uav_single_gazebo/share/uav_single_gazebo//models/everblock_yellow/meshes/textures/everblock_yellow_roughness.png
+[1.750s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/uav_single_gazebo/share/uav_single_gazebo//models/everblock_yellow/model.config
+[1.754s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/uav_single_gazebo/share/uav_single_gazebo//models/everblock_yellow/model.sdf
+[1.758s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/uav_single_gazebo/share/uav_single_gazebo//models/freenove_4wd/freenove_4wd.sdf
+[1.761s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/uav_single_gazebo/share/uav_single_gazebo//models/freenove_4wd/freenove_4wd.sdf.jinja
+[1.765s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/uav_single_gazebo/share/uav_single_gazebo//models/freenove_4wd/freenove_4wd.sdf.last_generated
+[1.769s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/uav_single_gazebo/share/uav_single_gazebo//models/freenove_4wd/model.config
+[1.772s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/uav_single_gazebo/share/uav_single_gazebo//models/grasspatch/materials/scripts/grass.material
+[1.776s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/uav_single_gazebo/share/uav_single_gazebo//models/grasspatch/materials/textures/carpet.png
+[1.780s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/uav_single_gazebo/share/uav_single_gazebo//models/grasspatch/materials/textures/grass_dry.png
+[1.784s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/uav_single_gazebo/share/uav_single_gazebo//models/grasspatch/materials/textures/marble.png
+[1.788s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/uav_single_gazebo/share/uav_single_gazebo//models/grasspatch/model.config
+[1.792s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/uav_single_gazebo/share/uav_single_gazebo//models/grasspatch/model.sdf
+[1.796s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/uav_single_gazebo/share/uav_single_gazebo//models/grasspatch/thumbnails/grasspatch.jpg
+[1.800s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/uav_single_gazebo/share/uav_single_gazebo//models/hangar_floor/hangar_floor.sdf
+[1.805s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/uav_single_gazebo/share/uav_single_gazebo//models/hangar_floor/meshes/hangar_floor.blend
+[1.809s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/uav_single_gazebo/share/uav_single_gazebo//models/hangar_floor/meshes/hangar_floor.blend1
+[1.812s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/uav_single_gazebo/share/uav_single_gazebo//models/hangar_floor/meshes/hangar_floor.dae
+[1.816s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/uav_single_gazebo/share/uav_single_gazebo//models/hangar_floor/meshes/hangar_floor11x21.dae
+[1.820s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/uav_single_gazebo/share/uav_single_gazebo//models/hangar_floor/meshes/hangar_floor_albedo.png
+[1.824s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/uav_single_gazebo/share/uav_single_gazebo//models/hangar_floor/meshes/textures/hangar_floor_albedo.png
+[1.828s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/uav_single_gazebo/share/uav_single_gazebo//models/hangar_floor/meshes/textures/hangar_floor_normal.png
+[1.832s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/uav_single_gazebo/share/uav_single_gazebo//models/hangar_floor/meshes/textures/hangar_floor_roughness.png
+[1.835s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/uav_single_gazebo/share/uav_single_gazebo//models/hangar_floor/model.config
+[1.839s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/uav_single_gazebo/share/uav_single_gazebo//models/px4vision/meshes/prop_ccw.stl
+[1.843s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/uav_single_gazebo/share/uav_single_gazebo//models/px4vision/meshes/prop_cw.stl
+[1.847s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/uav_single_gazebo/share/uav_single_gazebo//models/px4vision/meshes/px4vision.stl
+[1.851s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/uav_single_gazebo/share/uav_single_gazebo//models/px4vision/model.config
+[1.855s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/uav_single_gazebo/share/uav_single_gazebo//models/px4vision/px4vision.sdf
+[1.859s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/uav_single_gazebo/share/uav_single_gazebo//models/px4vision/px4vision.sdf.jinja
+[1.862s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/uav_single_gazebo/share/uav_single_gazebo//models/px4vision/px4vision.sdf.last_generated
+[1.866s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/uav_single_gazebo/share/uav_single_gazebo//models/red_ball/model.config
+[1.870s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/uav_single_gazebo/share/uav_single_gazebo//models/red_ball/red_ball.sdf
+[1.874s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/uav_single_gazebo/share/uav_single_gazebo//models/sample_course_1/materials/scripts/asphalt.material
+[1.878s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/uav_single_gazebo/share/uav_single_gazebo//models/sample_course_1/materials/textures/tarmac.png
+[1.882s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/uav_single_gazebo/share/uav_single_gazebo//models/sample_course_1/model.config
+[1.886s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/uav_single_gazebo/share/uav_single_gazebo//models/sample_course_1/sample_course_1.sdf
+[1.889s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/uav_single_gazebo/share/uav_single_gazebo//models/sample_course_1/sample_course_1.sdf.jinja
+[1.893s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/uav_single_gazebo/share/uav_single_gazebo//models/sample_course_1/sample_course_1.sdf.last_generated
+[1.897s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/uav_single_gazebo/share/uav_single_gazebo//models/sample_course_2/materials/scripts/asphalt.material
+[1.901s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/uav_single_gazebo/share/uav_single_gazebo//models/sample_course_2/materials/textures/tarmac.png
+[1.906s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/uav_single_gazebo/share/uav_single_gazebo//models/sample_course_2/model.config
+[1.909s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/uav_single_gazebo/share/uav_single_gazebo//models/sample_course_2/sample_course_2.sdf
+[1.913s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/uav_single_gazebo/share/uav_single_gazebo//models/sample_course_2/sample_course_2.sdf.jinja
+[1.917s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/uav_single_gazebo/share/uav_single_gazebo//models/sample_course_2/sample_course_2.sdf.last_generated
+[1.921s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/uav_single_gazebo/share/uav_single_gazebo//models/wall_big_long/model.config
+[1.925s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/uav_single_gazebo/share/uav_single_gazebo//models/wall_big_long/wall_big_long.sdf
+[1.929s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/uav_single_gazebo/share/uav_single_gazebo//models/wall_big_short/model.config
+[1.933s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/uav_single_gazebo/share/uav_single_gazebo//models/wall_big_short/wall_big_short.sdf
+[1.937s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/uav_single_gazebo/share/uav_single_gazebo//models/wall_obstacle/model.config
+[1.940s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/uav_single_gazebo/share/uav_single_gazebo//models/wall_obstacle/wall_obstacle.sdf
+[1.944s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/uav_single_gazebo/share/uav_single_gazebo//models/wall_small_long/model.config
+[1.948s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/uav_single_gazebo/share/uav_single_gazebo//models/wall_small_long/model.sdf
+[1.952s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/uav_single_gazebo/share/uav_single_gazebo//models/wall_small_short/model.config
+[1.956s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/uav_single_gazebo/share/uav_single_gazebo//models/wall_small_short/model.sdf
+[1.960s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/uav_single_gazebo/share/uav_single_gazebo//rviz/drone.rviz
+[1.964s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/uav_single_gazebo/share/uav_single_gazebo//worlds/clean_worlds.sh
+[1.967s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/uav_single_gazebo/share/uav_single_gazebo//worlds/trial_1.world
+[1.971s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/uav_single_gazebo/share/uav_single_gazebo//worlds/trial_1.world.jinja
+[1.975s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/uav_single_gazebo/share/uav_single_gazebo//worlds/trial_1.world.last_generated
+[1.979s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/uav_single_gazebo/share/uav_single_gazebo/environment/uav_single_gazebo.dsv
+[1.983s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/uav_single_gazebo/share/ament_index/resource_index/package_run_dependencies/uav_single_gazebo
+[1.987s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/uav_single_gazebo/share/ament_index/resource_index/parent_prefix_path/uav_single_gazebo
+[1.991s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/uav_single_gazebo/share/uav_single_gazebo/environment/ament_prefix_path.sh
+[1.995s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/uav_single_gazebo/share/uav_single_gazebo/environment/ament_prefix_path.dsv
+[1.999s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/uav_single_gazebo/share/uav_single_gazebo/environment/path.sh
+[2.003s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/uav_single_gazebo/share/uav_single_gazebo/environment/path.dsv
+[2.007s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/uav_single_gazebo/share/uav_single_gazebo/local_setup.bash
+[2.011s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/uav_single_gazebo/share/uav_single_gazebo/local_setup.sh
+[2.015s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/uav_single_gazebo/share/uav_single_gazebo/local_setup.zsh
+[2.019s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/uav_single_gazebo/share/uav_single_gazebo/local_setup.dsv
+[2.022s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/uav_single_gazebo/share/uav_single_gazebo/package.dsv
+[2.026s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/uav_single_gazebo/share/ament_index/resource_index/packages/uav_single_gazebo
+[2.030s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/uav_single_gazebo/share/uav_single_gazebo/cmake/uav_single_gazeboConfig.cmake
+[2.034s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/uav_single_gazebo/share/uav_single_gazebo/cmake/uav_single_gazeboConfig-version.cmake
+[2.038s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/uav_single_gazebo/share/uav_single_gazebo/package.xml
+[2.043s] Invoked command in '/home/nuctella/ros2_ws/ws/build/uav_single_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nuctella/my_ros2_ws/install/start_with_simple_nodes_py:/home/nuctella/my_ros2_ws/install/rosbot_object_recognition:/home/nuctella/my_ros2_ws/install/publisher_and_subscriber_py:/opt/ros/humble /usr/bin/cmake --install /home/nuctella/ros2_ws/ws/build/uav_single_gazebo

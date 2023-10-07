@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/nuctella/ros2_ws/ws/build/mecanum_drive_controller/libmecanum_drive_controller.so" "TARGETS" "mecanum_drive_controller" "RUNTIME_DESTINATION" "bin" "ARCHIVE_DESTINATION" "lib" "LIBRARY_DESTINATION" "lib")
