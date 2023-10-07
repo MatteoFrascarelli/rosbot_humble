@@ -12,7 +12,7 @@ from rosbot_interfaces.msg import ObstacleInfo
 from nav_msgs.msg import MapMetaData
 
 
-min_area = 200  # to tune on the real object dataset
+min_area = 50 # to tune on the real object dataset
 max_area = 100000
 
 class Obstacle:
@@ -60,13 +60,13 @@ class ObjectRecognitionNode(Node):
         print("---- START MESSAGE ----")
         message = ObstacleInfo()
         for obstacle in obstacle_list:
-            print(obstacle.name, '\n', 
-                  obstacle.shape, '\n', 
-                  obstacle.position_x, '\n', 
-                  obstacle.position_y, '\n', 
-                  obstacle.orientation, '\n', 
-                  obstacle.area, '\n', 
-                  obstacle.frame_ID
+            print("name\t", obstacle.name, '\n', 
+                  "shape\t", obstacle.shape, '\n', 
+                  "x\t", obstacle.position_x, '\n', 
+                  "y\t", obstacle.position_y, '\n', 
+                  "orientation\t", obstacle.orientation, '\n', 
+                  "area\t", obstacle.area, '\n', 
+                  "frame_ID\t", obstacle.frame_ID
             )
             
             message.name = obstacle.name
@@ -87,11 +87,12 @@ class ObjectRecognitionNode(Node):
         gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)  # convert in grayscale
         _, binary = cv2.threshold(gray, 127, 255, cv2.THRESH_BINARY_INV)  # convert in binary color
         
-        edges = cv2.Canny(binary, 30, 100)  # edge detection (https://docs.opencv.org/4.x/da/d22/tutorial_py_canny.html)
+        #edges = cv2.Canny(binary, 30, 100)  # edge detection (https://docs.opencv.org/4.x/da/d22/tutorial_py_canny.html)
+        #cv2.imshow("edges", edges)
 
         # Image processing to clean the edge detected
         # (https://docs.opencv.org/3.4/db/df6/tutorial_erosion_dilatation.html)
-        dilated = cv2.dilate(edges, None, iterations=2)
+        dilated = cv2.dilate(binary, None, iterations=2)
         eroded = cv2.erode(dilated, None, iterations=2)
 
         # find contours of eroded image with these specifications:
@@ -99,7 +100,16 @@ class ObjectRecognitionNode(Node):
         #      [https://docs.opencv.org/4.x/d9/d8b/tutorial_py_contours_hierarchy.html]
         #   2) cv2.CHAIN_APPROX_SIMPLE : assuming that the countours are almost straight line, save only the 2 end-points for each line
         #      [https://docs.opencv.org/4.x/d4/d73/tutorial_py_contours_begin.html]
+
         contours, _ = cv2.findContours(eroded, cv2.RETR_EXTERNAL, cv2.CHAIN_APPROX_SIMPLE)
+        # Checks whether the algorithm has detected the walls of the room as boundaries,
+        # if so they are eliminated by mask filtering
+        if cv2.contourArea(contours[0]) > 150000:   #if detect the outer walls
+            mask = np.zeros_like(eroded)    #create the mask
+            cv2.rectangle(mask, (20, 20), (370, 560), (255, 255, 255), thickness=cv2.FILLED)
+            # cv2.imshow("msk", mask)
+            eroded = cv2.bitwise_and(eroded, mask)  #mask the wall
+            contours, _ = cv2.findContours(eroded, cv2.RETR_EXTERNAL, cv2.CHAIN_APPROX_SIMPLE)
 
         # Introduce a variable to count the number of real objects
         j = 0
@@ -108,11 +118,11 @@ class ObjectRecognitionNode(Node):
 
         for i, contour in enumerate(contours):
 
-            area = cv2.contourArea(contour)  # calculate area of contour
+            area = round(cv2.contourArea(contour) * self.map_metadata.resolution**2, 2)  # calculate area of contour (approx to second decimal)
 
-            if area < min_area:  # ignore small areas (e.g. one pixel, false detection, ...)
+            if area < min_area * self.map_metadata.resolution**2 :  # ignore small areas (e.g. one pixel, false detection, ...)
                 continue
-            if area > max_area:  # ignore the room walls detections
+            if area > max_area * self.map_metadata.resolution**2:  # ignore the room walls detections
                 continue
 
             # Approximate the contour of the object by a polygon
@@ -142,27 +152,22 @@ class ObjectRecognitionNode(Node):
             else:  # the circle is approx. as a polygon so it could have a number of sides larger than four
                 shape = "circle"
 
-            # Detect the center of the object in pixels and convert it to metres
-            # {Fixed} dimensions of the room in pixels:
-            #TODO
-            self.map_metadata.width = 391
-            self.map_metadata.height = 580
-
-            self.map_metadata.resolution = 0.05 #[m/pixel]
-
-            # # Fixed dimensions of the room in metres
-            # mx = 8
-            # my = 12
-            #TODO: MAYBE USE RESOLUTION OF THE MAP (/map_metadata)
-
             # Calculate the center of the objects in the frame "Cartesian coordinates Top-Left"
             M = cv2.moments(contour)
 
             if M["m00"] != 0:
-                cX = int((M["m10"] * resolution)/ (M["m00"]))
-                cY = int((M["m01"] * resolution) / (M["m00"]))
+                cX_TL = int((M["m10"] * self.map_metadata.resolution)/ (M["m00"])) #in terna TL (Top-Left)
+                cY_TL = int((M["m01"] * self.map_metadata.resolution) / (M["m00"])) #in terna TL (Top-Left)
             else:
-                cX, cY = 0, 0
+                cX_TL, cY_TL = 0, 0
+
+            # abbiamo cx e cy riferiti in terna openCV
+            # traslo rispetto a origine sistema in sistema map attraverso map_metadata
+            cX_map = cX_TL + self.map_metadata.origin.position.x
+            cY_map = -cY_TL + self.map_metadata.origin.position.y + self.map_metadata.height * self.map_metadata.resolution
+
+            cX_map = round(cX_map, 2)
+            cY_map = round(cY_map, 2)
 
             # Detect the orientation of polygonal objects
             if len(poly_approx) <= 4:
@@ -172,7 +177,7 @@ class ObjectRecognitionNode(Node):
                 orientation_deg = 0
 
             #create the object of the Obstacle Class
-            obstacle = Obstacle(f"Obstacle {i+1}", "Cartesian Coordinates Top-Left", shape, cX, cY, orientation_deg, area) 
+            obstacle = Obstacle(f"Obstacle {i+1}", "Map", shape, cX_map, cY_map, orientation_deg, area) 
             obstacle_list.append(obstacle)
         
         return obstacle_list
