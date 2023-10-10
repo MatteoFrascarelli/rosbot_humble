@@ -1,0 +1,9 @@
+/home/nuctella/ros2_ws/ws/build/rosbot_xl_gazebo/CMakeFiles/uninstall.dir
+/home/nuctella/ros2_ws/ws/build/rosbot_xl_gazebo/CMakeFiles/rosbot_xl_gazebo_uninstall.dir
+/home/nuctella/ros2_ws/ws/build/rosbot_xl_gazebo/CMakeFiles/test.dir
+/home/nuctella/ros2_ws/ws/build/rosbot_xl_gazebo/CMakeFiles/edit_cache.dir
+/home/nuctella/ros2_ws/ws/build/rosbot_xl_gazebo/CMakeFiles/rebuild_cache.dir
+/home/nuctella/ros2_ws/ws/build/rosbot_xl_gazebo/CMakeFiles/list_install_components.dir
+/home/nuctella/ros2_ws/ws/build/rosbot_xl_gazebo/CMakeFiles/install.dir
+/home/nuctella/ros2_ws/ws/build/rosbot_xl_gazebo/CMakeFiles/install/local.dir
+/home/nuctella/ros2_ws/ws/build/rosbot_xl_gazebo/CMakeFiles/install/strip.dir

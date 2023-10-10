@@ -1,0 +1,1 @@
+/home/nuctella/ros2_ws/ws/build/ign_ros2_control_demos/ament_cmake_core/ign_ros2_control_demosConfig.cmake

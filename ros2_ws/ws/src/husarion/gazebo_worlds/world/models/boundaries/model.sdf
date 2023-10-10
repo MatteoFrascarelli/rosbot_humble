@@ -1,0 +1,30 @@
+<?xml version="1.0" ?>
+<sdf version="1.7">
+  <model name="boundaries">
+
+    <include>
+      <uri>model://wall_small_long</uri>      
+      <name>boundary_up</name>
+	  <pose>5.05 0 0 0 0 0</pose>
+    </include>
+
+    <include>
+      <uri>model://wall_small_long</uri>      
+      <name>boundary_down</name>
+      <pose>-5.05 0 0 0 0 0</pose>
+    </include>
+
+    <include>
+      <uri>model://wall_small_short</uri>      
+      <name>boundary_left</name>
+	  <pose>0 10.05 0 0 0 1.570796</pose>
+    </include>
+
+    <include>
+      <uri>model://wall_small_short</uri>      
+      <name>boundary_right</name>
+      <pose>0 -10.05 0 0 0 1.570796</pose>
+    </include>
+
+  </model>
+</sdf>

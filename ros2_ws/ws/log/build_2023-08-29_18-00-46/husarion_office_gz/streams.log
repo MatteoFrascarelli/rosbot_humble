@@ -1,0 +1,338 @@
+[0.009s] Invoking command in '/home/nuctella/ros2_ws/ws/build/husarion_office_gz': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nuctella/my_ros2_ws/install/rosbot_object_recognition:/opt/ros/humble /usr/bin/cmake /home/nuctella/ros2_ws/ws/src/husarion/gazebo_worlds -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/nuctella/ros2_ws/ws/install/husarion_office_gz
+[0.090s] -- The C compiler identification is GNU 11.4.0
+[0.147s] -- The CXX compiler identification is GNU 11.4.0
+[0.154s] -- Detecting C compiler ABI info
+[0.198s] -- Detecting C compiler ABI info - done
+[0.205s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.205s] -- Detecting C compile features
+[0.205s] -- Detecting C compile features - done
+[0.208s] -- Detecting CXX compiler ABI info
+[0.254s] -- Detecting CXX compiler ABI info - done
+[0.261s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.262s] -- Detecting CXX compile features
+[0.262s] -- Detecting CXX compile features - done
+[0.268s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.521s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[0.575s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.621s] -- Found rclcpp: 16.0.5 (/opt/ros/humble/share/rclcpp/cmake)
+[0.675s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.681s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.693s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.715s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.731s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.797s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.801s] -- Found rmw_fastrtps_cpp: 6.2.3 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.885s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.907s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.945s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.956s] -- Looking for pthread.h
+[1.003s] -- Looking for pthread.h - found
+[1.003s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.045s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.045s] -- Found Threads: TRUE  
+[1.203s] -- Configuring done
+[1.206s] -- Generating done
+[1.207s] -- Build files have been written to: /home/nuctella/ros2_ws/ws/build/husarion_office_gz
+[1.211s] Invoked command in '/home/nuctella/ros2_ws/ws/build/husarion_office_gz' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nuctella/my_ros2_ws/install/rosbot_object_recognition:/opt/ros/humble /usr/bin/cmake /home/nuctella/ros2_ws/ws/src/husarion/gazebo_worlds -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/nuctella/ros2_ws/ws/install/husarion_office_gz
+[1.213s] Invoking command in '/home/nuctella/ros2_ws/ws/build/husarion_office_gz': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nuctella/my_ros2_ws/install/rosbot_object_recognition:/opt/ros/humble /usr/bin/cmake --build /home/nuctella/ros2_ws/ws/build/husarion_office_gz -- -j20 -l20
+[1.236s] Invoked command in '/home/nuctella/ros2_ws/ws/build/husarion_office_gz' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nuctella/my_ros2_ws/install/rosbot_object_recognition:/opt/ros/humble /usr/bin/cmake --build /home/nuctella/ros2_ws/ws/build/husarion_office_gz -- -j20 -l20
+[1.249s] Invoking command in '/home/nuctella/ros2_ws/ws/build/husarion_office_gz': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nuctella/my_ros2_ws/install/rosbot_object_recognition:/opt/ros/humble /usr/bin/cmake --install /home/nuctella/ros2_ws/ws/build/husarion_office_gz
+[1.253s] -- Install configuration: ""
+[1.253s] -- Execute custom install script
+[1.253s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/husarion_office_gz/share/husarion_office_gz/husarion_office_world.launch.py
+[1.260s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/husarion_office_gz/share/husarion_office_gz/worlds//husarion_office.world
+[1.265s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/husarion_office_gz/share/husarion_office_gz/worlds//husarion_world.sdf
+[1.269s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/husarion_office_gz/share/husarion_office_gz/worlds//meshes/husarion_world.dae
+[1.274s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/husarion_office_gz/share/husarion_office_gz/worlds//models/AdjTable/meshes/AdjTable.mtl
+[1.280s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/husarion_office_gz/share/husarion_office_gz/worlds//models/AdjTable/meshes/AdjTable.obj
+[1.284s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/husarion_office_gz/share/husarion_office_gz/worlds//models/AdjTable/meshes/AdjTable_Col.mtl
+[1.289s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/husarion_office_gz/share/husarion_office_gz/worlds//models/AdjTable/meshes/AdjTable_Col.obj
+[1.293s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/husarion_office_gz/share/husarion_office_gz/worlds//models/AdjTable/meshes/texture.png
+[1.298s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/husarion_office_gz/share/husarion_office_gz/worlds//models/AdjTable/model.config
+[1.302s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/husarion_office_gz/share/husarion_office_gz/worlds//models/AdjTable/model.sdf
+[1.307s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/husarion_office_gz/share/husarion_office_gz/worlds//models/AdjTable/thumbnails/1.png
+[1.311s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/husarion_office_gz/share/husarion_office_gz/worlds//models/AdjTable/thumbnails/2.png
+[1.315s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/husarion_office_gz/share/husarion_office_gz/worlds//models/AdjTable/thumbnails/3.png
+[1.320s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/husarion_office_gz/share/husarion_office_gz/worlds//models/AdjTable/thumbnails/4.png
+[1.324s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/husarion_office_gz/share/husarion_office_gz/worlds//models/AdjTable/thumbnails/5.png
+[1.329s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/husarion_office_gz/share/husarion_office_gz/worlds//models/BathroomSink/meshes/BathroomSink.mtl
+[1.333s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/husarion_office_gz/share/husarion_office_gz/worlds//models/BathroomSink/meshes/BathroomSink.obj
+[1.338s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/husarion_office_gz/share/husarion_office_gz/worlds//models/BathroomSink/meshes/BathroomSink_Col.mtl
+[1.342s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/husarion_office_gz/share/husarion_office_gz/worlds//models/BathroomSink/meshes/BathroomSink_Col.obj
+[1.346s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/husarion_office_gz/share/husarion_office_gz/worlds//models/BathroomSink/meshes/BathroomSink_Diffuse.png
+[1.350s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/husarion_office_gz/share/husarion_office_gz/worlds//models/BathroomSink/meshes/BathroomSink_Metal.png
+[1.355s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/husarion_office_gz/share/husarion_office_gz/worlds//models/BathroomSink/meshes/BathroomSink_Rough.png
+[1.359s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/husarion_office_gz/share/husarion_office_gz/worlds//models/BathroomSink/model.config
+[1.363s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/husarion_office_gz/share/husarion_office_gz/worlds//models/BathroomSink/model.sdf
+[1.367s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/husarion_office_gz/share/husarion_office_gz/worlds//models/BathroomSink/thumbnails/1.png
+[1.373s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/husarion_office_gz/share/husarion_office_gz/worlds//models/BathroomSink/thumbnails/2.png
+[1.378s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/husarion_office_gz/share/husarion_office_gz/worlds//models/BathroomSink/thumbnails/3.png
+[1.382s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/husarion_office_gz/share/husarion_office_gz/worlds//models/BathroomSink/thumbnails/4.png
+[1.387s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/husarion_office_gz/share/husarion_office_gz/worlds//models/BathroomSink/thumbnails/5.png
+[1.392s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/husarion_office_gz/share/husarion_office_gz/worlds//models/CoffeeTable/meshes/CoffeeTable.mtl
+[1.397s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/husarion_office_gz/share/husarion_office_gz/worlds//models/CoffeeTable/meshes/CoffeeTable.obj
+[1.402s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/husarion_office_gz/share/husarion_office_gz/worlds//models/CoffeeTable/meshes/CoffeeTable_Diffuse.png
+[1.406s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/husarion_office_gz/share/husarion_office_gz/worlds//models/CoffeeTable/meshes/CoffeeTable_Normal.png
+[1.411s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/husarion_office_gz/share/husarion_office_gz/worlds//models/CoffeeTable/meshes/CoffeeTable_SpecGloss.png
+[1.416s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/husarion_office_gz/share/husarion_office_gz/worlds//models/CoffeeTable/model.config
+[1.421s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/husarion_office_gz/share/husarion_office_gz/worlds//models/CoffeeTable/model.sdf
+[1.425s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/husarion_office_gz/share/husarion_office_gz/worlds//models/CoffeeTable/thumbnails/1.png
+[1.430s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/husarion_office_gz/share/husarion_office_gz/worlds//models/CoffeeTable/thumbnails/2.png
+[1.435s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/husarion_office_gz/share/husarion_office_gz/worlds//models/CoffeeTable/thumbnails/3.png
+[1.439s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/husarion_office_gz/share/husarion_office_gz/worlds//models/CoffeeTable/thumbnails/4.png
+[1.445s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/husarion_office_gz/share/husarion_office_gz/worlds//models/CoffeeTable/thumbnails/5.png
+[1.450s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/husarion_office_gz/share/husarion_office_gz/worlds//models/ConfTable/meshes/ConfTable2.stl
+[1.455s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/husarion_office_gz/share/husarion_office_gz/worlds//models/ConfTable/model.config
+[1.461s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/husarion_office_gz/share/husarion_office_gz/worlds//models/ConfTable/model.sdf
+[1.466s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/husarion_office_gz/share/husarion_office_gz/worlds//models/DeskChair/materials/textures/DeskChair.png
+[1.470s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/husarion_office_gz/share/husarion_office_gz/worlds//models/DeskChair/meshes/DeskChair.mtl
+[1.474s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/husarion_office_gz/share/husarion_office_gz/worlds//models/DeskChair/meshes/DeskChair.obj
+[1.479s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/husarion_office_gz/share/husarion_office_gz/worlds//models/DeskChair/model.config
+[1.483s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/husarion_office_gz/share/husarion_office_gz/worlds//models/DeskChair/model.sdf
+[1.487s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/husarion_office_gz/share/husarion_office_gz/worlds//models/DeskChair/thumbnails/1.png
+[1.492s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/husarion_office_gz/share/husarion_office_gz/worlds//models/DeskChair/thumbnails/2.png
+[1.496s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/husarion_office_gz/share/husarion_office_gz/worlds//models/DeskChair/thumbnails/3.png
+[1.500s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/husarion_office_gz/share/husarion_office_gz/worlds//models/DeskChair/thumbnails/4.png
+[1.504s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/husarion_office_gz/share/husarion_office_gz/worlds//models/DeskChair/thumbnails/5.png
+[1.509s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/husarion_office_gz/share/husarion_office_gz/worlds//models/Door/meshes/door.stl
+[1.514s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/husarion_office_gz/share/husarion_office_gz/worlds//models/Door/model.config
+[1.519s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/husarion_office_gz/share/husarion_office_gz/worlds//models/Door/model.sdf
+[1.523s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/husarion_office_gz/share/husarion_office_gz/worlds//models/Drawer/meshes/Drawer.mtl
+[1.527s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/husarion_office_gz/share/husarion_office_gz/worlds//models/Drawer/meshes/Drawer.obj
+[1.531s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/husarion_office_gz/share/husarion_office_gz/worlds//models/Drawer/meshes/Drawer.png
+[1.535s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/husarion_office_gz/share/husarion_office_gz/worlds//models/Drawer/meshes/Drawer_Col.obj
+[1.539s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/husarion_office_gz/share/husarion_office_gz/worlds//models/Drawer/model.config
+[1.543s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/husarion_office_gz/share/husarion_office_gz/worlds//models/Drawer/model.sdf
+[1.547s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/husarion_office_gz/share/husarion_office_gz/worlds//models/Drawer/thumbnails/1.png
+[1.552s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/husarion_office_gz/share/husarion_office_gz/worlds//models/Drawer/thumbnails/2.png
+[1.556s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/husarion_office_gz/share/husarion_office_gz/worlds//models/Drawer/thumbnails/3.png
+[1.560s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/husarion_office_gz/share/husarion_office_gz/worlds//models/Drawer/thumbnails/4.png
+[1.565s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/husarion_office_gz/share/husarion_office_gz/worlds//models/Drawer/thumbnails/5.png
+[1.569s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/husarion_office_gz/share/husarion_office_gz/worlds//models/Fridge/meshes/Fridge.mtl
+[1.575s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/husarion_office_gz/share/husarion_office_gz/worlds//models/Fridge/meshes/Fridge.obj
+[1.580s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/husarion_office_gz/share/husarion_office_gz/worlds//models/Fridge/meshes/Fridge_Col.mtl
+[1.584s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/husarion_office_gz/share/husarion_office_gz/worlds//models/Fridge/meshes/Fridge_Col.obj
+[1.589s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/husarion_office_gz/share/husarion_office_gz/worlds//models/Fridge/meshes/Fridge_Diffuse.png
+[1.595s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/husarion_office_gz/share/husarion_office_gz/worlds//models/Fridge/model.config
+[1.602s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/husarion_office_gz/share/husarion_office_gz/worlds//models/Fridge/model.sdf
+[1.604s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/husarion_office_gz/share/husarion_office_gz/worlds//models/Fridge/thumbnails/1.png
+[1.608s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/husarion_office_gz/share/husarion_office_gz/worlds//models/Fridge/thumbnails/2.png
+[1.612s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/husarion_office_gz/share/husarion_office_gz/worlds//models/Fridge/thumbnails/3.png
+[1.622s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/husarion_office_gz/share/husarion_office_gz/worlds//models/Fridge/thumbnails/4.png
+[1.623s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/husarion_office_gz/share/husarion_office_gz/worlds//models/Fridge/thumbnails/5.png
+[1.625s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/husarion_office_gz/share/husarion_office_gz/worlds//models/Kitchen/meshes/kitchen.stl
+[1.630s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/husarion_office_gz/share/husarion_office_gz/worlds//models/Kitchen/model.config
+[1.634s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/husarion_office_gz/share/husarion_office_gz/worlds//models/Kitchen/model.sdf
+[1.638s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/husarion_office_gz/share/husarion_office_gz/worlds//models/Laptop/meshes/laptop.stl
+[1.642s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/husarion_office_gz/share/husarion_office_gz/worlds//models/Laptop/model.config
+[1.647s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/husarion_office_gz/share/husarion_office_gz/worlds//models/Laptop/model.sdf
+[1.651s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/husarion_office_gz/share/husarion_office_gz/worlds//models/MopCart2/meshes/BigRed.png
+[1.655s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/husarion_office_gz/share/husarion_office_gz/worlds//models/MopCart2/meshes/Blue.png
+[1.658s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/husarion_office_gz/share/husarion_office_gz/worlds//models/MopCart2/meshes/Broom.png
+[1.662s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/husarion_office_gz/share/husarion_office_gz/worlds//models/MopCart2/meshes/Cart2.png
+[1.666s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/husarion_office_gz/share/husarion_office_gz/worlds//models/MopCart2/meshes/Cloth.png
+[1.671s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/husarion_office_gz/share/husarion_office_gz/worlds//models/MopCart2/meshes/Duster.png
+[1.674s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/husarion_office_gz/share/husarion_office_gz/worlds//models/MopCart2/meshes/Mop.png
+[1.678s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/husarion_office_gz/share/husarion_office_gz/worlds//models/MopCart2/meshes/MopCart2.mtl
+[1.682s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/husarion_office_gz/share/husarion_office_gz/worlds//models/MopCart2/meshes/MopCart2.obj
+[1.686s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/husarion_office_gz/share/husarion_office_gz/worlds//models/MopCart2/meshes/Tongs.png
+[1.690s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/husarion_office_gz/share/husarion_office_gz/worlds//models/MopCart2/model.config
+[1.693s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/husarion_office_gz/share/husarion_office_gz/worlds//models/MopCart2/model.sdf
+[1.698s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/husarion_office_gz/share/husarion_office_gz/worlds//models/MopCart2/thumbnails/1.png
+[1.702s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/husarion_office_gz/share/husarion_office_gz/worlds//models/MopCart2/thumbnails/2.png
+[1.706s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/husarion_office_gz/share/husarion_office_gz/worlds//models/MopCart2/thumbnails/3.png
+[1.711s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/husarion_office_gz/share/husarion_office_gz/worlds//models/MopCart2/thumbnails/4.png
+[1.715s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/husarion_office_gz/share/husarion_office_gz/worlds//models/MopCart2/thumbnails/5.png
+[1.719s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/husarion_office_gz/share/husarion_office_gz/worlds//models/MopCart3/meshes/Blue.png
+[1.722s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/husarion_office_gz/share/husarion_office_gz/worlds//models/MopCart3/meshes/Cart.png
+[1.726s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/husarion_office_gz/share/husarion_office_gz/worlds//models/MopCart3/meshes/Cloth.png
+[1.731s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/husarion_office_gz/share/husarion_office_gz/worlds//models/MopCart3/meshes/Duster.png
+[1.735s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/husarion_office_gz/share/husarion_office_gz/worlds//models/MopCart3/meshes/Glove.png
+[1.739s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/husarion_office_gz/share/husarion_office_gz/worlds//models/MopCart3/meshes/Mop.png
+[1.742s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/husarion_office_gz/share/husarion_office_gz/worlds//models/MopCart3/meshes/MopCart3.mtl
+[1.746s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/husarion_office_gz/share/husarion_office_gz/worlds//models/MopCart3/meshes/MopCart3.obj
+[1.750s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/husarion_office_gz/share/husarion_office_gz/worlds//models/MopCart3/meshes/Parcel.png
+[1.754s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/husarion_office_gz/share/husarion_office_gz/worlds//models/MopCart3/meshes/Plastic.png
+[1.758s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/husarion_office_gz/share/husarion_office_gz/worlds//models/MopCart3/meshes/Red.png
+[1.762s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/husarion_office_gz/share/husarion_office_gz/worlds//models/MopCart3/meshes/Sign.png
+[1.766s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/husarion_office_gz/share/husarion_office_gz/worlds//models/MopCart3/meshes/Spray.png
+[1.770s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/husarion_office_gz/share/husarion_office_gz/worlds//models/MopCart3/model.config
+[1.774s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/husarion_office_gz/share/husarion_office_gz/worlds//models/MopCart3/model.sdf
+[1.779s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/husarion_office_gz/share/husarion_office_gz/worlds//models/MopCart3/thumbnails/1.png
+[1.782s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/husarion_office_gz/share/husarion_office_gz/worlds//models/MopCart3/thumbnails/2.png
+[1.786s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/husarion_office_gz/share/husarion_office_gz/worlds//models/MopCart3/thumbnails/3.png
+[1.790s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/husarion_office_gz/share/husarion_office_gz/worlds//models/MopCart3/thumbnails/4.png
+[1.794s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/husarion_office_gz/share/husarion_office_gz/worlds//models/MopCart3/thumbnails/5.png
+[1.798s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/husarion_office_gz/share/husarion_office_gz/worlds//models/MopCart4/meshes/Cart.png
+[1.802s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/husarion_office_gz/share/husarion_office_gz/worlds//models/MopCart4/meshes/MopCart4.mtl
+[1.806s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/husarion_office_gz/share/husarion_office_gz/worlds//models/MopCart4/meshes/MopCart4.obj
+[1.810s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/husarion_office_gz/share/husarion_office_gz/worlds//models/MopCart4/meshes/blue.png
+[1.814s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/husarion_office_gz/share/husarion_office_gz/worlds//models/MopCart4/meshes/red.png
+[1.818s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/husarion_office_gz/share/husarion_office_gz/worlds//models/MopCart4/model.config
+[1.822s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/husarion_office_gz/share/husarion_office_gz/worlds//models/MopCart4/model.sdf
+[1.826s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/husarion_office_gz/share/husarion_office_gz/worlds//models/MopCart4/thumbnails/1.png
+[1.830s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/husarion_office_gz/share/husarion_office_gz/worlds//models/MopCart4/thumbnails/2.png
+[1.834s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/husarion_office_gz/share/husarion_office_gz/worlds//models/MopCart4/thumbnails/3.png
+[1.838s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/husarion_office_gz/share/husarion_office_gz/worlds//models/MopCart4/thumbnails/4.png
+[1.842s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/husarion_office_gz/share/husarion_office_gz/worlds//models/MopCart4/thumbnails/5.png
+[1.846s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/husarion_office_gz/share/husarion_office_gz/worlds//models/OfficeChairBlack/meshes/OfficeChairBlack.mtl
+[1.850s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/husarion_office_gz/share/husarion_office_gz/worlds//models/OfficeChairBlack/meshes/OfficeChairBlack.obj
+[1.854s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/husarion_office_gz/share/husarion_office_gz/worlds//models/OfficeChairBlack/meshes/OfficeChairBlack.png
+[1.858s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/husarion_office_gz/share/husarion_office_gz/worlds//models/OfficeChairBlack/meshes/OfficeChairBlack_Col.mtl
+[1.862s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/husarion_office_gz/share/husarion_office_gz/worlds//models/OfficeChairBlack/meshes/OfficeChairBlack_Col.obj
+[1.866s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/husarion_office_gz/share/husarion_office_gz/worlds//models/OfficeChairBlack/model.config
+[1.871s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/husarion_office_gz/share/husarion_office_gz/worlds//models/OfficeChairBlack/model.sdf
+[1.875s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/husarion_office_gz/share/husarion_office_gz/worlds//models/OfficeChairBlack/thumbnails/1.png
+[1.879s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/husarion_office_gz/share/husarion_office_gz/worlds//models/OfficeChairBlack/thumbnails/2.png
+[1.883s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/husarion_office_gz/share/husarion_office_gz/worlds//models/OfficeChairBlack/thumbnails/3.png
+[1.887s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/husarion_office_gz/share/husarion_office_gz/worlds//models/OfficeChairBlack/thumbnails/4.png
+[1.892s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/husarion_office_gz/share/husarion_office_gz/worlds//models/OfficeChairBlack/thumbnails/5.png
+[1.897s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/husarion_office_gz/share/husarion_office_gz/worlds//models/OfficeChairBlack/thumbnails/meta/1.png
+[1.901s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/husarion_office_gz/share/husarion_office_gz/worlds//models/OfficeChairBlack/thumbnails/meta/2.png
+[1.905s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/husarion_office_gz/share/husarion_office_gz/worlds//models/OfficeChairBlack/thumbnails/meta/3.png
+[1.909s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/husarion_office_gz/share/husarion_office_gz/worlds//models/OfficeChairBlack/thumbnails/meta/4.png
+[1.913s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/husarion_office_gz/share/husarion_office_gz/worlds//models/OfficeChairBlack/thumbnails/meta/5.png
+[1.918s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/husarion_office_gz/share/husarion_office_gz/worlds//models/SquareShelf/meshes/SquareShelf.mtl
+[1.922s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/husarion_office_gz/share/husarion_office_gz/worlds//models/SquareShelf/meshes/SquareShelf.obj
+[1.928s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/husarion_office_gz/share/husarion_office_gz/worlds//models/SquareShelf/meshes/SquareShelf_Col.mtl
+[1.932s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/husarion_office_gz/share/husarion_office_gz/worlds//models/SquareShelf/meshes/SquareShelf_Col.obj
+[1.936s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/husarion_office_gz/share/husarion_office_gz/worlds//models/SquareShelf/meshes/SquareShelf_Diffuse.png
+[1.940s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/husarion_office_gz/share/husarion_office_gz/worlds//models/SquareShelf/model.config
+[1.944s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/husarion_office_gz/share/husarion_office_gz/worlds//models/SquareShelf/model.sdf
+[1.949s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/husarion_office_gz/share/husarion_office_gz/worlds//models/SquareShelf/thumbnails/1.png
+[1.953s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/husarion_office_gz/share/husarion_office_gz/worlds//models/SquareShelf/thumbnails/2.png
+[1.957s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/husarion_office_gz/share/husarion_office_gz/worlds//models/SquareShelf/thumbnails/3.png
+[1.962s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/husarion_office_gz/share/husarion_office_gz/worlds//models/SquareShelf/thumbnails/4.png
+[1.966s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/husarion_office_gz/share/husarion_office_gz/worlds//models/SquareShelf/thumbnails/5.png
+[1.970s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/husarion_office_gz/share/husarion_office_gz/worlds//models/Stairs/model.config
+[1.974s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/husarion_office_gz/share/husarion_office_gz/worlds//models/Stairs/model.sdf
+[1.980s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/husarion_office_gz/share/husarion_office_gz/worlds//models/Table/Table_Diffuse.jpg
+[1.984s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/husarion_office_gz/share/husarion_office_gz/worlds//models/Table/model-1_2.sdf
+[1.989s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/husarion_office_gz/share/husarion_office_gz/worlds//models/Table/model-1_3.sdf
+[1.994s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/husarion_office_gz/share/husarion_office_gz/worlds//models/Table/model-1_4.sdf
+[1.998s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/husarion_office_gz/share/husarion_office_gz/worlds//models/Table/model.config
+[2.003s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/husarion_office_gz/share/husarion_office_gz/worlds//models/Table/model.sdf
+[2.008s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/husarion_office_gz/share/husarion_office_gz/worlds//models/Table/thumbnails/1.png
+[2.013s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/husarion_office_gz/share/husarion_office_gz/worlds//models/Table/thumbnails/2.png
+[2.017s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/husarion_office_gz/share/husarion_office_gz/worlds//models/Table/thumbnails/3.png
+[2.022s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/husarion_office_gz/share/husarion_office_gz/worlds//models/Table/thumbnails/4.png
+[2.027s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/husarion_office_gz/share/husarion_office_gz/worlds//models/Table/thumbnails/5.png
+[2.032s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/husarion_office_gz/share/husarion_office_gz/worlds//models/Toilet/meshes/toilet.mtl
+[2.037s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/husarion_office_gz/share/husarion_office_gz/worlds//models/Toilet/meshes/toilet.obj
+[2.041s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/husarion_office_gz/share/husarion_office_gz/worlds//models/Toilet/model.config
+[2.046s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/husarion_office_gz/share/husarion_office_gz/worlds//models/Toilet/model.sdf
+[2.050s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/husarion_office_gz/share/husarion_office_gz/worlds//models/Toilet/thumbnails/1.png
+[2.055s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/husarion_office_gz/share/husarion_office_gz/worlds//models/Toilet/thumbnails/2.png
+[2.061s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/husarion_office_gz/share/husarion_office_gz/worlds//models/Toilet/thumbnails/3.png
+[2.064s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/husarion_office_gz/share/husarion_office_gz/worlds//models/Toilet/thumbnails/4.png
+[2.070s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/husarion_office_gz/share/husarion_office_gz/worlds//models/Toilet/thumbnails/5.png
+[2.076s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/husarion_office_gz/share/husarion_office_gz/worlds//models/TrashBin/meshes/TrashBin.mtl
+[2.080s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/husarion_office_gz/share/husarion_office_gz/worlds//models/TrashBin/meshes/TrashBin.obj
+[2.084s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/husarion_office_gz/share/husarion_office_gz/worlds//models/TrashBin/meshes/TrashBin_Diffuse.png
+[2.090s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/husarion_office_gz/share/husarion_office_gz/worlds//models/TrashBin/model.config
+[2.095s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/husarion_office_gz/share/husarion_office_gz/worlds//models/TrashBin/model.sdf
+[2.100s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/husarion_office_gz/share/husarion_office_gz/worlds//models/TrashBin/thumbnails/1.png
+[2.105s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/husarion_office_gz/share/husarion_office_gz/worlds//models/TrashBin/thumbnails/2.png
+[2.111s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/husarion_office_gz/share/husarion_office_gz/worlds//models/TrashBin/thumbnails/3.png
+[2.116s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/husarion_office_gz/share/husarion_office_gz/worlds//models/TrashBin/thumbnails/4.png
+[2.121s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/husarion_office_gz/share/husarion_office_gz/worlds//models/TrashBin/thumbnails/5.png
+[2.127s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/husarion_office_gz/share/husarion_office_gz/worlds//models/Tv/meshes/tv.stl
+[2.133s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/husarion_office_gz/share/husarion_office_gz/worlds//models/Tv/model.config
+[2.139s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/husarion_office_gz/share/husarion_office_gz/worlds//models/Tv/model.sdf
+[2.144s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/husarion_office_gz/share/husarion_office_gz/worlds//models/WaterDispenser/meshes/WaterDispenser.dae
+[2.149s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/husarion_office_gz/share/husarion_office_gz/worlds//models/WaterDispenser/model.config
+[2.154s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/husarion_office_gz/share/husarion_office_gz/worlds//models/WaterDispenser/model.sdf
+[2.159s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/husarion_office_gz/share/husarion_office_gz/worlds//models/WhiteCabinet/meshes/WhiteCabinet.mtl
+[2.165s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/husarion_office_gz/share/husarion_office_gz/worlds//models/WhiteCabinet/meshes/WhiteCabinet.obj
+[2.170s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/husarion_office_gz/share/husarion_office_gz/worlds//models/WhiteCabinet/meshes/WhiteCabinet.png
+[2.175s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/husarion_office_gz/share/husarion_office_gz/worlds//models/WhiteCabinet/model.config
+[2.180s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/husarion_office_gz/share/husarion_office_gz/worlds//models/WhiteCabinet/model.sdf
+[2.185s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/husarion_office_gz/share/husarion_office_gz/worlds//models/WhiteCabinet/thumbnails/1.png
+[2.190s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/husarion_office_gz/share/husarion_office_gz/worlds//models/WhiteCabinet/thumbnails/2.png
+[2.195s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/husarion_office_gz/share/husarion_office_gz/worlds//models/WhiteCabinet/thumbnails/3.png
+[2.201s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/husarion_office_gz/share/husarion_office_gz/worlds//models/WhiteCabinet/thumbnails/4.png
+[2.206s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/husarion_office_gz/share/husarion_office_gz/worlds//models/WhiteCabinet/thumbnails/5.png
+[2.211s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/husarion_office_gz/share/husarion_office_gz/worlds//models/WoodenChair/meshes/WoodenChair.mtl
+[2.216s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/husarion_office_gz/share/husarion_office_gz/worlds//models/WoodenChair/meshes/WoodenChair.obj
+[2.221s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/husarion_office_gz/share/husarion_office_gz/worlds//models/WoodenChair/meshes/WoodenChair_Col.mtl
+[2.226s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/husarion_office_gz/share/husarion_office_gz/worlds//models/WoodenChair/meshes/WoodenChair_Col.obj
+[2.232s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/husarion_office_gz/share/husarion_office_gz/worlds//models/WoodenChair/meshes/WoodenChair_Diffuse.png
+[2.237s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/husarion_office_gz/share/husarion_office_gz/worlds//models/WoodenChair/meshes/WoodenChair_Rough.png
+[2.242s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/husarion_office_gz/share/husarion_office_gz/worlds//models/WoodenChair/model.config
+[2.247s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/husarion_office_gz/share/husarion_office_gz/worlds//models/WoodenChair/model.sdf
+[2.252s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/husarion_office_gz/share/husarion_office_gz/worlds//models/WoodenChair/thumbnails/1.png
+[2.258s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/husarion_office_gz/share/husarion_office_gz/worlds//models/WoodenChair/thumbnails/2.png
+[2.263s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/husarion_office_gz/share/husarion_office_gz/worlds//models/WoodenChair/thumbnails/3.png
+[2.268s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/husarion_office_gz/share/husarion_office_gz/worlds//models/WoodenChair/thumbnails/4.png
+[2.273s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/husarion_office_gz/share/husarion_office_gz/worlds//models/WoodenChair/thumbnails/5.png
+[2.279s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/husarion_office_gz/share/husarion_office_gz/worlds//models/pradnicka_office_L1/meshes/black_concrete.png
+[2.284s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/husarion_office_gz/share/husarion_office_gz/worlds//models/pradnicka_office_L1/meshes/floor_1.mtl
+[2.289s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/husarion_office_gz/share/husarion_office_gz/worlds//models/pradnicka_office_L1/meshes/floor_1.obj
+[2.295s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/husarion_office_gz/share/husarion_office_gz/worlds//models/pradnicka_office_L1/meshes/floor_10.mtl
+[2.300s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/husarion_office_gz/share/husarion_office_gz/worlds//models/pradnicka_office_L1/meshes/floor_10.obj
+[2.305s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/husarion_office_gz/share/husarion_office_gz/worlds//models/pradnicka_office_L1/meshes/floor_11.mtl
+[2.310s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/husarion_office_gz/share/husarion_office_gz/worlds//models/pradnicka_office_L1/meshes/floor_11.obj
+[2.316s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/husarion_office_gz/share/husarion_office_gz/worlds//models/pradnicka_office_L1/meshes/floor_12.mtl
+[2.321s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/husarion_office_gz/share/husarion_office_gz/worlds//models/pradnicka_office_L1/meshes/floor_12.obj
+[2.326s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/husarion_office_gz/share/husarion_office_gz/worlds//models/pradnicka_office_L1/meshes/floor_13.mtl
+[2.331s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/husarion_office_gz/share/husarion_office_gz/worlds//models/pradnicka_office_L1/meshes/floor_13.obj
+[2.336s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/husarion_office_gz/share/husarion_office_gz/worlds//models/pradnicka_office_L1/meshes/floor_14.mtl
+[2.342s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/husarion_office_gz/share/husarion_office_gz/worlds//models/pradnicka_office_L1/meshes/floor_14.obj
+[2.347s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/husarion_office_gz/share/husarion_office_gz/worlds//models/pradnicka_office_L1/meshes/floor_2.mtl
+[2.353s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/husarion_office_gz/share/husarion_office_gz/worlds//models/pradnicka_office_L1/meshes/floor_2.obj
+[2.358s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/husarion_office_gz/share/husarion_office_gz/worlds//models/pradnicka_office_L1/meshes/floor_3.mtl
+[2.363s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/husarion_office_gz/share/husarion_office_gz/worlds//models/pradnicka_office_L1/meshes/floor_3.obj
+[2.367s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/husarion_office_gz/share/husarion_office_gz/worlds//models/pradnicka_office_L1/meshes/floor_4.mtl
+[2.372s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/husarion_office_gz/share/husarion_office_gz/worlds//models/pradnicka_office_L1/meshes/floor_4.obj
+[2.378s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/husarion_office_gz/share/husarion_office_gz/worlds//models/pradnicka_office_L1/meshes/floor_5.mtl
+[2.383s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/husarion_office_gz/share/husarion_office_gz/worlds//models/pradnicka_office_L1/meshes/floor_5.obj
+[2.388s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/husarion_office_gz/share/husarion_office_gz/worlds//models/pradnicka_office_L1/meshes/floor_6.mtl
+[2.394s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/husarion_office_gz/share/husarion_office_gz/worlds//models/pradnicka_office_L1/meshes/floor_6.obj
+[2.399s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/husarion_office_gz/share/husarion_office_gz/worlds//models/pradnicka_office_L1/meshes/floor_7.mtl
+[2.403s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/husarion_office_gz/share/husarion_office_gz/worlds//models/pradnicka_office_L1/meshes/floor_7.obj
+[2.409s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/husarion_office_gz/share/husarion_office_gz/worlds//models/pradnicka_office_L1/meshes/floor_8.mtl
+[2.414s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/husarion_office_gz/share/husarion_office_gz/worlds//models/pradnicka_office_L1/meshes/floor_8.obj
+[2.420s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/husarion_office_gz/share/husarion_office_gz/worlds//models/pradnicka_office_L1/meshes/floor_9.mtl
+[2.426s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/husarion_office_gz/share/husarion_office_gz/worlds//models/pradnicka_office_L1/meshes/floor_9.obj
+[2.431s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/husarion_office_gz/share/husarion_office_gz/worlds//models/pradnicka_office_L1/meshes/model.material
+[2.436s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/husarion_office_gz/share/husarion_office_gz/worlds//models/pradnicka_office_L1/meshes/wall_1.mtl
+[2.441s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/husarion_office_gz/share/husarion_office_gz/worlds//models/pradnicka_office_L1/meshes/wall_1.obj
+[2.446s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/husarion_office_gz/share/husarion_office_gz/worlds//models/pradnicka_office_L1/meshes/wall_2.mtl
+[2.452s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/husarion_office_gz/share/husarion_office_gz/worlds//models/pradnicka_office_L1/meshes/wall_2.obj
+[2.457s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/husarion_office_gz/share/husarion_office_gz/worlds//models/pradnicka_office_L1/meshes/white_carpet.png
+[2.463s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/husarion_office_gz/share/husarion_office_gz/worlds//models/pradnicka_office_L1/meshes/white_tiles.png
+[2.468s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/husarion_office_gz/share/husarion_office_gz/worlds//models/pradnicka_office_L1/meshes/white_wall.png
+[2.473s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/husarion_office_gz/share/husarion_office_gz/worlds//models/pradnicka_office_L1/meshes/wood1.png
+[2.479s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/husarion_office_gz/share/husarion_office_gz/worlds//models/pradnicka_office_L1/meshes/wood2.png
+[2.486s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/husarion_office_gz/share/husarion_office_gz/worlds//models/pradnicka_office_L1/model.config
+[2.494s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/husarion_office_gz/share/husarion_office_gz/worlds//models/pradnicka_office_L1/model.sdf
+[2.499s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/husarion_office_gz/share/husarion_office_gz/worlds//models/rosbot/meshes/astra.dae
+[2.505s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/husarion_office_gz/share/husarion_office_gz/worlds//models/rosbot/meshes/box.dae
+[2.510s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/husarion_office_gz/share/husarion_office_gz/worlds//models/rosbot/meshes/rplidar.dae
+[2.515s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/husarion_office_gz/share/husarion_office_gz/worlds//models/rosbot/meshes/upper.dae
+[2.520s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/husarion_office_gz/share/husarion_office_gz/worlds//models/rosbot/meshes/wheel-v2.stl
+[2.526s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/husarion_office_gz/share/husarion_office_gz/worlds//models/rosbot/meshes/wheel.dae
+[2.531s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/husarion_office_gz/share/husarion_office_gz/worlds//models/rosbot/model.config
+[2.536s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/husarion_office_gz/share/husarion_office_gz/worlds//models/rosbot/model.sdf
+[2.541s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/husarion_office_gz/share/husarion_office_gz/worlds//models/white_carpet.png
+[2.546s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/husarion_office_gz/share/husarion_office_gz/worlds//models/white_wall.png
+[2.551s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/husarion_office_gz/share/husarion_office_gz/worlds//models/wood1.png
+[2.556s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/husarion_office_gz/share/husarion_office_gz/worlds//models/wood2.png
+[2.561s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/husarion_office_gz/share/husarion_office_gz/worlds//nav2_maps/office_map.png
+[2.567s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/husarion_office_gz/share/husarion_office_gz/worlds//nav2_maps/office_map.yaml
+[2.572s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/husarion_office_gz/share/ament_index/resource_index/package_run_dependencies/husarion_office_gz
+[2.578s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/husarion_office_gz/share/ament_index/resource_index/parent_prefix_path/husarion_office_gz
+[2.583s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/husarion_office_gz/share/husarion_office_gz/environment/ament_prefix_path.sh
+[2.589s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/husarion_office_gz/share/husarion_office_gz/environment/ament_prefix_path.dsv
+[2.595s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/husarion_office_gz/share/husarion_office_gz/environment/path.sh
+[2.600s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/husarion_office_gz/share/husarion_office_gz/environment/path.dsv
+[2.605s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/husarion_office_gz/share/husarion_office_gz/local_setup.bash
+[2.610s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/husarion_office_gz/share/husarion_office_gz/local_setup.sh
+[2.615s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/husarion_office_gz/share/husarion_office_gz/local_setup.zsh
+[2.621s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/husarion_office_gz/share/husarion_office_gz/local_setup.dsv
+[2.627s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/husarion_office_gz/share/husarion_office_gz/package.dsv
+[2.632s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/husarion_office_gz/share/ament_index/resource_index/packages/husarion_office_gz
+[2.638s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/husarion_office_gz/share/husarion_office_gz/cmake/husarion_office_gzConfig.cmake
+[2.644s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/husarion_office_gz/share/husarion_office_gz/cmake/husarion_office_gzConfig-version.cmake
+[2.649s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/husarion_office_gz/share/husarion_office_gz/package.xml
+[2.658s] Invoked command in '/home/nuctella/ros2_ws/ws/build/husarion_office_gz' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nuctella/my_ros2_ws/install/rosbot_object_recognition:/opt/ros/humble /usr/bin/cmake --install /home/nuctella/ros2_ws/ws/build/husarion_office_gz

@@ -1,0 +1,1 @@
+/home/nuctella/ros2_ws/ws/build/rosbot_xl_bringup/ament_cmake_core/rosbot_xl_bringupConfig.cmake

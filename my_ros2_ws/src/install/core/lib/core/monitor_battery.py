@@ -1,1 +1,0 @@
-/home/nuctella/my_ros2_ws/src/core/scripts/monitor_battery.py

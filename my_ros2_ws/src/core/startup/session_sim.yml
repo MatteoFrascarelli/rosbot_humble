@@ -13,3 +13,5 @@ windows:
         - ros2 run rviz2 rviz2 -d /config/rosbot.rviz
         - ros2 launch slam_toolbox online_sync_launch.py slam_params_file:=/config/slam_toolbox_params.yaml use_sim_time:=True
         - bash -c "while true; do ros2 run nav2_map_server map_saver_cli --free 0.15 --fmt png -f /maps/map; sleep 5; done"
+        - ros2 run rosbot_object_recognition obj_rec
+        - ros2 run teleop_twist_keyboard teleop_twist_keyboard

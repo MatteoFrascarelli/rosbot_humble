@@ -1,0 +1,58 @@
+[0.006s] Invoking command in '/home/nuctella/ros2_ws/ws/build/rosbot_xl_description': AMENT_PREFIX_PATH=/home/nuctella/ros2_ws/ws/install/ros_components_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nuctella/ros2_ws/ws/install/ros_components_description:/home/nuctella/my_ros2_ws/install/core:/home/nuctella/ros2_ws/deps/install/sllidar_ros2:/home/nuctella/ros2_ws/deps/install/micro_ros_setup:/home/nuctella/ros2_ws/deps/install/micro_ros_agent:/home/nuctella/ros2_ws/deps/install/micro_ros_msgs:/home/nuctella/my_ros2_ws/install/rosbot_object_recognition:/opt/ros/humble /usr/bin/cmake /home/nuctella/ros2_ws/ws/src/rosbot_xl_ros/rosbot_xl_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/nuctella/ros2_ws/ws/install/rosbot_xl_description
+[0.038s] -- The C compiler identification is GNU 11.4.0
+[0.072s] -- The CXX compiler identification is GNU 11.4.0
+[0.076s] -- Detecting C compiler ABI info
+[0.114s] -- Detecting C compiler ABI info - done
+[0.121s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.121s] -- Detecting C compile features
+[0.122s] -- Detecting C compile features - done
+[0.123s] -- Detecting CXX compiler ABI info
+[0.169s] -- Detecting CXX compiler ABI info - done
+[0.174s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.174s] -- Detecting CXX compile features
+[0.174s] -- Detecting CXX compile features - done
+[0.177s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.411s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[0.453s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.523s] -- Configuring done
+[0.525s] -- Generating done
+[0.526s] -- Build files have been written to: /home/nuctella/ros2_ws/ws/build/rosbot_xl_description
+[0.528s] Invoked command in '/home/nuctella/ros2_ws/ws/build/rosbot_xl_description' returned '0': AMENT_PREFIX_PATH=/home/nuctella/ros2_ws/ws/install/ros_components_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nuctella/ros2_ws/ws/install/ros_components_description:/home/nuctella/my_ros2_ws/install/core:/home/nuctella/ros2_ws/deps/install/sllidar_ros2:/home/nuctella/ros2_ws/deps/install/micro_ros_setup:/home/nuctella/ros2_ws/deps/install/micro_ros_agent:/home/nuctella/ros2_ws/deps/install/micro_ros_msgs:/home/nuctella/my_ros2_ws/install/rosbot_object_recognition:/opt/ros/humble /usr/bin/cmake /home/nuctella/ros2_ws/ws/src/rosbot_xl_ros/rosbot_xl_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/nuctella/ros2_ws/ws/install/rosbot_xl_description
+[0.529s] Invoking command in '/home/nuctella/ros2_ws/ws/build/rosbot_xl_description': AMENT_PREFIX_PATH=/home/nuctella/ros2_ws/ws/install/ros_components_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nuctella/ros2_ws/ws/install/ros_components_description:/home/nuctella/my_ros2_ws/install/core:/home/nuctella/ros2_ws/deps/install/sllidar_ros2:/home/nuctella/ros2_ws/deps/install/micro_ros_setup:/home/nuctella/ros2_ws/deps/install/micro_ros_agent:/home/nuctella/ros2_ws/deps/install/micro_ros_msgs:/home/nuctella/my_ros2_ws/install/rosbot_object_recognition:/opt/ros/humble /usr/bin/cmake --build /home/nuctella/ros2_ws/ws/build/rosbot_xl_description -- -j20 -l20
+[0.551s] Invoked command in '/home/nuctella/ros2_ws/ws/build/rosbot_xl_description' returned '0': AMENT_PREFIX_PATH=/home/nuctella/ros2_ws/ws/install/ros_components_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nuctella/ros2_ws/ws/install/ros_components_description:/home/nuctella/my_ros2_ws/install/core:/home/nuctella/ros2_ws/deps/install/sllidar_ros2:/home/nuctella/ros2_ws/deps/install/micro_ros_setup:/home/nuctella/ros2_ws/deps/install/micro_ros_agent:/home/nuctella/ros2_ws/deps/install/micro_ros_msgs:/home/nuctella/my_ros2_ws/install/rosbot_object_recognition:/opt/ros/humble /usr/bin/cmake --build /home/nuctella/ros2_ws/ws/build/rosbot_xl_description -- -j20 -l20
+[0.563s] Invoking command in '/home/nuctella/ros2_ws/ws/build/rosbot_xl_description': AMENT_PREFIX_PATH=/home/nuctella/ros2_ws/ws/install/ros_components_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nuctella/ros2_ws/ws/install/ros_components_description:/home/nuctella/my_ros2_ws/install/core:/home/nuctella/ros2_ws/deps/install/sllidar_ros2:/home/nuctella/ros2_ws/deps/install/micro_ros_setup:/home/nuctella/ros2_ws/deps/install/micro_ros_agent:/home/nuctella/ros2_ws/deps/install/micro_ros_msgs:/home/nuctella/my_ros2_ws/install/rosbot_object_recognition:/opt/ros/humble /usr/bin/cmake --install /home/nuctella/ros2_ws/ws/build/rosbot_xl_description
+[0.567s] -- Install configuration: ""
+[0.568s] -- Execute custom install script
+[0.568s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/rosbot_xl_description/share/rosbot_xl_description/meshes/body.dae
+[0.573s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/rosbot_xl_description/share/rosbot_xl_description/meshes/body_colision.stl
+[0.578s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/rosbot_xl_description/share/rosbot_xl_description/meshes/components/antenna.dae
+[0.583s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/rosbot_xl_description/share/rosbot_xl_description/meshes/components/antenna_connector.dae
+[0.588s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/rosbot_xl_description/share/rosbot_xl_description/meshes/components/camera_mount_bot.dae
+[0.592s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/rosbot_xl_description/share/rosbot_xl_description/meshes/components/camera_mount_mid.dae
+[0.596s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/rosbot_xl_description/share/rosbot_xl_description/meshes/components/camera_mount_top.dae
+[0.601s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/rosbot_xl_description/share/rosbot_xl_description/meshes/mecanum_a.dae
+[0.605s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/rosbot_xl_description/share/rosbot_xl_description/meshes/mecanum_b.dae
+[0.609s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/rosbot_xl_description/share/rosbot_xl_description/meshes/wheel_a.dae
+[0.613s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/rosbot_xl_description/share/rosbot_xl_description/meshes/wheel_b.dae
+[0.618s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/rosbot_xl_description/share/rosbot_xl_description/urdf/body.urdf.xacro
+[0.622s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/rosbot_xl_description/share/rosbot_xl_description/urdf/components/antenna.urdf.xacro
+[0.626s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/rosbot_xl_description/share/rosbot_xl_description/urdf/components/camera_mount.urdf.xacro
+[0.630s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/rosbot_xl_description/share/rosbot_xl_description/urdf/rosbot_xl.urdf.xacro
+[0.635s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/rosbot_xl_description/share/rosbot_xl_description/urdf/rosbot_xl_macro.urdf.xacro
+[0.640s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/rosbot_xl_description/share/rosbot_xl_description/urdf/wheel.urdf.xacro
+[0.644s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/rosbot_xl_description/share/ament_index/resource_index/package_run_dependencies/rosbot_xl_description
+[0.648s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/rosbot_xl_description/share/ament_index/resource_index/parent_prefix_path/rosbot_xl_description
+[0.653s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/rosbot_xl_description/share/rosbot_xl_description/environment/ament_prefix_path.sh
+[0.658s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/rosbot_xl_description/share/rosbot_xl_description/environment/ament_prefix_path.dsv
+[0.663s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/rosbot_xl_description/share/rosbot_xl_description/environment/path.sh
+[0.667s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/rosbot_xl_description/share/rosbot_xl_description/environment/path.dsv
+[0.671s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/rosbot_xl_description/share/rosbot_xl_description/local_setup.bash
+[0.675s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/rosbot_xl_description/share/rosbot_xl_description/local_setup.sh
+[0.680s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/rosbot_xl_description/share/rosbot_xl_description/local_setup.zsh
+[0.684s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/rosbot_xl_description/share/rosbot_xl_description/local_setup.dsv
+[0.689s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/rosbot_xl_description/share/rosbot_xl_description/package.dsv
+[0.694s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/rosbot_xl_description/share/ament_index/resource_index/packages/rosbot_xl_description
+[0.700s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/rosbot_xl_description/share/rosbot_xl_description/cmake/rosbot_xl_descriptionConfig.cmake
+[0.705s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/rosbot_xl_description/share/rosbot_xl_description/cmake/rosbot_xl_descriptionConfig-version.cmake
+[0.711s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/rosbot_xl_description/share/rosbot_xl_description/package.xml
+[0.718s] Invoked command in '/home/nuctella/ros2_ws/ws/build/rosbot_xl_description' returned '0': AMENT_PREFIX_PATH=/home/nuctella/ros2_ws/ws/install/ros_components_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nuctella/ros2_ws/ws/install/ros_components_description:/home/nuctella/my_ros2_ws/install/core:/home/nuctella/ros2_ws/deps/install/sllidar_ros2:/home/nuctella/ros2_ws/deps/install/micro_ros_setup:/home/nuctella/ros2_ws/deps/install/micro_ros_agent:/home/nuctella/ros2_ws/deps/install/micro_ros_msgs:/home/nuctella/my_ros2_ws/install/rosbot_object_recognition:/opt/ros/humble /usr/bin/cmake --install /home/nuctella/ros2_ws/ws/build/rosbot_xl_description

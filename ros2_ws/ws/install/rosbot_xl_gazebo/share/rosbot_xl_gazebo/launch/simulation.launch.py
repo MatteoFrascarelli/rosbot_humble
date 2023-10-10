@@ -1,0 +1,1 @@
+/home/nuctella/ros2_ws/ws/src/rosbot_xl_ros/rosbot_xl_gazebo/launch/simulation.launch.py

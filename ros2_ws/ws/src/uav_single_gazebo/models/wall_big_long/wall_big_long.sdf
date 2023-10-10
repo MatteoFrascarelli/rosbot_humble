@@ -1,0 +1,31 @@
+<?xml version="1.0" ?>
+<sdf version="1.7">
+
+    <model name='wall'>
+        <static>true</static>
+        <pose>0 0 0 0 0 0</pose><!--pose relative to the world-->
+        <link name='box'>
+            <visual name='visual'>
+                <geometry>
+                    <box>
+                        <size>0.5 30.0 2.0</size>
+                    </box>
+                </geometry>
+                <!--let's add color to our link-->
+                <material>
+                    <ambient>0.35 0.35 0.35 1</ambient>
+                    <diffuse>0.35 0.35 0.35 1</diffuse>
+                    <specular>0.35 0.35 0.35 1</specular>
+                </material>
+            </visual>
+            <collision name='collision'>
+                <geometry>
+                    <box>
+                        <size>0.5 30.0 2.0</size>
+                    </box>
+                </geometry>
+            </collision>
+        </link>
+    </model>
+
+</sdf>

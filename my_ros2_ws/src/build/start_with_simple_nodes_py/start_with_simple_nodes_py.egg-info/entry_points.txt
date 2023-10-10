@@ -1,5 +1,0 @@
-[console_scripts]
-my_first_node = start_with_simple_nodes_py.my_first_node:main
-node_timer_with_class = start_with_simple_nodes_py.node_timer_with_class:main
-node_timer_without_class = start_with_simple_nodes_py.node_timer_without_class:main
-node_with_class = start_with_simple_nodes_py.node_with_class:main

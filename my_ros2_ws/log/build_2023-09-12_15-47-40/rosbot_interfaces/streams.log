@@ -1,0 +1,228 @@
+[0.020s] Invoking command in '/home/nuctella/my_ros2_ws/build/rosbot_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nuctella/my_ros2_ws/install/rosbot_object_recognition:/opt/ros/humble /usr/bin/cmake /home/nuctella/my_ros2_ws/src/rosbot_interfaces -DCMAKE_INSTALL_PREFIX=/home/nuctella/my_ros2_ws/install/rosbot_interfaces
+[0.122s] -- The C compiler identification is GNU 11.4.0
+[0.192s] -- The CXX compiler identification is GNU 11.4.0
+[0.200s] -- Detecting C compiler ABI info
+[0.259s] -- Detecting C compiler ABI info - done
+[0.265s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.265s] -- Detecting C compile features
+[0.266s] -- Detecting C compile features - done
+[0.270s] -- Detecting CXX compiler ABI info
+[0.337s] -- Detecting CXX compiler ABI info - done
+[0.344s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.344s] -- Detecting CXX compile features
+[0.345s] -- Detecting CXX compile features - done
+[0.349s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.707s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[0.853s] -- Found geometry_msgs: 4.2.3 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.921s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.931s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.946s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.965s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.993s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.113s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[1.379s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[1.760s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.912s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.937s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[1.940s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[1.967s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[1.967s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.967s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[1.967s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[1.990s] -- Found PythonExtra: .so  
+[2.049s] -- Found ament_lint_auto: 0.12.7 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.078s] -- Added test 'lint_cmake' to check CMake code style
+[2.079s] -- Added test 'xmllint' to check XML markup files
+[2.082s] -- Configuring done
+[2.112s] -- Generating done
+[2.114s] -- Build files have been written to: /home/nuctella/my_ros2_ws/build/rosbot_interfaces
+[2.122s] Invoked command in '/home/nuctella/my_ros2_ws/build/rosbot_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nuctella/my_ros2_ws/install/rosbot_object_recognition:/opt/ros/humble /usr/bin/cmake /home/nuctella/my_ros2_ws/src/rosbot_interfaces -DCMAKE_INSTALL_PREFIX=/home/nuctella/my_ros2_ws/install/rosbot_interfaces
+[2.124s] Invoking command in '/home/nuctella/my_ros2_ws/build/rosbot_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nuctella/my_ros2_ws/install/rosbot_object_recognition:/opt/ros/humble /usr/bin/cmake --build /home/nuctella/my_ros2_ws/build/rosbot_interfaces -- -j20 -l20
+[2.159s] [  3%] [34m[1mGenerating C code for ROS interfaces[0m
+[2.169s] [  6%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[2.177s] [  6%] Built target ament_cmake_python_copy_rosbot_interfaces
+[2.351s] running egg_info
+[2.351s] creating rosbot_interfaces.egg-info
+[2.362s] writing rosbot_interfaces.egg-info/PKG-INFO
+[2.363s] writing dependency_links to rosbot_interfaces.egg-info/dependency_links.txt
+[2.363s] writing top-level names to rosbot_interfaces.egg-info/top_level.txt
+[2.363s] writing manifest file 'rosbot_interfaces.egg-info/SOURCES.txt'
+[2.396s] reading manifest file 'rosbot_interfaces.egg-info/SOURCES.txt'
+[2.397s] writing manifest file 'rosbot_interfaces.egg-info/SOURCES.txt'
+[2.401s] [  6%] Built target rosbot_interfaces__cpp
+[2.411s] [ 19%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[2.411s] [ 19%] [32mBuilding C object CMakeFiles/rosbot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/rosbot_interfaces/msg/detail/obstacle_info__functions.c.o[0m
+[2.411s] [ 19%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[2.412s] [ 19%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[2.427s] [ 19%] Built target ament_cmake_python_build_rosbot_interfaces_egg
+[2.465s] [ 22%] [32m[1mLinking C shared library librosbot_interfaces__rosidl_generator_c.so[0m
+[2.501s] [ 22%] Built target rosbot_interfaces__rosidl_generator_c
+[2.511s] [ 29%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[2.511s] [ 29%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[2.512s] [ 32%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[2.627s] [ 35%] [32mBuilding CXX object CMakeFiles/rosbot_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rosbot_interfaces/msg/obstacle_info__type_support.cpp.o[0m
+[2.645s] [ 38%] [32mBuilding CXX object CMakeFiles/rosbot_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rosbot_interfaces/msg/detail/obstacle_info__type_support.cpp.o[0m
+[2.687s] [ 41%] [32mBuilding CXX object CMakeFiles/rosbot_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rosbot_interfaces/msg/detail/dds_fastrtps/obstacle_info__type_support.cpp.o[0m
+[2.725s] [ 45%] [32mBuilding CXX object CMakeFiles/rosbot_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/rosbot_interfaces/msg/obstacle_info__type_support.cpp.o[0m
+[2.745s] [ 48%] [32mBuilding C object CMakeFiles/rosbot_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rosbot_interfaces/msg/detail/obstacle_info__type_support.c.o[0m
+[2.747s] [ 51%] [32mBuilding CXX object CMakeFiles/rosbot_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rosbot_interfaces/msg/detail/obstacle_info__type_support_c.cpp.o[0m
+[2.753s] [ 54%] [32m[1mLinking CXX shared library librosbot_interfaces__rosidl_typesupport_c.so[0m
+[2.779s] [ 58%] [32m[1mLinking C shared library librosbot_interfaces__rosidl_typesupport_introspection_c.so[0m
+[2.801s] [ 58%] Built target rosbot_interfaces__rosidl_typesupport_c
+[2.809s] [ 58%] Built target rosbot_interfaces__rosidl_typesupport_introspection_c
+[2.914s] [ 61%] [32m[1mLinking CXX shared library librosbot_interfaces__rosidl_typesupport_cpp.so[0m
+[2.952s] [ 61%] Built target rosbot_interfaces__rosidl_typesupport_cpp
+[2.989s] [ 64%] [32m[1mLinking CXX shared library librosbot_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[3.046s] [ 67%] Built target rosbot_interfaces__rosidl_typesupport_introspection_cpp
+[3.046s] [ 67%] [32m[1mLinking CXX shared library librosbot_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[3.047s] [ 70%] [32m[1mLinking CXX shared library librosbot_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[3.117s] [ 70%] Built target rosbot_interfaces__rosidl_typesupport_fastrtps_cpp
+[3.117s] [ 70%] Built target rosbot_interfaces__rosidl_typesupport_fastrtps_c
+[3.134s] [ 70%] Built target rosbot_interfaces
+[3.152s] [ 74%] [34m[1mGenerating Python code for ROS interfaces[0m
+[3.421s] [ 74%] Built target rosbot_interfaces__py
+[3.439s] [ 77%] [32mBuilding C object CMakeFiles/rosbot_interfaces__rosidl_generator_py.dir/rosidl_generator_py/rosbot_interfaces/msg/_obstacle_info_s.c.o[0m
+[3.556s] [ 80%] [32m[1mLinking C shared library rosidl_generator_py/rosbot_interfaces/librosbot_interfaces__rosidl_generator_py.so[0m
+[3.593s] [ 80%] Built target rosbot_interfaces__rosidl_generator_py
+[3.612s] [ 90%] [32mBuilding C object CMakeFiles/rosbot_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/rosbot_interfaces/_rosbot_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[3.612s] [ 90%] [32mBuilding C object CMakeFiles/rosbot_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/rosbot_interfaces/_rosbot_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[3.612s] [ 90%] [32mBuilding C object CMakeFiles/rosbot_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/rosbot_interfaces/_rosbot_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[3.706s] [ 96%] [32m[1mLinking C shared library rosidl_generator_py/rosbot_interfaces/rosbot_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[3.706s] [ 96%] [32m[1mLinking C shared library rosidl_generator_py/rosbot_interfaces/rosbot_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[3.706s] [100%] [32m[1mLinking C shared library rosidl_generator_py/rosbot_interfaces/rosbot_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[3.743s] [100%] Built target rosbot_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[3.744s] [100%] Built target rosbot_interfaces__rosidl_typesupport_introspection_c__pyext
+[3.744s] [100%] Built target rosbot_interfaces__rosidl_typesupport_c__pyext
+[3.753s] Invoked command in '/home/nuctella/my_ros2_ws/build/rosbot_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nuctella/my_ros2_ws/install/rosbot_object_recognition:/opt/ros/humble /usr/bin/cmake --build /home/nuctella/my_ros2_ws/build/rosbot_interfaces -- -j20 -l20
+[3.814s] Invoking command in '/home/nuctella/my_ros2_ws/build/rosbot_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nuctella/my_ros2_ws/install/rosbot_object_recognition:/opt/ros/humble /usr/bin/cmake --install /home/nuctella/my_ros2_ws/build/rosbot_interfaces
+[3.821s] -- Install configuration: ""
+[3.821s] -- Installing: /home/nuctella/my_ros2_ws/install/rosbot_interfaces/share/ament_index/resource_index/rosidl_interfaces/rosbot_interfaces
+[3.822s] -- Installing: /home/nuctella/my_ros2_ws/install/rosbot_interfaces/include/rosbot_interfaces/rosbot_interfaces
+[3.822s] -- Installing: /home/nuctella/my_ros2_ws/install/rosbot_interfaces/include/rosbot_interfaces/rosbot_interfaces/msg
+[3.822s] -- Installing: /home/nuctella/my_ros2_ws/install/rosbot_interfaces/include/rosbot_interfaces/rosbot_interfaces/msg/obstacle_info.h
+[3.822s] -- Installing: /home/nuctella/my_ros2_ws/install/rosbot_interfaces/include/rosbot_interfaces/rosbot_interfaces/msg/detail
+[3.822s] -- Installing: /home/nuctella/my_ros2_ws/install/rosbot_interfaces/include/rosbot_interfaces/rosbot_interfaces/msg/detail/obstacle_info__type_support.h
+[3.822s] -- Installing: /home/nuctella/my_ros2_ws/install/rosbot_interfaces/include/rosbot_interfaces/rosbot_interfaces/msg/detail/obstacle_info__struct.h
+[3.822s] -- Installing: /home/nuctella/my_ros2_ws/install/rosbot_interfaces/include/rosbot_interfaces/rosbot_interfaces/msg/detail/obstacle_info__functions.h
+[3.822s] -- Installing: /home/nuctella/my_ros2_ws/install/rosbot_interfaces/include/rosbot_interfaces/rosbot_interfaces/msg/detail/obstacle_info__functions.c
+[3.822s] -- Installing: /home/nuctella/my_ros2_ws/install/rosbot_interfaces/include/rosbot_interfaces/rosbot_interfaces/msg/rosidl_generator_c__visibility_control.h
+[3.822s] -- Installing: /home/nuctella/my_ros2_ws/install/rosbot_interfaces/share/rosbot_interfaces/environment/library_path.sh
+[3.822s] -- Installing: /home/nuctella/my_ros2_ws/install/rosbot_interfaces/share/rosbot_interfaces/environment/library_path.dsv
+[3.822s] -- Installing: /home/nuctella/my_ros2_ws/install/rosbot_interfaces/lib/librosbot_interfaces__rosidl_generator_c.so
+[3.823s] -- Set runtime path of "/home/nuctella/my_ros2_ws/install/rosbot_interfaces/lib/librosbot_interfaces__rosidl_generator_c.so" to ""
+[3.823s] -- Up-to-date: /home/nuctella/my_ros2_ws/install/rosbot_interfaces/include/rosbot_interfaces/rosbot_interfaces
+[3.823s] -- Up-to-date: /home/nuctella/my_ros2_ws/install/rosbot_interfaces/include/rosbot_interfaces/rosbot_interfaces/msg
+[3.823s] -- Up-to-date: /home/nuctella/my_ros2_ws/install/rosbot_interfaces/include/rosbot_interfaces/rosbot_interfaces/msg/detail
+[3.823s] -- Installing: /home/nuctella/my_ros2_ws/install/rosbot_interfaces/include/rosbot_interfaces/rosbot_interfaces/msg/detail/obstacle_info__rosidl_typesupport_fastrtps_c.h
+[3.823s] -- Installing: /home/nuctella/my_ros2_ws/install/rosbot_interfaces/include/rosbot_interfaces/rosbot_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[3.823s] -- Installing: /home/nuctella/my_ros2_ws/install/rosbot_interfaces/lib/librosbot_interfaces__rosidl_typesupport_fastrtps_c.so
+[3.823s] -- Set runtime path of "/home/nuctella/my_ros2_ws/install/rosbot_interfaces/lib/librosbot_interfaces__rosidl_typesupport_fastrtps_c.so" to ""
+[3.824s] -- Up-to-date: /home/nuctella/my_ros2_ws/install/rosbot_interfaces/include/rosbot_interfaces/rosbot_interfaces
+[3.824s] -- Up-to-date: /home/nuctella/my_ros2_ws/install/rosbot_interfaces/include/rosbot_interfaces/rosbot_interfaces/msg
+[3.824s] -- Up-to-date: /home/nuctella/my_ros2_ws/install/rosbot_interfaces/include/rosbot_interfaces/rosbot_interfaces/msg/detail
+[3.824s] -- Installing: /home/nuctella/my_ros2_ws/install/rosbot_interfaces/include/rosbot_interfaces/rosbot_interfaces/msg/detail/obstacle_info__struct.hpp
+[3.824s] -- Installing: /home/nuctella/my_ros2_ws/install/rosbot_interfaces/include/rosbot_interfaces/rosbot_interfaces/msg/detail/obstacle_info__traits.hpp
+[3.824s] -- Installing: /home/nuctella/my_ros2_ws/install/rosbot_interfaces/include/rosbot_interfaces/rosbot_interfaces/msg/detail/obstacle_info__builder.hpp
+[3.824s] -- Installing: /home/nuctella/my_ros2_ws/install/rosbot_interfaces/include/rosbot_interfaces/rosbot_interfaces/msg/obstacle_info.hpp
+[3.824s] -- Up-to-date: /home/nuctella/my_ros2_ws/install/rosbot_interfaces/include/rosbot_interfaces/rosbot_interfaces
+[3.824s] -- Up-to-date: /home/nuctella/my_ros2_ws/install/rosbot_interfaces/include/rosbot_interfaces/rosbot_interfaces/msg
+[3.825s] -- Up-to-date: /home/nuctella/my_ros2_ws/install/rosbot_interfaces/include/rosbot_interfaces/rosbot_interfaces/msg/detail
+[3.825s] -- Installing: /home/nuctella/my_ros2_ws/install/rosbot_interfaces/include/rosbot_interfaces/rosbot_interfaces/msg/detail/dds_fastrtps
+[3.825s] -- Installing: /home/nuctella/my_ros2_ws/install/rosbot_interfaces/include/rosbot_interfaces/rosbot_interfaces/msg/detail/obstacle_info__rosidl_typesupport_fastrtps_cpp.hpp
+[3.825s] -- Installing: /home/nuctella/my_ros2_ws/install/rosbot_interfaces/include/rosbot_interfaces/rosbot_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[3.825s] -- Installing: /home/nuctella/my_ros2_ws/install/rosbot_interfaces/lib/librosbot_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[3.825s] -- Set runtime path of "/home/nuctella/my_ros2_ws/install/rosbot_interfaces/lib/librosbot_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+[3.825s] -- Up-to-date: /home/nuctella/my_ros2_ws/install/rosbot_interfaces/include/rosbot_interfaces/rosbot_interfaces
+[3.825s] -- Up-to-date: /home/nuctella/my_ros2_ws/install/rosbot_interfaces/include/rosbot_interfaces/rosbot_interfaces/msg
+[3.826s] -- Up-to-date: /home/nuctella/my_ros2_ws/install/rosbot_interfaces/include/rosbot_interfaces/rosbot_interfaces/msg/detail
+[3.826s] -- Installing: /home/nuctella/my_ros2_ws/install/rosbot_interfaces/include/rosbot_interfaces/rosbot_interfaces/msg/detail/obstacle_info__rosidl_typesupport_introspection_c.h
+[3.826s] -- Installing: /home/nuctella/my_ros2_ws/install/rosbot_interfaces/include/rosbot_interfaces/rosbot_interfaces/msg/detail/obstacle_info__type_support.c
+[3.826s] -- Installing: /home/nuctella/my_ros2_ws/install/rosbot_interfaces/include/rosbot_interfaces/rosbot_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[3.826s] -- Installing: /home/nuctella/my_ros2_ws/install/rosbot_interfaces/lib/librosbot_interfaces__rosidl_typesupport_introspection_c.so
+[3.826s] -- Set runtime path of "/home/nuctella/my_ros2_ws/install/rosbot_interfaces/lib/librosbot_interfaces__rosidl_typesupport_introspection_c.so" to ""
+[3.826s] -- Installing: /home/nuctella/my_ros2_ws/install/rosbot_interfaces/lib/librosbot_interfaces__rosidl_typesupport_c.so
+[3.826s] -- Set runtime path of "/home/nuctella/my_ros2_ws/install/rosbot_interfaces/lib/librosbot_interfaces__rosidl_typesupport_c.so" to ""
+[3.826s] -- Up-to-date: /home/nuctella/my_ros2_ws/install/rosbot_interfaces/include/rosbot_interfaces/rosbot_interfaces
+[3.826s] -- Up-to-date: /home/nuctella/my_ros2_ws/install/rosbot_interfaces/include/rosbot_interfaces/rosbot_interfaces/msg
+[3.826s] -- Up-to-date: /home/nuctella/my_ros2_ws/install/rosbot_interfaces/include/rosbot_interfaces/rosbot_interfaces/msg/detail
+[3.826s] -- Installing: /home/nuctella/my_ros2_ws/install/rosbot_interfaces/include/rosbot_interfaces/rosbot_interfaces/msg/detail/obstacle_info__rosidl_typesupport_introspection_cpp.hpp
+[3.826s] -- Installing: /home/nuctella/my_ros2_ws/install/rosbot_interfaces/include/rosbot_interfaces/rosbot_interfaces/msg/detail/obstacle_info__type_support.cpp
+[3.826s] -- Installing: /home/nuctella/my_ros2_ws/install/rosbot_interfaces/lib/librosbot_interfaces__rosidl_typesupport_introspection_cpp.so
+[3.826s] -- Set runtime path of "/home/nuctella/my_ros2_ws/install/rosbot_interfaces/lib/librosbot_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+[3.826s] -- Installing: /home/nuctella/my_ros2_ws/install/rosbot_interfaces/lib/librosbot_interfaces__rosidl_typesupport_cpp.so
+[3.826s] -- Set runtime path of "/home/nuctella/my_ros2_ws/install/rosbot_interfaces/lib/librosbot_interfaces__rosidl_typesupport_cpp.so" to ""
+[3.826s] -- Installing: /home/nuctella/my_ros2_ws/install/rosbot_interfaces/share/rosbot_interfaces/environment/pythonpath.sh
+[3.827s] -- Installing: /home/nuctella/my_ros2_ws/install/rosbot_interfaces/share/rosbot_interfaces/environment/pythonpath.dsv
+[3.827s] -- Installing: /home/nuctella/my_ros2_ws/install/rosbot_interfaces/local/lib/python3.10/dist-packages/rosbot_interfaces-0.0.0-py3.10.egg-info
+[3.827s] -- Installing: /home/nuctella/my_ros2_ws/install/rosbot_interfaces/local/lib/python3.10/dist-packages/rosbot_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt
+[3.827s] -- Installing: /home/nuctella/my_ros2_ws/install/rosbot_interfaces/local/lib/python3.10/dist-packages/rosbot_interfaces-0.0.0-py3.10.egg-info/top_level.txt
+[3.827s] -- Installing: /home/nuctella/my_ros2_ws/install/rosbot_interfaces/local/lib/python3.10/dist-packages/rosbot_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt
+[3.827s] -- Installing: /home/nuctella/my_ros2_ws/install/rosbot_interfaces/local/lib/python3.10/dist-packages/rosbot_interfaces-0.0.0-py3.10.egg-info/PKG-INFO
+[3.827s] -- Installing: /home/nuctella/my_ros2_ws/install/rosbot_interfaces/local/lib/python3.10/dist-packages/rosbot_interfaces
+[3.827s] -- Installing: /home/nuctella/my_ros2_ws/install/rosbot_interfaces/local/lib/python3.10/dist-packages/rosbot_interfaces/_rosbot_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[3.827s] -- Installing: /home/nuctella/my_ros2_ws/install/rosbot_interfaces/local/lib/python3.10/dist-packages/rosbot_interfaces/_rosbot_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[3.827s] -- Installing: /home/nuctella/my_ros2_ws/install/rosbot_interfaces/local/lib/python3.10/dist-packages/rosbot_interfaces/_rosbot_interfaces_s.ep.rosidl_typesupport_c.c
+[3.827s] -- Installing: /home/nuctella/my_ros2_ws/install/rosbot_interfaces/local/lib/python3.10/dist-packages/rosbot_interfaces/msg
+[3.827s] -- Installing: /home/nuctella/my_ros2_ws/install/rosbot_interfaces/local/lib/python3.10/dist-packages/rosbot_interfaces/msg/_obstacle_info.py
+[3.827s] -- Installing: /home/nuctella/my_ros2_ws/install/rosbot_interfaces/local/lib/python3.10/dist-packages/rosbot_interfaces/msg/_obstacle_info_s.c
+[3.827s] -- Installing: /home/nuctella/my_ros2_ws/install/rosbot_interfaces/local/lib/python3.10/dist-packages/rosbot_interfaces/msg/__init__.py
+[3.827s] -- Installing: /home/nuctella/my_ros2_ws/install/rosbot_interfaces/local/lib/python3.10/dist-packages/rosbot_interfaces/rosbot_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[3.827s] -- Installing: /home/nuctella/my_ros2_ws/install/rosbot_interfaces/local/lib/python3.10/dist-packages/rosbot_interfaces/librosbot_interfaces__rosidl_generator_py.so
+[3.827s] -- Installing: /home/nuctella/my_ros2_ws/install/rosbot_interfaces/local/lib/python3.10/dist-packages/rosbot_interfaces/rosbot_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[3.827s] -- Installing: /home/nuctella/my_ros2_ws/install/rosbot_interfaces/local/lib/python3.10/dist-packages/rosbot_interfaces/__init__.py
+[3.828s] -- Installing: /home/nuctella/my_ros2_ws/install/rosbot_interfaces/local/lib/python3.10/dist-packages/rosbot_interfaces/rosbot_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[3.863s] Listing '/home/nuctella/my_ros2_ws/install/rosbot_interfaces/local/lib/python3.10/dist-packages/rosbot_interfaces'...
+[3.863s] Compiling '/home/nuctella/my_ros2_ws/install/rosbot_interfaces/local/lib/python3.10/dist-packages/rosbot_interfaces/__init__.py'...
+[3.863s] Listing '/home/nuctella/my_ros2_ws/install/rosbot_interfaces/local/lib/python3.10/dist-packages/rosbot_interfaces/msg'...
+[3.863s] Compiling '/home/nuctella/my_ros2_ws/install/rosbot_interfaces/local/lib/python3.10/dist-packages/rosbot_interfaces/msg/__init__.py'...
+[3.863s] Compiling '/home/nuctella/my_ros2_ws/install/rosbot_interfaces/local/lib/python3.10/dist-packages/rosbot_interfaces/msg/_obstacle_info.py'...
+[3.866s] -- Installing: /home/nuctella/my_ros2_ws/install/rosbot_interfaces/local/lib/python3.10/dist-packages/rosbot_interfaces/rosbot_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[3.867s] -- Set runtime path of "/home/nuctella/my_ros2_ws/install/rosbot_interfaces/local/lib/python3.10/dist-packages/rosbot_interfaces/rosbot_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[3.867s] -- Installing: /home/nuctella/my_ros2_ws/install/rosbot_interfaces/local/lib/python3.10/dist-packages/rosbot_interfaces/rosbot_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[3.867s] -- Set runtime path of "/home/nuctella/my_ros2_ws/install/rosbot_interfaces/local/lib/python3.10/dist-packages/rosbot_interfaces/rosbot_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[3.867s] -- Installing: /home/nuctella/my_ros2_ws/install/rosbot_interfaces/local/lib/python3.10/dist-packages/rosbot_interfaces/rosbot_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[3.867s] -- Set runtime path of "/home/nuctella/my_ros2_ws/install/rosbot_interfaces/local/lib/python3.10/dist-packages/rosbot_interfaces/rosbot_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[3.867s] -- Installing: /home/nuctella/my_ros2_ws/install/rosbot_interfaces/lib/librosbot_interfaces__rosidl_generator_py.so
+[3.867s] -- Set runtime path of "/home/nuctella/my_ros2_ws/install/rosbot_interfaces/lib/librosbot_interfaces__rosidl_generator_py.so" to ""
+[3.867s] -- Installing: /home/nuctella/my_ros2_ws/install/rosbot_interfaces/share/rosbot_interfaces/msg/ObstacleInfo.idl
+[3.867s] -- Installing: /home/nuctella/my_ros2_ws/install/rosbot_interfaces/share/rosbot_interfaces/msg/ObstacleInfo.msg
+[3.867s] -- Installing: /home/nuctella/my_ros2_ws/install/rosbot_interfaces/share/ament_index/resource_index/package_run_dependencies/rosbot_interfaces
+[3.868s] -- Installing: /home/nuctella/my_ros2_ws/install/rosbot_interfaces/share/ament_index/resource_index/parent_prefix_path/rosbot_interfaces
+[3.868s] -- Installing: /home/nuctella/my_ros2_ws/install/rosbot_interfaces/share/rosbot_interfaces/environment/ament_prefix_path.sh
+[3.868s] -- Installing: /home/nuctella/my_ros2_ws/install/rosbot_interfaces/share/rosbot_interfaces/environment/ament_prefix_path.dsv
+[3.868s] -- Installing: /home/nuctella/my_ros2_ws/install/rosbot_interfaces/share/rosbot_interfaces/environment/path.sh
+[3.868s] -- Installing: /home/nuctella/my_ros2_ws/install/rosbot_interfaces/share/rosbot_interfaces/environment/path.dsv
+[3.868s] -- Installing: /home/nuctella/my_ros2_ws/install/rosbot_interfaces/share/rosbot_interfaces/local_setup.bash
+[3.868s] -- Installing: /home/nuctella/my_ros2_ws/install/rosbot_interfaces/share/rosbot_interfaces/local_setup.sh
+[3.868s] -- Installing: /home/nuctella/my_ros2_ws/install/rosbot_interfaces/share/rosbot_interfaces/local_setup.zsh
+[3.868s] -- Installing: /home/nuctella/my_ros2_ws/install/rosbot_interfaces/share/rosbot_interfaces/local_setup.dsv
+[3.868s] -- Installing: /home/nuctella/my_ros2_ws/install/rosbot_interfaces/share/rosbot_interfaces/package.dsv
+[3.868s] -- Installing: /home/nuctella/my_ros2_ws/install/rosbot_interfaces/share/ament_index/resource_index/packages/rosbot_interfaces
+[3.868s] -- Installing: /home/nuctella/my_ros2_ws/install/rosbot_interfaces/share/rosbot_interfaces/cmake/export_rosbot_interfaces__rosidl_generator_cExport.cmake
+[3.868s] -- Installing: /home/nuctella/my_ros2_ws/install/rosbot_interfaces/share/rosbot_interfaces/cmake/export_rosbot_interfaces__rosidl_generator_cExport-noconfig.cmake
+[3.868s] -- Installing: /home/nuctella/my_ros2_ws/install/rosbot_interfaces/share/rosbot_interfaces/cmake/export_rosbot_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[3.868s] -- Installing: /home/nuctella/my_ros2_ws/install/rosbot_interfaces/share/rosbot_interfaces/cmake/export_rosbot_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[3.868s] -- Installing: /home/nuctella/my_ros2_ws/install/rosbot_interfaces/share/rosbot_interfaces/cmake/export_rosbot_interfaces__rosidl_generator_cppExport.cmake
+[3.868s] -- Installing: /home/nuctella/my_ros2_ws/install/rosbot_interfaces/share/rosbot_interfaces/cmake/export_rosbot_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[3.869s] -- Installing: /home/nuctella/my_ros2_ws/install/rosbot_interfaces/share/rosbot_interfaces/cmake/export_rosbot_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[3.869s] -- Installing: /home/nuctella/my_ros2_ws/install/rosbot_interfaces/share/rosbot_interfaces/cmake/rosbot_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[3.869s] -- Installing: /home/nuctella/my_ros2_ws/install/rosbot_interfaces/share/rosbot_interfaces/cmake/rosbot_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[3.869s] -- Installing: /home/nuctella/my_ros2_ws/install/rosbot_interfaces/share/rosbot_interfaces/cmake/rosbot_interfaces__rosidl_typesupport_cExport.cmake
+[3.869s] -- Installing: /home/nuctella/my_ros2_ws/install/rosbot_interfaces/share/rosbot_interfaces/cmake/rosbot_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[3.869s] -- Installing: /home/nuctella/my_ros2_ws/install/rosbot_interfaces/share/rosbot_interfaces/cmake/rosbot_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[3.870s] -- Installing: /home/nuctella/my_ros2_ws/install/rosbot_interfaces/share/rosbot_interfaces/cmake/rosbot_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[3.870s] -- Installing: /home/nuctella/my_ros2_ws/install/rosbot_interfaces/share/rosbot_interfaces/cmake/rosbot_interfaces__rosidl_typesupport_cppExport.cmake
+[3.870s] -- Installing: /home/nuctella/my_ros2_ws/install/rosbot_interfaces/share/rosbot_interfaces/cmake/rosbot_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[3.870s] -- Installing: /home/nuctella/my_ros2_ws/install/rosbot_interfaces/share/rosbot_interfaces/cmake/export_rosbot_interfaces__rosidl_generator_pyExport.cmake
+[3.870s] -- Installing: /home/nuctella/my_ros2_ws/install/rosbot_interfaces/share/rosbot_interfaces/cmake/export_rosbot_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[3.870s] -- Installing: /home/nuctella/my_ros2_ws/install/rosbot_interfaces/share/rosbot_interfaces/cmake/rosidl_cmake-extras.cmake
+[3.870s] -- Installing: /home/nuctella/my_ros2_ws/install/rosbot_interfaces/share/rosbot_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[3.870s] -- Installing: /home/nuctella/my_ros2_ws/install/rosbot_interfaces/share/rosbot_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[3.871s] -- Installing: /home/nuctella/my_ros2_ws/install/rosbot_interfaces/share/rosbot_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[3.871s] -- Installing: /home/nuctella/my_ros2_ws/install/rosbot_interfaces/share/rosbot_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[3.871s] -- Installing: /home/nuctella/my_ros2_ws/install/rosbot_interfaces/share/rosbot_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[3.871s] -- Installing: /home/nuctella/my_ros2_ws/install/rosbot_interfaces/share/rosbot_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[3.871s] -- Installing: /home/nuctella/my_ros2_ws/install/rosbot_interfaces/share/rosbot_interfaces/cmake/rosbot_interfacesConfig.cmake
+[3.871s] -- Installing: /home/nuctella/my_ros2_ws/install/rosbot_interfaces/share/rosbot_interfaces/cmake/rosbot_interfacesConfig-version.cmake
+[3.871s] -- Installing: /home/nuctella/my_ros2_ws/install/rosbot_interfaces/share/rosbot_interfaces/package.xml
+[3.874s] Invoked command in '/home/nuctella/my_ros2_ws/build/rosbot_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nuctella/my_ros2_ws/install/rosbot_object_recognition:/opt/ros/humble /usr/bin/cmake --install /home/nuctella/my_ros2_ws/build/rosbot_interfaces
