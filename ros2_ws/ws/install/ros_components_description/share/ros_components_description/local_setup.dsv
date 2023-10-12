@@ -1,1 +1,2 @@
-/home/nuctella/ros2_ws/ws/build/ros_components_description/ament_cmake_environment_hooks/local_setup.dsv
+source;share/ros_components_description/environment/ament_prefix_path.sh
+source;share/ros_components_description/environment/path.sh

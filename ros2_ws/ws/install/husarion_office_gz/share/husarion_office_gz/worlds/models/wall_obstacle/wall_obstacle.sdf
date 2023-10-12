@@ -1,1 +1,31 @@
-/home/nuctella/ros2_ws/ws/src/husarion/gazebo_worlds/world/models/wall_obstacle/wall_obstacle.sdf
+<?xml version="1.0" ?>
+<sdf version="1.7">
+
+    <model name='wall'>
+        <static>true</static>
+        <pose>0 0 0 0 0 0</pose><!--pose relative to the world-->
+        <link name='box'>
+            <visual name='visual'>
+                <geometry>
+                    <box>
+                        <size>0.5 4.0 2.0</size>
+                    </box>
+                </geometry>
+                <!--let's add color to our link-->
+                <material>
+                    <ambient>0.68 0.84 0.90 1</ambient>
+                    <diffuse>0.68 0.84 0.90 1</diffuse>
+                    <specular>0.68 0.84 0.90 1</specular>
+                </material>
+            </visual>
+            <collision name='collision'>
+                <geometry>
+                    <box>
+                        <size>0.5 4.0 2.0</size>
+                    </box>
+                </geometry>
+            </collision>
+        </link>
+    </model>
+
+</sdf>

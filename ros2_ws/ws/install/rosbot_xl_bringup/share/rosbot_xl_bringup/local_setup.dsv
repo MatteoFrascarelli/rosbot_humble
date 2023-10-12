@@ -1,1 +1,2 @@
-/home/nuctella/ros2_ws/ws/build/rosbot_xl_bringup/ament_cmake_environment_hooks/local_setup.dsv
+source;share/rosbot_xl_bringup/environment/ament_prefix_path.sh
+source;share/rosbot_xl_bringup/environment/path.sh

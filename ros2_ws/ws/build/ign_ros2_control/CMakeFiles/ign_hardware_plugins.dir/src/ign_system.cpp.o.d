@@ -158,8 +158,10 @@ CMakeFiles/ign_hardware_plugins.dir/src/ign_system.cpp.o: \
  /usr/include/c++/11/bits/vector.tcc \
  /home/nuctella/ros2_ws/ws/src/gazebosim/gz_ros2_control/ign_ros2_control/include/ign_ros2_control/ign_system_interface.hpp \
  /usr/include/ignition/gazebo6/ignition/gazebo/System.hh \
- /usr/include/ignition/gazebo6/ignition/gazebo/config.hh \
- /usr/include/ignition/gazebo6/ignition/gazebo/EntityComponentManager.hh \
+ /usr/include/ignition/gazebo6/gz/sim/System.hh \
+ /usr/include/ignition/gazebo6/gz/sim/config.hh \
+ /usr/include/ignition/gazebo6/gz/sim/EntityComponentManager.hh \
+ /usr/include/ignition/msgs8/gz/msgs/serialized.pb.h \
  /usr/include/ignition/msgs8/ignition/msgs/serialized.pb.h \
  /usr/include/c++/11/limits /usr/include/google/protobuf/port_def.inc \
  /usr/include/google/protobuf/port_undef.inc \
@@ -292,38 +294,40 @@ CMakeFiles/ign_hardware_plugins.dir/src/ign_system.cpp.o: \
  /usr/include/ignition/msgs8/ignition/msgs/detail/Export.hh \
  /usr/include/ignition/msgs8/ignition/msgs/world_stats.pb.h \
  /usr/include/ignition/msgs8/ignition/msgs/log_playback_stats.pb.h \
+ /usr/include/ignition/msgs8/gz/msgs/config.hh \
+ /usr/include/ignition/msgs8/gz/msgs/serialized_map.pb.h \
  /usr/include/ignition/msgs8/ignition/msgs/serialized_map.pb.h \
  /usr/include/google/protobuf/map_entry.h \
  /usr/include/google/protobuf/reflection_ops.h \
  /usr/include/google/protobuf/map_field_inl.h \
  /usr/include/google/protobuf/map_field.h /usr/include/c++/11/optional \
- /usr/include/ignition/common4/ignition/common/Console.hh \
+ /usr/include/ignition/common4/gz/common/Console.hh \
  /usr/include/c++/11/fstream /usr/include/c++/11/bits/codecvt.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/basic_file.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++io.h \
  /usr/include/c++/11/bits/fstream.tcc /usr/include/c++/11/sstream \
  /usr/include/c++/11/bits/sstream.tcc \
- /usr/include/ignition/common4/ignition/common/Util.hh \
+ /usr/include/ignition/common4/gz/common/config.hh \
+ /usr/include/ignition/common4/gz/common/Export.hh \
+ /usr/include/ignition/common4/gz/common/detail/Export.hh \
+ /usr/include/ignition/common4/gz/common/SuppressWarning.hh \
+ /usr/include/ignition/common4/gz/common/detail/SuppressWarning.hh \
+ /usr/include/ignition/common4/gz/common/Util.hh \
  /usr/include/c++/11/future /usr/include/c++/11/condition_variable \
  /usr/include/c++/11/bits/atomic_futex.h \
  /usr/include/c++/11/bits/std_thread.h /usr/include/c++/11/thread \
  /usr/include/c++/11/bits/this_thread_sleep.h \
- /usr/include/ignition/common4/ignition/common/Export.hh \
- /usr/include/ignition/common4/ignition/common/detail/Export.hh \
- /usr/include/ignition/common4/ignition/common/Filesystem.hh \
- /usr/include/ignition/common4/ignition/common/SuppressWarning.hh \
- /usr/include/ignition/common4/ignition/common/detail/SuppressWarning.hh \
- /usr/include/ignition/common4/ignition/common/SystemPaths.hh \
+ /usr/include/ignition/common4/gz/common/Filesystem.hh \
+ /usr/include/ignition/common4/gz/common/SystemPaths.hh \
  /usr/include/c++/11/list /usr/include/c++/11/bits/stl_list.h \
  /usr/include/c++/11/bits/list.tcc \
- /usr/include/ignition/common4/ignition/common/URI.hh \
- /usr/include/ignition/math6/ignition/math/graph/Graph.hh \
- /usr/include/ignition/math6/ignition/math/config.hh \
- /usr/include/ignition/math6/ignition/math/graph/Edge.hh \
- /usr/include/ignition/math6/ignition/math/graph/Vertex.hh \
- /usr/include/ignition/math6/ignition/math/Helpers.hh \
- /usr/include/c++/11/cmath /usr/include/math.h \
- /usr/include/x86_64-linux-gnu/bits/math-vector.h \
+ /usr/include/ignition/common4/gz/common/URI.hh \
+ /usr/include/ignition/math6/gz/math/graph/Graph.hh \
+ /usr/include/ignition/math6/gz/math/config.hh \
+ /usr/include/ignition/math6/gz/math/graph/Edge.hh \
+ /usr/include/ignition/math6/gz/math/graph/Vertex.hh \
+ /usr/include/ignition/math6/gz/math/Helpers.hh /usr/include/c++/11/cmath \
+ /usr/include/math.h /usr/include/x86_64-linux-gnu/bits/math-vector.h \
  /usr/include/x86_64-linux-gnu/bits/libm-simd-decl-stubs.h \
  /usr/include/x86_64-linux-gnu/bits/flt-eval-method.h \
  /usr/include/x86_64-linux-gnu/bits/fp-logb.h \
@@ -365,87 +369,96 @@ CMakeFiles/ign_hardware_plugins.dir/src/ign_system.cpp.o: \
  /usr/include/c++/11/bits/regex.h /usr/include/c++/11/bits/regex.tcc \
  /usr/include/c++/11/bits/regex_executor.h \
  /usr/include/c++/11/bits/regex_executor.tcc \
- /usr/include/ignition/math6/ignition/math/Export.hh \
- /usr/include/ignition/math6/ignition/math/detail/Export.hh \
- /usr/include/ignition/gazebo6/ignition/gazebo/Entity.hh \
- /usr/include/ignition/gazebo6/ignition/gazebo/Export.hh \
- /usr/include/ignition/gazebo6/ignition/gazebo/detail/Export.hh \
- /usr/include/ignition/gazebo6/ignition/gazebo/Types.hh \
- /usr/include/ignition/gazebo6/ignition/gazebo/components/Component.hh \
- /usr/include/ignition/gazebo6/ignition/gazebo/detail/View.hh \
- /usr/include/ignition/gazebo6/ignition/gazebo/detail/BaseView.hh \
- /usr/include/ignition/gazebo6/ignition/gazebo/detail/EntityComponentManager.hh \
- /usr/include/ignition/gazebo6/ignition/gazebo/EventManager.hh \
- /usr/include/ignition/common4/ignition/common/Event.hh \
- /usr/include/ignition/common4/ignition/common/config.hh \
- /usr/include/ignition/common4/ignition/common/events/Export.hh \
- /usr/include/ignition/common4/ignition/common/events/detail/Export.hh \
- /usr/include/ignition/common4/ignition/common/events/Types.hh \
+ /usr/include/ignition/math6/gz/math/Export.hh \
+ /usr/include/ignition/math6/gz/math/detail/Export.hh \
+ /usr/include/ignition/gazebo6/gz/sim/Entity.hh \
+ /usr/include/ignition/gazebo6/gz/sim/Export.hh \
+ /usr/include/ignition/gazebo6/gz/sim/detail/Export.hh \
+ /usr/include/ignition/gazebo6/gz/sim/Types.hh \
+ /usr/include/ignition/gazebo6/gz/sim/components/Component.hh \
+ /usr/include/ignition/gazebo6/gz/sim/detail/View.hh \
+ /usr/include/ignition/gazebo6/gz/sim/detail/BaseView.hh \
+ /usr/include/ignition/gazebo6/gz/sim/detail/EntityComponentManager.hh \
+ /usr/include/ignition/gazebo6/gz/sim/EventManager.hh \
+ /usr/include/ignition/common4/gz/common/Event.hh \
+ /usr/include/ignition/common4/gz/common/events/Export.hh \
+ /usr/include/ignition/common4/gz/common/events/detail/Export.hh \
+ /usr/include/ignition/common4/gz/common/events/Types.hh \
+ /usr/include/ignition/transport11/gz/transport/parameters/Registry.hh \
+ /usr/include/ignition/msgs8/ignition/msgs/parameter_declarations.pb.h \
+ /usr/include/ignition/msgs8/ignition/msgs/parameter_declaration.pb.h \
+ /usr/include/ignition/transport11/gz/transport/config.hh \
+ /usr/include/ignition/transport11/gz/transport/parameters/result.hh \
+ /usr/include/ignition/transport11/gz/transport/parameters/Export.hh \
+ /usr/include/ignition/transport11/gz/transport/parameters/detail/Export.hh \
+ /usr/include/ignition/transport11/gz/transport/parameters/Interface.hh \
+ /usr/include/c++/11/variant \
  /usr/include/ignition/sdformat12/sdf/Element.hh /usr/include/c++/11/any \
  /usr/include/ignition/sdformat12/sdf/Param.hh \
- /usr/include/c++/11/variant /usr/include/ignition/math6/ignition/math.hh \
- /usr/include/ignition/math6/ignition/math/graph/GraphAlgorithms.hh \
+ /usr/include/ignition/math6/gz/math.hh \
+ /usr/include/ignition/math6/gz/math/graph/GraphAlgorithms.hh \
  /usr/include/c++/11/queue /usr/include/c++/11/bits/stl_queue.h \
- /usr/include/ignition/math6/ignition/math/AdditivelySeparableScalarField3.hh \
- /usr/include/ignition/math6/ignition/math/Region3.hh \
- /usr/include/ignition/math6/ignition/math/Interval.hh \
- /usr/include/ignition/math6/ignition/math/Vector3.hh \
- /usr/include/ignition/math6/ignition/math/Angle.hh \
- /usr/include/ignition/math6/ignition/math/AxisAlignedBox.hh \
- /usr/include/ignition/math6/ignition/math/Line3.hh \
- /usr/include/ignition/math6/ignition/math/MassMatrix3.hh \
- /usr/include/ignition/math6/ignition/math/Material.hh \
- /usr/include/ignition/math6/ignition/math/MaterialType.hh \
- /usr/include/ignition/math6/ignition/math/Quaternion.hh \
- /usr/include/ignition/math6/ignition/math/Matrix3.hh \
- /usr/include/ignition/math6/ignition/math/Vector2.hh \
- /usr/include/ignition/math6/ignition/math/Box.hh \
- /usr/include/ignition/math6/ignition/math/Plane.hh \
- /usr/include/ignition/math6/ignition/math/Line2.hh \
- /usr/include/ignition/math6/ignition/math/detail/WellOrderedVector.hh \
- /usr/include/ignition/math6/ignition/math/detail/Box.hh \
- /usr/include/ignition/math6/ignition/math/Triangle3.hh \
- /usr/include/ignition/math6/ignition/math/Capsule.hh \
- /usr/include/ignition/math6/ignition/math/detail/Capsule.hh \
- /usr/include/ignition/math6/ignition/math/Inertial.hh \
- /usr/include/ignition/math6/ignition/math/Pose3.hh \
- /usr/include/ignition/math6/ignition/math/Color.hh \
- /usr/include/ignition/math6/ignition/math/Cylinder.hh \
- /usr/include/ignition/math6/ignition/math/detail/Cylinder.hh \
- /usr/include/ignition/math6/ignition/math/DiffDriveOdometry.hh \
- /usr/include/ignition/math6/ignition/math/Ellipsoid.hh \
- /usr/include/ignition/math6/ignition/math/detail/Ellipsoid.hh \
- /usr/include/ignition/math6/ignition/math/Filter.hh \
- /usr/include/ignition/math6/ignition/math/Frustum.hh \
- /usr/include/ignition/math6/ignition/math/GaussMarkovProcess.hh \
- /usr/include/ignition/math6/ignition/math/Kmeans.hh \
- /usr/include/ignition/math6/ignition/math/Matrix4.hh \
- /usr/include/ignition/math6/ignition/math/Matrix6.hh \
- /usr/include/ignition/math6/ignition/math/MovingWindowFilter.hh \
- /usr/include/ignition/math6/ignition/math/OrientedBox.hh \
- /usr/include/ignition/math6/ignition/math/PID.hh \
- /usr/include/ignition/math6/ignition/math/PiecewiseScalarField3.hh \
- /usr/include/ignition/math6/ignition/math/Polynomial3.hh \
- /usr/include/ignition/math6/ignition/math/Vector4.hh \
- /usr/include/ignition/math6/ignition/math/Rand.hh \
- /usr/include/c++/11/random /usr/include/c++/11/bits/random.h \
+ /usr/include/ignition/math6/gz/math/AdditivelySeparableScalarField3.hh \
+ /usr/include/ignition/math6/gz/math/Region3.hh \
+ /usr/include/ignition/math6/gz/math/Interval.hh \
+ /usr/include/ignition/math6/gz/math/Vector3.hh \
+ /usr/include/ignition/math6/gz/math/Angle.hh \
+ /usr/include/ignition/math6/gz/math/AxisAlignedBox.hh \
+ /usr/include/ignition/math6/gz/math/Line3.hh \
+ /usr/include/ignition/math6/gz/math/MassMatrix3.hh \
+ /usr/include/ignition/math6/gz/math/Material.hh \
+ /usr/include/ignition/math6/gz/math/MaterialType.hh \
+ /usr/include/ignition/math6/gz/math/Quaternion.hh \
+ /usr/include/ignition/math6/gz/math/Matrix3.hh \
+ /usr/include/ignition/math6/gz/math/Vector2.hh \
+ /usr/include/ignition/math6/gz/math/Box.hh \
+ /usr/include/ignition/math6/gz/math/Plane.hh \
+ /usr/include/ignition/math6/gz/math/Line2.hh \
+ /usr/include/ignition/math6/gz/math/detail/WellOrderedVector.hh \
+ /usr/include/ignition/math6/gz/math/detail/Box.hh \
+ /usr/include/ignition/math6/gz/math/Triangle3.hh \
+ /usr/include/ignition/math6/gz/math/Capsule.hh \
+ /usr/include/ignition/math6/gz/math/detail/Capsule.hh \
+ /usr/include/ignition/math6/gz/math/Inertial.hh \
+ /usr/include/ignition/math6/gz/math/Pose3.hh \
+ /usr/include/ignition/math6/gz/math/Color.hh \
+ /usr/include/ignition/math6/gz/math/Cylinder.hh \
+ /usr/include/ignition/math6/gz/math/detail/Cylinder.hh \
+ /usr/include/ignition/math6/gz/math/DiffDriveOdometry.hh \
+ /usr/include/ignition/math6/gz/math/Ellipsoid.hh \
+ /usr/include/ignition/math6/gz/math/detail/Ellipsoid.hh \
+ /usr/include/ignition/math6/gz/math/Filter.hh \
+ /usr/include/ignition/math6/gz/math/Frustum.hh \
+ /usr/include/ignition/math6/gz/math/GaussMarkovProcess.hh \
+ /usr/include/ignition/math6/gz/math/Kmeans.hh \
+ /usr/include/ignition/math6/gz/math/Matrix4.hh \
+ /usr/include/ignition/math6/gz/math/Matrix6.hh \
+ /usr/include/ignition/math6/gz/math/MecanumDriveOdometry.hh \
+ /usr/include/ignition/math6/gz/math/MovingWindowFilter.hh \
+ /usr/include/ignition/math6/gz/math/OrientedBox.hh \
+ /usr/include/ignition/math6/gz/math/PID.hh \
+ /usr/include/ignition/math6/gz/math/PiecewiseScalarField3.hh \
+ /usr/include/ignition/math6/gz/math/Polynomial3.hh \
+ /usr/include/ignition/math6/gz/math/Vector4.hh \
+ /usr/include/ignition/math6/gz/math/Rand.hh /usr/include/c++/11/random \
+ /usr/include/c++/11/bits/random.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/opt_random.h \
  /usr/include/c++/11/bits/random.tcc /usr/include/c++/11/numeric \
  /usr/include/c++/11/bits/stl_numeric.h \
  /usr/include/c++/11/pstl/glue_numeric_defs.h \
- /usr/include/ignition/math6/ignition/math/RollingMean.hh \
- /usr/include/ignition/math6/ignition/math/RotationSpline.hh \
- /usr/include/ignition/math6/ignition/math/SemanticVersion.hh \
- /usr/include/ignition/math6/ignition/math/SignalStats.hh \
- /usr/include/ignition/math6/ignition/math/SpeedLimiter.hh \
- /usr/include/ignition/math6/ignition/math/Sphere.hh \
- /usr/include/ignition/math6/ignition/math/detail/Sphere.hh \
- /usr/include/ignition/math6/ignition/math/SphericalCoordinates.hh \
- /usr/include/ignition/math6/ignition/math/Spline.hh \
- /usr/include/ignition/math6/ignition/math/Stopwatch.hh \
- /usr/include/ignition/math6/ignition/math/Temperature.hh \
- /usr/include/ignition/math6/ignition/math/Triangle.hh \
- /usr/include/ignition/math6/ignition/math/Vector3Stats.hh \
+ /usr/include/ignition/math6/gz/math/RollingMean.hh \
+ /usr/include/ignition/math6/gz/math/RotationSpline.hh \
+ /usr/include/ignition/math6/gz/math/SemanticVersion.hh \
+ /usr/include/ignition/math6/gz/math/SignalStats.hh \
+ /usr/include/ignition/math6/gz/math/SpeedLimiter.hh \
+ /usr/include/ignition/math6/gz/math/Sphere.hh \
+ /usr/include/ignition/math6/gz/math/detail/Sphere.hh \
+ /usr/include/ignition/math6/gz/math/SphericalCoordinates.hh \
+ /usr/include/ignition/math6/gz/math/Spline.hh \
+ /usr/include/ignition/math6/gz/math/Stopwatch.hh \
+ /usr/include/ignition/math6/gz/math/Temperature.hh \
+ /usr/include/ignition/math6/gz/math/Triangle.hh \
+ /usr/include/ignition/math6/gz/math/Vector3Stats.hh \
  /usr/include/ignition/sdformat12/sdf/Console.hh \
  /usr/include/ignition/sdformat12/sdf/sdf_config.h \
  /usr/include/ignition/sdformat12/sdf/config.hh \
@@ -453,15 +466,17 @@ CMakeFiles/ign_hardware_plugins.dir/src/ign_system.cpp.o: \
  /usr/include/ignition/sdformat12/sdf/Export.hh \
  /usr/include/ignition/sdformat12/sdf/detail/Export.hh \
  /usr/include/ignition/sdformat12/sdf/PrintConfig.hh \
- /usr/include/ignition/utils1/ignition/utils/ImplPtr.hh \
- /usr/include/ignition/utils1/ignition/utils/detail/DefaultOps.hh \
- /usr/include/ignition/utils1/ignition/utils/SuppressWarning.hh \
- /usr/include/ignition/utils1/ignition/utils/detail/SuppressWarning.hh \
- /usr/include/ignition/utils1/ignition/utils/Export.hh \
- /usr/include/ignition/utils1/ignition/utils/detail/Export.hh \
- /usr/include/ignition/utils1/ignition/utils/detail/ImplPtr.hh \
+ /usr/include/ignition/utils1/gz/utils/ImplPtr.hh \
+ /usr/include/ignition/utils1/gz/utils/config.hh \
+ /usr/include/ignition/utils1/gz/utils/detail/DefaultOps.hh \
+ /usr/include/ignition/utils1/gz/utils/SuppressWarning.hh \
+ /usr/include/ignition/utils1/gz/utils/detail/SuppressWarning.hh \
+ /usr/include/ignition/utils1/gz/utils/Export.hh \
+ /usr/include/ignition/utils1/gz/utils/detail/Export.hh \
+ /usr/include/ignition/utils1/gz/utils/detail/ImplPtr.hh \
  /usr/include/ignition/sdformat12/sdf/Types.hh \
  /usr/include/ignition/sdformat12/sdf/Error.hh \
+ /usr/include/ignition/gazebo6/ignition/gazebo/config.hh \
  /opt/ros/humble/include/hardware_interface/system_interface.hpp \
  /opt/ros/humble/include/hardware_interface/handle.hpp \
  /opt/ros/humble/include/hardware_interface/macros.hpp \
@@ -834,10 +849,12 @@ CMakeFiles/ign_hardware_plugins.dir/src/ign_system.cpp.o: \
  /usr/include/ignition/msgs8/ignition/msgs/vector3d.pb.h \
  /usr/include/ignition/msgs8/ignition/msgs/quaternion.pb.h \
  /usr/include/ignition/gazebo6/ignition/gazebo/components/AngularVelocity.hh \
- /usr/include/ignition/gazebo6/ignition/gazebo/components/Factory.hh \
- /usr/include/ignition/common4/ignition/common/SingletonT.hh \
- /usr/include/ignition/gazebo6/ignition/gazebo/detail/ComponentStorageBase.hh \
+ /usr/include/ignition/gazebo6/gz/sim/components/AngularVelocity.hh \
+ /usr/include/ignition/gazebo6/gz/sim/components/Factory.hh \
+ /usr/include/ignition/common4/gz/common/SingletonT.hh \
+ /usr/include/ignition/gazebo6/gz/sim/detail/ComponentStorageBase.hh \
  /usr/include/ignition/gazebo6/ignition/gazebo/components/Imu.hh \
+ /usr/include/ignition/gazebo6/gz/sim/components/Imu.hh \
  /usr/include/ignition/sdformat12/sdf/Sensor.hh \
  /usr/include/ignition/sdformat12/sdf/Plugin.hh \
  /usr/include/ignition/sdformat12/sdf/parser.hh \
@@ -850,14 +867,20 @@ CMakeFiles/ign_hardware_plugins.dir/src/ign_system.cpp.o: \
  /usr/include/ignition/sdformat12/sdf/InterfaceLink.hh \
  /usr/include/ignition/sdformat12/sdf/InterfaceModelPoseGraph.hh \
  /usr/include/ignition/sdformat12/sdf/SemanticPose.hh \
- /usr/include/ignition/gazebo6/ignition/gazebo/components/Serialization.hh \
+ /usr/include/ignition/gazebo6/gz/sim/components/Serialization.hh \
+ /usr/include/ignition/msgs8/gz/msgs/double_v.pb.h \
  /usr/include/ignition/msgs8/ignition/msgs/double_v.pb.h \
- /usr/include/ignition/gazebo6/ignition/gazebo/Conversions.hh \
+ /usr/include/ignition/gazebo6/gz/sim/Conversions.hh \
+ /usr/include/ignition/msgs8/gz/msgs/actor.pb.h \
  /usr/include/ignition/msgs8/ignition/msgs/actor.pb.h \
  /usr/include/ignition/msgs8/ignition/msgs/entity.pb.h \
  /usr/include/ignition/msgs8/ignition/msgs/pose.pb.h \
+ /usr/include/ignition/msgs8/gz/msgs/atmosphere.pb.h \
  /usr/include/ignition/msgs8/ignition/msgs/atmosphere.pb.h \
+ /usr/include/ignition/msgs8/gz/msgs/axis.pb.h \
  /usr/include/ignition/msgs8/ignition/msgs/axis.pb.h \
+ /usr/include/ignition/msgs8/gz/msgs/entity.pb.h \
+ /usr/include/ignition/msgs8/gz/msgs/geometry.pb.h \
  /usr/include/ignition/msgs8/ignition/msgs/geometry.pb.h \
  /usr/include/ignition/msgs8/ignition/msgs/boxgeom.pb.h \
  /usr/include/ignition/msgs8/ignition/msgs/capsulegeom.pb.h \
@@ -872,20 +895,29 @@ CMakeFiles/ign_hardware_plugins.dir/src/ign_system.cpp.o: \
  /usr/include/ignition/msgs8/ignition/msgs/vector2d.pb.h \
  /usr/include/ignition/msgs8/ignition/msgs/polylinegeom.pb.h \
  /usr/include/ignition/msgs8/ignition/msgs/spheregeom.pb.h \
+ /usr/include/ignition/msgs8/gz/msgs/gui.pb.h \
  /usr/include/ignition/msgs8/ignition/msgs/gui.pb.h \
  /usr/include/ignition/msgs8/ignition/msgs/gui_camera.pb.h \
  /usr/include/ignition/msgs8/ignition/msgs/track_visual.pb.h \
  /usr/include/ignition/msgs8/ignition/msgs/plugin.pb.h \
+ /usr/include/ignition/msgs8/gz/msgs/inertial.pb.h \
  /usr/include/ignition/msgs8/ignition/msgs/inertial.pb.h \
+ /usr/include/ignition/msgs8/gz/msgs/light.pb.h \
  /usr/include/ignition/msgs8/ignition/msgs/light.pb.h \
  /usr/include/ignition/msgs8/ignition/msgs/color.pb.h \
+ /usr/include/ignition/msgs8/gz/msgs/material.pb.h \
  /usr/include/ignition/msgs8/ignition/msgs/material.pb.h \
+ /usr/include/ignition/msgs8/gz/msgs/particle_emitter.pb.h \
  /usr/include/ignition/msgs8/ignition/msgs/particle_emitter.pb.h \
  /usr/include/ignition/msgs8/ignition/msgs/boolean.pb.h \
  /usr/include/ignition/msgs8/ignition/msgs/float.pb.h \
  /usr/include/ignition/msgs8/ignition/msgs/stringmsg.pb.h \
+ /usr/include/ignition/msgs8/gz/msgs/plugin.pb.h \
+ /usr/include/ignition/msgs8/gz/msgs/plugin_v.pb.h \
  /usr/include/ignition/msgs8/ignition/msgs/plugin_v.pb.h \
+ /usr/include/ignition/msgs8/gz/msgs/physics.pb.h \
  /usr/include/ignition/msgs8/ignition/msgs/physics.pb.h \
+ /usr/include/ignition/msgs8/gz/msgs/scene.pb.h \
  /usr/include/ignition/msgs8/ignition/msgs/scene.pb.h \
  /usr/include/ignition/msgs8/ignition/msgs/fog.pb.h \
  /usr/include/ignition/msgs8/ignition/msgs/sky.pb.h \
@@ -912,6 +944,10 @@ CMakeFiles/ign_hardware_plugins.dir/src/ign_system.cpp.o: \
  /usr/include/ignition/msgs8/ignition/msgs/projector.pb.h \
  /usr/include/ignition/msgs8/ignition/msgs/battery.pb.h \
  /usr/include/ignition/msgs8/ignition/msgs/density.pb.h \
+ /usr/include/ignition/msgs8/gz/msgs/sensor.pb.h \
+ /usr/include/ignition/msgs8/gz/msgs/sensor_noise.pb.h \
+ /usr/include/ignition/msgs8/gz/msgs/time.pb.h \
+ /usr/include/ignition/msgs8/gz/msgs/world_stats.pb.h \
  /usr/include/ignition/sdformat12/sdf/Actor.hh \
  /usr/include/ignition/sdformat12/sdf/Link.hh \
  /usr/include/ignition/sdformat12/sdf/Joint.hh \
@@ -928,7 +964,16 @@ CMakeFiles/ign_hardware_plugins.dir/src/ign_system.cpp.o: \
  /usr/include/ignition/sdformat12/sdf/Physics.hh \
  /usr/include/ignition/sdformat12/sdf/Scene.hh \
  /usr/include/ignition/sdformat12/sdf/Sky.hh \
+ /usr/include/ignition/msgs8/gz/msgs/Utility.hh \
  /usr/include/ignition/msgs8/ignition/msgs/Utility.hh \
+ /usr/include/ignition/math6/ignition/math/AxisAlignedBox.hh \
+ /usr/include/ignition/math6/ignition/math/config.hh \
+ /usr/include/ignition/math6/ignition/math/Color.hh \
+ /usr/include/ignition/math6/ignition/math/Inertial.hh \
+ /usr/include/ignition/math6/ignition/math/Pose3.hh \
+ /usr/include/ignition/math6/ignition/math/Plane.hh \
+ /usr/include/ignition/math6/ignition/math/SphericalCoordinates.hh \
+ /usr/include/ignition/math6/ignition/math/Vector3.hh \
  /usr/include/ignition/msgs8/ignition/msgs/config.hh \
  /usr/include/ignition/msgs8/ignition/msgs/MessageTypes.hh \
  /usr/include/ignition/msgs8/ignition/msgs/actuators.pb.h \
@@ -1008,6 +1053,11 @@ CMakeFiles/ign_hardware_plugins.dir/src/ign_system.cpp.o: \
  /usr/include/ignition/msgs8/ignition/msgs/web_request.pb.h \
  /usr/include/ignition/msgs8/ignition/msgs/param.pb.h \
  /usr/include/ignition/msgs8/ignition/msgs/param_v.pb.h \
+ /usr/include/ignition/msgs8/ignition/msgs/parameter.pb.h \
+ /usr/include/google/protobuf/any.pb.h \
+ /usr/include/ignition/msgs8/ignition/msgs/parameter_error.pb.h \
+ /usr/include/ignition/msgs8/ignition/msgs/parameter_name.pb.h \
+ /usr/include/ignition/msgs8/ignition/msgs/parameter_value.pb.h \
  /usr/include/ignition/msgs8/ignition/msgs/particle_emitter_v.pb.h \
  /usr/include/ignition/msgs8/ignition/msgs/performance_sensor_metrics.pb.h \
  /usr/include/ignition/msgs8/ignition/msgs/pointcloud.pb.h \
@@ -1056,16 +1106,27 @@ CMakeFiles/ign_hardware_plugins.dir/src/ign_system.cpp.o: \
  /usr/include/ignition/msgs8/ignition/msgs/world_control_state.pb.h \
  /usr/include/ignition/msgs8/ignition/msgs/world_modify.pb.h \
  /usr/include/ignition/gazebo6/ignition/gazebo/components/JointForce.hh \
+ /usr/include/ignition/gazebo6/gz/sim/components/JointForce.hh \
  /usr/include/ignition/gazebo6/ignition/gazebo/components/JointForceCmd.hh \
+ /usr/include/ignition/gazebo6/gz/sim/components/JointForceCmd.hh \
  /usr/include/ignition/gazebo6/ignition/gazebo/components/JointPosition.hh \
+ /usr/include/ignition/gazebo6/gz/sim/components/JointPosition.hh \
  /usr/include/ignition/gazebo6/ignition/gazebo/components/JointVelocity.hh \
+ /usr/include/ignition/gazebo6/gz/sim/components/JointVelocity.hh \
  /usr/include/ignition/gazebo6/ignition/gazebo/components/JointVelocityCmd.hh \
+ /usr/include/ignition/gazebo6/gz/sim/components/JointVelocityCmd.hh \
  /usr/include/ignition/gazebo6/ignition/gazebo/components/LinearAcceleration.hh \
+ /usr/include/ignition/gazebo6/gz/sim/components/LinearAcceleration.hh \
  /usr/include/ignition/gazebo6/ignition/gazebo/components/Name.hh \
+ /usr/include/ignition/gazebo6/gz/sim/components/Name.hh \
  /usr/include/ignition/gazebo6/ignition/gazebo/components/ParentEntity.hh \
+ /usr/include/ignition/gazebo6/gz/sim/components/ParentEntity.hh \
  /usr/include/ignition/gazebo6/ignition/gazebo/components/Pose.hh \
+ /usr/include/ignition/gazebo6/gz/sim/components/Pose.hh \
  /usr/include/ignition/gazebo6/ignition/gazebo/components/Sensor.hh \
+ /usr/include/ignition/gazebo6/gz/sim/components/Sensor.hh \
  /usr/include/ignition/transport11/ignition/transport/Node.hh \
+ /usr/include/ignition/transport11/gz/transport/Node.hh \
  /usr/include/ignition/msgs8/ignition/msgs.hh \
  /usr/include/ignition/msgs8/ignition/msgs/detail/PointCloudPackedUtils.hh \
  /usr/include/ignition/msgs8/ignition/msgs/detail/SuppressWarning.hh \
@@ -1074,26 +1135,29 @@ CMakeFiles/ign_hardware_plugins.dir/src/ign_system.cpp.o: \
  /usr/include/ignition/msgs8/ignition/msgs/SuppressWarning.hh \
  /usr/include/ignition/msgs8/ignition/msgs/PointCloudPackedUtils.hh \
  /usr/include/c++/11/cstdarg \
- /usr/include/ignition/transport11/ignition/transport/AdvertiseOptions.hh \
- /usr/include/ignition/transport11/ignition/transport/config.hh \
- /usr/include/ignition/transport11/ignition/transport/Export.hh \
- /usr/include/ignition/transport11/ignition/transport/detail/Export.hh \
- /usr/include/ignition/transport11/ignition/transport/NodeOptions.hh \
- /usr/include/ignition/transport11/ignition/transport/NodeShared.hh \
- /usr/include/ignition/transport11/ignition/transport/HandlerStorage.hh \
- /usr/include/ignition/transport11/ignition/transport/TransportTypes.hh \
- /usr/include/ignition/transport11/ignition/transport/Publisher.hh \
- /usr/include/ignition/transport11/ignition/transport/RepHandler.hh \
- /usr/include/ignition/transport11/ignition/transport/Uuid.hh \
+ /usr/include/ignition/transport11/gz/transport/AdvertiseOptions.hh \
+ /usr/include/ignition/transport11/gz/transport/Export.hh \
+ /usr/include/ignition/transport11/gz/transport/detail/Export.hh \
+ /usr/include/ignition/transport11/gz/transport/NodeOptions.hh \
+ /usr/include/ignition/transport11/gz/transport/NodeShared.hh \
+ /usr/include/ignition/transport11/gz/transport/HandlerStorage.hh \
+ /usr/include/ignition/transport11/gz/transport/TransportTypes.hh \
+ /usr/include/ignition/transport11/gz/transport/Publisher.hh \
+ /usr/include/ignition/msgs8/gz/msgs/discovery.pb.h \
+ /usr/include/ignition/transport11/gz/transport/RepHandler.hh \
+ /usr/include/ignition/transport11/gz/transport/Uuid.hh \
  /usr/include/uuid/uuid.h /usr/include/x86_64-linux-gnu/sys/time.h \
- /usr/include/ignition/transport11/ignition/transport/ReqHandler.hh \
- /usr/include/ignition/transport11/ignition/transport/SubscriptionHandler.hh \
- /usr/include/ignition/transport11/ignition/transport/MessageInfo.hh \
- /usr/include/ignition/transport11/ignition/transport/SubscribeOptions.hh \
- /usr/include/ignition/transport11/ignition/transport/TopicStorage.hh \
- /usr/include/ignition/transport11/ignition/transport/TopicStatistics.hh \
- /usr/include/ignition/transport11/ignition/transport/TopicUtils.hh \
- /usr/include/ignition/transport11/ignition/transport/detail/Node.hh \
+ /usr/include/ignition/transport11/gz/transport/ReqHandler.hh \
+ /usr/include/ignition/transport11/gz/transport/SubscriptionHandler.hh \
+ /usr/include/ignition/msgs8/gz/msgs/Factory.hh \
+ /usr/include/ignition/transport11/gz/transport/MessageInfo.hh \
+ /usr/include/ignition/transport11/gz/transport/SubscribeOptions.hh \
+ /usr/include/ignition/transport11/gz/transport/TopicStorage.hh \
+ /usr/include/ignition/transport11/gz/transport/TopicStatistics.hh \
+ /usr/include/ignition/msgs8/gz/msgs/statistic.pb.h \
+ /usr/include/ignition/transport11/gz/transport/TopicUtils.hh \
+ /usr/include/ignition/transport11/gz/transport/detail/Node.hh \
+ /usr/include/ignition/transport11/ignition/transport/config.hh \
  /opt/ros/humble/include/pluginlib/pluginlib/class_list_macros.hpp \
  /opt/ros/humble/include/class_loader/class_loader/class_loader.hpp \
  /usr/include/console_bridge/console.h \

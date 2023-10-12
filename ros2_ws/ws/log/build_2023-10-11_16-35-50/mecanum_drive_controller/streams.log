@@ -1,0 +1,7 @@
+[0.198s] Invoking command in '/home/nuctella/ros2_ws/ws/build/mecanum_drive_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nuctella/my_ros2_ws/install/rosbot_object_recognition:/opt/ros/humble /usr/bin/cmake --build /home/nuctella/ros2_ws/ws/build/mecanum_drive_controller -- -j20 -l20
+[0.242s] [35m[1mConsolidate compiler generated dependencies of target mecanum_drive_controller[0m
+[0.267s] [ 25%] [32mBuilding CXX object CMakeFiles/mecanum_drive_controller.dir/src/mecanum_drive_controller.cpp.o[0m
+[0.267s] [ 50%] [32mBuilding CXX object CMakeFiles/mecanum_drive_controller.dir/src/odometry.cpp.o[0m
+[0.270s] [ 75%] [32mBuilding CXX object CMakeFiles/mecanum_drive_controller.dir/src/speed_limiter.cpp.o[0m
+[8.534s] [100%] [32m[1mLinking CXX shared library libmecanum_drive_controller.so[0m
+[8.992s] [100%] Built target mecanum_drive_controller

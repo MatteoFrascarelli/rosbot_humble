@@ -1,1 +1,2 @@
-/home/nuctella/ros2_ws/ws/build/husarion_office_gz/ament_cmake_environment_hooks/local_setup.dsv
+source;share/husarion_office_gz/environment/ament_prefix_path.sh
+source;share/husarion_office_gz/environment/path.sh

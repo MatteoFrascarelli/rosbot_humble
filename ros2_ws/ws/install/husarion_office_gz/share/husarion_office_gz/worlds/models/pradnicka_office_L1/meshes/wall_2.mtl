@@ -1,1 +1,10 @@
-/home/nuctella/ros2_ws/ws/src/husarion/gazebo_worlds/world/models/pradnicka_office_L1/meshes/wall_2.mtl
+# The Great Editor v0.0.1
+newmtl wall_2
+Ka 1.0 1.0 1.0
+Kd 1.0 1.0 1.0
+Ke 0.0 0.0 0.0
+Ns 50.0
+Ni 1.0
+d 1
+illum 2
+map_Kd wood2.png

@@ -1,1 +1,1 @@
-/home/nuctella/ros2_ws/ws/build/mecanum_drive_controller/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/mecanum_drive_controller
+controller_interface;geometry_msgs;hardware_interface;nav_msgs;rclcpp;rclcpp_lifecycle;rcpputils;realtime_tools;tf2;tf2_msgs

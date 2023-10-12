@@ -1,0 +1,35 @@
+[0.152s] Invoking command in '/home/nuctella/ros2_ws/ws/build/rosbot_hardware_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nuctella/my_ros2_ws/install/rosbot_object_recognition:/opt/ros/humble /usr/bin/cmake /home/nuctella/ros2_ws/ws/src/rosbot_hardware_interfaces -DCMAKE_INSTALL_PREFIX=/home/nuctella/ros2_ws/ws/install/rosbot_hardware_interfaces
+[0.214s] -- The C compiler identification is GNU 11.4.0
+[0.250s] -- The CXX compiler identification is GNU 11.4.0
+[0.256s] -- Detecting C compiler ABI info
+[0.300s] -- Detecting C compiler ABI info - done
+[0.304s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.304s] -- Detecting C compile features
+[0.304s] -- Detecting C compile features - done
+[0.307s] -- Detecting CXX compiler ABI info
+[0.357s] -- Detecting CXX compiler ABI info - done
+[0.361s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.362s] -- Detecting CXX compile features
+[0.362s] -- Detecting CXX compile features - done
+[0.364s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.616s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[0.689s] -- Found controller_interface: 2.31.0 (/opt/ros/humble/share/controller_interface/cmake)
+[0.729s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.734s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.743s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.756s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.772s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.237s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.239s] -- Found rmw_fastrtps_cpp: 6.2.4 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.315s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.340s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.381s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.389s] -- Looking for pthread.h
+[1.435s] -- Looking for pthread.h - found
+[1.435s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.480s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.483s] -- Found Threads: TRUE  
+[1.650s] -- Found realtime_tools: 2.5.0 (/opt/ros/humble/share/realtime_tools/cmake)
+[1.859s] -- Configuring done
+[1.873s] -- Generating done
+[1.874s] -- Build files have been written to: /home/nuctella/ros2_ws/ws/build/rosbot_hardware_interfaces

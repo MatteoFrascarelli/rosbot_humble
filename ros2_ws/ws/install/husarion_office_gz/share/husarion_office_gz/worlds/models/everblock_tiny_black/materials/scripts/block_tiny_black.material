@@ -1,1 +1,21 @@
-/home/nuctella/ros2_ws/ws/src/husarion/gazebo_worlds/world/models/everblock_tiny_black/materials/scripts/block_tiny_black.material
+material BlockTinyBlack
+{
+  receive_shadows off
+  technique
+  {
+    pass
+    {
+      ambient 0.5 0.5 0.5
+      diffuse 0.2 0.2 0.2
+
+      texture_unit
+      {
+        texture block.png
+        filtering anistropic
+        max_anisotropy 16
+        scale 2 2
+      }
+    }
+  }
+}
+
