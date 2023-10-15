@@ -55,6 +55,3 @@ endforeach()
 message(STATUS "Execute custom uninstall script")
 
 # begin of custom uninstall code
-
-# uninstall files installed using the symlink install functions
-include("/home/nuctella/ros2_ws/ws/build/rosbot_xl/ament_cmake_symlink_install/ament_cmake_symlink_install_uninstall_script.cmake")

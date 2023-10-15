@@ -57,14 +57,62 @@
 
     <include>
         <uri>model://red_ball</uri>      
-        <name>ball</name>
+        <name>ball0</name>
         <pose>1 5 2 0 0 0</pose>
     </include>
 
     <include>
+        <uri>model://red_ball</uri>      
+        <name>ball1</name>
+        <pose>-1 -5 2 0 0 0</pose>
+    </include>
+
+    <include>
         <uri>model://everblock_red</uri>      
-        <name>block</name>
-        <pose>-3 7 0 0 0 0</pose>
+        <name>block1</name>
+        <pose>-3 7 0 0 0 0.523598776</pose> <!-- ruotato yaw = 30 gradi -->
+    </include>
+
+    <include>
+        <uri>model://everblock_blue</uri>      
+        <name>block2</name>
+        <pose>3 7 0 0 0 0</pose> <!-- ruotato yaw = 0 gradi -->
+    </include>
+
+    <include>
+        <uri>model://everblock_green</uri>      
+        <name>block3</name>
+        <pose>5 3 0 0 0 0.785398163</pose> <!-- ruotato yaw = 45 gradi -->
+    </include>
+
+    <include>
+        <uri>model://everblock_red</uri>      
+        <name>block4</name>
+        <pose>9 11 0 0 0 4.71238898</pose><!-- ruotato yaw = 270 gradi -->
+    </include>
+
+    <include>
+        <uri>model://everblock_small_black</uri>      
+        <name>block5</name>
+        <pose>-3 -7 0 0 0 1.047197551</pose><!-- ruotato yaw = 60 gradi -->
+    </include>
+
+    <include>
+        <uri>model://everblock_yellow</uri>      
+        <name>block6</name>
+        <pose>3 -7 0 0 0 2.094395102</pose><!-- ruotato yaw = 120 gradi -->
+    </include>
+
+    <include>
+        <uri>model://everblock_white</uri>      
+        <name>block7</name>
+        <pose>-5 -3 0 0 0 4.363323130</pose><!-- ruotato yaw = 250 gradi -->
+    </include>
+
+    <include>
+        <uri>model://everblock_high_green</uri>      
+        <name>block8</name>
+        <pose>-9 -11 0 0 0 0.174532925</pose><!-- ruotato yaw = 10 gradi -->
     </include>
 
 <!-- modificato da noi -->

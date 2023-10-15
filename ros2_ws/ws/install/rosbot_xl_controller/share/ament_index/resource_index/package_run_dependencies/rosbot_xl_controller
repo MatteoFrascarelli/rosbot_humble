@@ -1,1 +1,1 @@
-/home/nuctella/ros2_ws/ws/build/rosbot_xl_controller/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/rosbot_xl_controller
+rosbot_xl_description;launch;launch_ros;xacro;controller_manager;robot_state_publisher;joint_state_broadcaster;imu_sensor_broadcaster;diff_drive_controller;mecanum_drive_controller;rosbot_hardware_interfaces

@@ -1,1 +1,1 @@
-/home/nuctella/ros2_ws/ws/build/rosbot_hardware_interfaces/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/rosbot_hardware_interfaces
+hardware_interface;controller_interface;rclcpp_lifecycle;rclcpp;std_msgs;realtime_tools;diff_drive_controller;imu_sensor_broadcaster;ament_cmake_gtest

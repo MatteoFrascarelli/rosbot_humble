@@ -1,0 +1,1 @@
+Invoking command in '/home/nuctella/ros2_ws/ws/build/mecanum_drive_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nuctella/my_ros2_ws/install/rosbot_object_recognition:/opt/ros/humble /usr/bin/cmake /home/nuctella/ros2_ws/ws/src/rosbot_controllers/mecanum_drive_controller -DCMAKE_INSTALL_PREFIX=/home/nuctella/ros2_ws/ws/install/mecanum_drive_controller
