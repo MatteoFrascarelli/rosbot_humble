@@ -1,3 +1,0 @@
-[0.151s] Invoking command in '/home/nuctella/ros2_ws/ws/build/rosbot_hardware_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nuctella/my_ros2_ws/install/rosbot_object_recognition:/opt/ros/humble /usr/bin/cmake --build /home/nuctella/ros2_ws/ws/build/rosbot_hardware_interfaces -- -j20 -l20
-[0.178s] [35m[1mConsolidate compiler generated dependencies of target rosbot_hardware_interfaces[0m
-[0.191s] [100%] Built target rosbot_hardware_interfaces
