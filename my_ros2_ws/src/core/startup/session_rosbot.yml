@@ -1,0 +1,17 @@
+name: nuctella-rosbot
+root: ./
+startup_window: startup-slam
+pre_window: |
+  source ~/.bashrc; . /opt/ros/humble/setup.bash; . ~/ros2_ws/install/setup.bash;
+  export DDS_CONFIG=DEFAULT; export RMW_IMPLEMENTATION=rmw_fastrtps_cpp;
+  export LIDAR_SERIAL=/dev/ttyRPLIDAR; export LIDAR_BAUDRATE=1000000;
+  export ROS_DOMAIN_ID=0
+windows:
+  - startup-slam:     #tmux list-windows
+      # layout: b3d5,212x48,0,0[212x23,0,0{105x23,0,0,0,106x23,106,0,1},212x24,0,24{105x24,0,24,2,106x24,106,24,3}]
+      panes:
+        - ros2 launch rosbot_xl_bringup bringup.launch.py mecanum:=${MECANUM:-True}
+        - ros2 run micro_ros_agent micro_ros_agent udp4 --port 8888
+        - ros2 launch sllidar_ros2 sllidar_launch.py serial_port:=$LIDAR_SERIAL serial_baudrate:=$LIDAR_BAUDRATE
+        - ros2 launch slam_toolbox online_sync_launch.py slam_params_file:=/config/slam_toolbox_params.yaml
+          use_sim_time:=${USE_SIM_TIME:-False}

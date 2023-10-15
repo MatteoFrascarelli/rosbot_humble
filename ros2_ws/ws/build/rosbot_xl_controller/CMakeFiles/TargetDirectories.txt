@@ -1,0 +1,9 @@
+/home/nuctella/ros2_ws/ws/build/rosbot_xl_controller/CMakeFiles/uninstall.dir
+/home/nuctella/ros2_ws/ws/build/rosbot_xl_controller/CMakeFiles/rosbot_xl_controller_uninstall.dir
+/home/nuctella/ros2_ws/ws/build/rosbot_xl_controller/CMakeFiles/test.dir
+/home/nuctella/ros2_ws/ws/build/rosbot_xl_controller/CMakeFiles/edit_cache.dir
+/home/nuctella/ros2_ws/ws/build/rosbot_xl_controller/CMakeFiles/rebuild_cache.dir
+/home/nuctella/ros2_ws/ws/build/rosbot_xl_controller/CMakeFiles/list_install_components.dir
+/home/nuctella/ros2_ws/ws/build/rosbot_xl_controller/CMakeFiles/install.dir
+/home/nuctella/ros2_ws/ws/build/rosbot_xl_controller/CMakeFiles/install/local.dir
+/home/nuctella/ros2_ws/ws/build/rosbot_xl_controller/CMakeFiles/install/strip.dir

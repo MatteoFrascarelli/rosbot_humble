@@ -1,0 +1,7 @@
+prepend-non-duplicate;IGN_GAZEBO_RESOURCE_PATH;share/uav_single_gazebo/models
+prepend-non-duplicate;IGN_GAZEBO_RESOURCE_PATH;share/uav_single_gazebo/worlds
+set-if-unset;MESA_GL_VERSION_OVERRIDE;3.3
+prepend-non-duplicate;SDF_PATH;share/uav_single_gazebo/models
+prepend-non-duplicate;SDF_PATH;share/uav_single_gazebo/worlds
+prepend-non-duplicate;IGN_FILE_PATH;share/uav_single_gazebo/models
+prepend-non-duplicate;IGN_FILE_PATH;share/uav_single_gazebo/worlds

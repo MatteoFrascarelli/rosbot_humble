@@ -1,0 +1,9 @@
+/home/nuctella/ros2_ws/ws/build/rosbot_xl_bringup/CMakeFiles/uninstall.dir
+/home/nuctella/ros2_ws/ws/build/rosbot_xl_bringup/CMakeFiles/rosbot_xl_bringup_uninstall.dir
+/home/nuctella/ros2_ws/ws/build/rosbot_xl_bringup/CMakeFiles/test.dir
+/home/nuctella/ros2_ws/ws/build/rosbot_xl_bringup/CMakeFiles/edit_cache.dir
+/home/nuctella/ros2_ws/ws/build/rosbot_xl_bringup/CMakeFiles/rebuild_cache.dir
+/home/nuctella/ros2_ws/ws/build/rosbot_xl_bringup/CMakeFiles/list_install_components.dir
+/home/nuctella/ros2_ws/ws/build/rosbot_xl_bringup/CMakeFiles/install.dir
+/home/nuctella/ros2_ws/ws/build/rosbot_xl_bringup/CMakeFiles/install/local.dir
+/home/nuctella/ros2_ws/ws/build/rosbot_xl_bringup/CMakeFiles/install/strip.dir

@@ -1,0 +1,40 @@
+[0.116s] Invoking command in '/home/nuctella/ros2_ws/ws/build/rosbot_hardware_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nuctella/my_ros2_ws/install/rosbot_object_recognition:/opt/ros/humble /usr/bin/cmake --build /home/nuctella/ros2_ws/ws/build/rosbot_hardware_interfaces -- -j20 -l20
+[0.187s] [100%] Built target rosbot_hardware_interfaces
+[0.248s] Invoked command in '/home/nuctella/ros2_ws/ws/build/rosbot_hardware_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nuctella/my_ros2_ws/install/rosbot_object_recognition:/opt/ros/humble /usr/bin/cmake --build /home/nuctella/ros2_ws/ws/build/rosbot_hardware_interfaces -- -j20 -l20
+[0.352s] Invoking command in '/home/nuctella/ros2_ws/ws/build/rosbot_hardware_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nuctella/my_ros2_ws/install/rosbot_object_recognition:/opt/ros/humble /usr/bin/cmake --install /home/nuctella/ros2_ws/ws/build/rosbot_hardware_interfaces
+[0.356s] -- Install configuration: ""
+[0.356s] -- Up-to-date: /home/nuctella/ros2_ws/ws/install/rosbot_hardware_interfaces/share/rosbot_hardware_interfaces/rosbot_hardware_interfaces.xml
+[0.357s] -- Up-to-date: /home/nuctella/ros2_ws/ws/install/rosbot_hardware_interfaces/include
+[0.357s] -- Up-to-date: /home/nuctella/ros2_ws/ws/install/rosbot_hardware_interfaces/include/rosbot_hardware_interfaces
+[0.357s] -- Up-to-date: /home/nuctella/ros2_ws/ws/install/rosbot_hardware_interfaces/include/rosbot_hardware_interfaces/rosbot_system.hpp
+[0.357s] -- Up-to-date: /home/nuctella/ros2_ws/ws/install/rosbot_hardware_interfaces/include/rosbot_hardware_interfaces/rosbot_imu_sensor.hpp
+[0.357s] -- Up-to-date: /home/nuctella/ros2_ws/ws/install/rosbot_hardware_interfaces/include/rosbot_hardware_interfaces/visibility_control.hpp
+[0.357s] -- Up-to-date: /home/nuctella/ros2_ws/ws/install/rosbot_hardware_interfaces/share/rosbot_hardware_interfaces/launch
+[0.357s] -- Up-to-date: /home/nuctella/ros2_ws/ws/install/rosbot_hardware_interfaces/share/rosbot_hardware_interfaces/launch/example_diff_drive.launch.py
+[0.357s] -- Up-to-date: /home/nuctella/ros2_ws/ws/install/rosbot_hardware_interfaces/share/rosbot_hardware_interfaces/config
+[0.357s] -- Up-to-date: /home/nuctella/ros2_ws/ws/install/rosbot_hardware_interfaces/share/rosbot_hardware_interfaces/config/example_diff_drive_controller.yaml
+[0.357s] -- Up-to-date: /home/nuctella/ros2_ws/ws/install/rosbot_hardware_interfaces/share/rosbot_hardware_interfaces/urdf
+[0.357s] -- Up-to-date: /home/nuctella/ros2_ws/ws/install/rosbot_hardware_interfaces/share/rosbot_hardware_interfaces/urdf/ros2_control.urdf.xacro
+[0.357s] -- Up-to-date: /home/nuctella/ros2_ws/ws/install/rosbot_hardware_interfaces/lib/librosbot_hardware_interfaces.so
+[0.357s] -- Up-to-date: /home/nuctella/ros2_ws/ws/install/rosbot_hardware_interfaces/share/rosbot_hardware_interfaces/environment/library_path.sh
+[0.357s] -- Up-to-date: /home/nuctella/ros2_ws/ws/install/rosbot_hardware_interfaces/share/rosbot_hardware_interfaces/environment/library_path.dsv
+[0.357s] -- Up-to-date: /home/nuctella/ros2_ws/ws/install/rosbot_hardware_interfaces/share/ament_index/resource_index/package_run_dependencies/rosbot_hardware_interfaces
+[0.357s] -- Up-to-date: /home/nuctella/ros2_ws/ws/install/rosbot_hardware_interfaces/share/ament_index/resource_index/parent_prefix_path/rosbot_hardware_interfaces
+[0.357s] -- Up-to-date: /home/nuctella/ros2_ws/ws/install/rosbot_hardware_interfaces/share/rosbot_hardware_interfaces/environment/ament_prefix_path.sh
+[0.358s] -- Up-to-date: /home/nuctella/ros2_ws/ws/install/rosbot_hardware_interfaces/share/rosbot_hardware_interfaces/environment/ament_prefix_path.dsv
+[0.358s] -- Up-to-date: /home/nuctella/ros2_ws/ws/install/rosbot_hardware_interfaces/share/rosbot_hardware_interfaces/environment/path.sh
+[0.358s] -- Up-to-date: /home/nuctella/ros2_ws/ws/install/rosbot_hardware_interfaces/share/rosbot_hardware_interfaces/environment/path.dsv
+[0.358s] -- Up-to-date: /home/nuctella/ros2_ws/ws/install/rosbot_hardware_interfaces/share/rosbot_hardware_interfaces/local_setup.bash
+[0.358s] -- Up-to-date: /home/nuctella/ros2_ws/ws/install/rosbot_hardware_interfaces/share/rosbot_hardware_interfaces/local_setup.sh
+[0.358s] -- Up-to-date: /home/nuctella/ros2_ws/ws/install/rosbot_hardware_interfaces/share/rosbot_hardware_interfaces/local_setup.zsh
+[0.359s] -- Up-to-date: /home/nuctella/ros2_ws/ws/install/rosbot_hardware_interfaces/share/rosbot_hardware_interfaces/local_setup.dsv
+[0.359s] -- Installing: /home/nuctella/ros2_ws/ws/install/rosbot_hardware_interfaces/share/rosbot_hardware_interfaces/package.dsv
+[0.359s] -- Up-to-date: /home/nuctella/ros2_ws/ws/install/rosbot_hardware_interfaces/share/ament_index/resource_index/packages/rosbot_hardware_interfaces
+[0.359s] -- Up-to-date: /home/nuctella/ros2_ws/ws/install/rosbot_hardware_interfaces/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/rosbot_hardware_interfaces
+[0.359s] -- Up-to-date: /home/nuctella/ros2_ws/ws/install/rosbot_hardware_interfaces/share/rosbot_hardware_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.359s] -- Up-to-date: /home/nuctella/ros2_ws/ws/install/rosbot_hardware_interfaces/share/rosbot_hardware_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[0.359s] -- Up-to-date: /home/nuctella/ros2_ws/ws/install/rosbot_hardware_interfaces/share/rosbot_hardware_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.359s] -- Up-to-date: /home/nuctella/ros2_ws/ws/install/rosbot_hardware_interfaces/share/rosbot_hardware_interfaces/cmake/rosbot_hardware_interfacesConfig.cmake
+[0.359s] -- Up-to-date: /home/nuctella/ros2_ws/ws/install/rosbot_hardware_interfaces/share/rosbot_hardware_interfaces/cmake/rosbot_hardware_interfacesConfig-version.cmake
+[0.359s] -- Up-to-date: /home/nuctella/ros2_ws/ws/install/rosbot_hardware_interfaces/share/rosbot_hardware_interfaces/package.xml
+[0.418s] Invoked command in '/home/nuctella/ros2_ws/ws/build/rosbot_hardware_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nuctella/my_ros2_ws/install/rosbot_object_recognition:/opt/ros/humble /usr/bin/cmake --install /home/nuctella/ros2_ws/ws/build/rosbot_hardware_interfaces

@@ -1,0 +1,71 @@
+[0.083s] Invoking command in '/home/nuctella/my_ros2_ws/build/core': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nuctella/my_ros2_ws/install/rosbot_object_recognition:/opt/ros/humble /usr/bin/cmake /home/nuctella/my_ros2_ws/src/core -DCMAKE_INSTALL_PREFIX=/home/nuctella/my_ros2_ws/install/core
+[0.110s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.196s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.205s] -- Found rclcpp: 16.0.6 (/opt/ros/humble/share/rclcpp/cmake)
+[0.230s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.232s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.237s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.246s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.256s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.294s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.296s] -- Found rmw_fastrtps_cpp: 6.2.4 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.386s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.481s] -- Found rclpy: 3.3.10 (/opt/ros/humble/share/rclpy/cmake)
+[0.481s] -- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)
+[0.594s] -- Found ament_lint_auto: 0.12.8 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.636s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.636s] -- Configured cppcheck include dirs: /home/nuctella/my_ros2_ws/src/core/include
+[0.637s] -- Configured cppcheck exclude dirs and/or files: 
+[0.637s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.637s] -- Added test 'lint_cmake' to check CMake code style
+[0.637s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.638s] -- Added test 'uncrustify' to check C / C++ code style
+[0.638s] -- Configured uncrustify additional arguments: 
+[0.638s] -- Added test 'xmllint' to check XML markup files
+[0.639s] -- Configuring done
+[0.648s] -- Generating done
+[0.649s] -- Build files have been written to: /home/nuctella/my_ros2_ws/build/core
+[0.654s] Invoked command in '/home/nuctella/my_ros2_ws/build/core' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nuctella/my_ros2_ws/install/rosbot_object_recognition:/opt/ros/humble /usr/bin/cmake /home/nuctella/my_ros2_ws/src/core -DCMAKE_INSTALL_PREFIX=/home/nuctella/my_ros2_ws/install/core
+[0.655s] Invoking command in '/home/nuctella/my_ros2_ws/build/core': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nuctella/my_ros2_ws/install/rosbot_object_recognition:/opt/ros/humble /usr/bin/cmake --build /home/nuctella/my_ros2_ws/build/core -- -j20 -l20
+[0.677s] [35m[1mConsolidate compiler generated dependencies of target monitor_battery[0m
+[0.685s] [  0%] Built target ament_cmake_python_symlink_core
+[0.693s] [100%] Built target monitor_battery
+[0.784s] running egg_info
+[0.791s] writing core.egg-info/PKG-INFO
+[0.791s] writing dependency_links to core.egg-info/dependency_links.txt
+[0.791s] writing top-level names to core.egg-info/top_level.txt
+[0.809s] reading manifest file 'core.egg-info/SOURCES.txt'
+[0.810s] writing manifest file 'core.egg-info/SOURCES.txt'
+[0.824s] [100%] Built target ament_cmake_python_build_core_egg
+[0.831s] Invoked command in '/home/nuctella/my_ros2_ws/build/core' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nuctella/my_ros2_ws/install/rosbot_object_recognition:/opt/ros/humble /usr/bin/cmake --build /home/nuctella/my_ros2_ws/build/core -- -j20 -l20
+[0.849s] Invoking command in '/home/nuctella/my_ros2_ws/build/core': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nuctella/my_ros2_ws/install/rosbot_object_recognition:/opt/ros/humble /usr/bin/cmake --install /home/nuctella/my_ros2_ws/build/core
+[0.853s] -- Install configuration: ""
+[0.853s] -- Execute custom install script
+[0.853s] -- Up-to-date symlink: /home/nuctella/my_ros2_ws/install/core/lib/core/monitor_battery
+[0.853s] -- Up-to-date symlink: /home/nuctella/my_ros2_ws/install/core/include/.gitkeep
+[0.853s] -- Up-to-date symlink: /home/nuctella/my_ros2_ws/install/core/share/core/environment/pythonpath.sh
+[0.853s] -- Up-to-date symlink: /home/nuctella/my_ros2_ws/install/core/share/core/environment/pythonpath.dsv
+[0.854s] -- Up-to-date symlink: /home/nuctella/my_ros2_ws/install/core/local/lib/python3.10/dist-packages/core-0.0.0-py3.10.egg-info/PKG-INFO
+[0.854s] -- Up-to-date symlink: /home/nuctella/my_ros2_ws/install/core/local/lib/python3.10/dist-packages/core-0.0.0-py3.10.egg-info/SOURCES.txt
+[0.854s] -- Up-to-date symlink: /home/nuctella/my_ros2_ws/install/core/local/lib/python3.10/dist-packages/core-0.0.0-py3.10.egg-info/dependency_links.txt
+[0.854s] -- Up-to-date symlink: /home/nuctella/my_ros2_ws/install/core/local/lib/python3.10/dist-packages/core-0.0.0-py3.10.egg-info/top_level.txt
+[0.854s] -- Up-to-date symlink: /home/nuctella/my_ros2_ws/install/core/local/lib/python3.10/dist-packages/core/__init__.py
+[0.854s] -- Up-to-date symlink: /home/nuctella/my_ros2_ws/install/core/lib/core/monitor_battery.py
+[0.854s] -- Up-to-date symlink: /home/nuctella/my_ros2_ws/install/core/share/ament_index/resource_index/package_run_dependencies/core
+[0.854s] -- Up-to-date symlink: /home/nuctella/my_ros2_ws/install/core/share/ament_index/resource_index/parent_prefix_path/core
+[0.855s] -- Up-to-date symlink: /home/nuctella/my_ros2_ws/install/core/share/core/environment/ament_prefix_path.sh
+[0.855s] -- Up-to-date symlink: /home/nuctella/my_ros2_ws/install/core/share/core/environment/ament_prefix_path.dsv
+[0.855s] -- Up-to-date symlink: /home/nuctella/my_ros2_ws/install/core/share/core/environment/path.sh
+[0.855s] -- Up-to-date symlink: /home/nuctella/my_ros2_ws/install/core/share/core/environment/path.dsv
+[0.855s] -- Up-to-date symlink: /home/nuctella/my_ros2_ws/install/core/share/core/local_setup.bash
+[0.855s] -- Up-to-date symlink: /home/nuctella/my_ros2_ws/install/core/share/core/local_setup.sh
+[0.855s] -- Up-to-date symlink: /home/nuctella/my_ros2_ws/install/core/share/core/local_setup.zsh
+[0.855s] -- Up-to-date symlink: /home/nuctella/my_ros2_ws/install/core/share/core/local_setup.dsv
+[0.855s] -- Symlinking: /home/nuctella/my_ros2_ws/install/core/share/core/package.dsv
+[0.860s] -- Up-to-date symlink: /home/nuctella/my_ros2_ws/install/core/share/ament_index/resource_index/packages/core
+[0.860s] -- Up-to-date symlink: /home/nuctella/my_ros2_ws/install/core/share/core/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.860s] -- Up-to-date symlink: /home/nuctella/my_ros2_ws/install/core/share/core/cmake/coreConfig.cmake
+[0.860s] -- Up-to-date symlink: /home/nuctella/my_ros2_ws/install/core/share/core/cmake/coreConfig-version.cmake
+[0.860s] -- Up-to-date symlink: /home/nuctella/my_ros2_ws/install/core/share/core/package.xml
+[0.879s] Listing '/home/nuctella/my_ros2_ws/install/core/local/lib/python3.10/dist-packages/core'...
+[0.882s] Invoked command in '/home/nuctella/my_ros2_ws/build/core' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nuctella/my_ros2_ws/install/rosbot_object_recognition:/opt/ros/humble /usr/bin/cmake --install /home/nuctella/my_ros2_ws/build/core

@@ -1,0 +1,6 @@
+repositories:
+
+  rosbot_xl_ros:
+    type: git
+    url: https://github.com/husarion/rosbot_xl_ros.git
+    version: f884103745434b564562be9c76a5e53e212b546a

@@ -1,0 +1,237 @@
+[0.020s] Invoking command in '/home/nuctella/ros2_ws/ws/build/ign_ros2_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nuctella/my_ros2_ws/install/start_with_simple_nodes_py:/home/nuctella/my_ros2_ws/install/rosbot_object_recognition:/home/nuctella/my_ros2_ws/install/publisher_and_subscriber_py:/opt/ros/humble /usr/bin/cmake --build /home/nuctella/ros2_ws/ws/build/ign_ros2_control -- -j20 -l20
+[0.046s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.139s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.144s] -- Found ament_index_cpp: 1.4.0 (/opt/ros/humble/share/ament_index_cpp/cmake)
+[0.145s] -- Found controller_manager: 2.30.0 (/opt/ros/humble/share/controller_manager/cmake)
+[0.164s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.166s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.169s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.177s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.187s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.584s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.586s] -- Found rmw_fastrtps_cpp: 6.2.3 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.678s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.039s] -- Found yaml_cpp_vendor: 8.0.2 (/opt/ros/humble/share/yaml_cpp_vendor/cmake)
+[1.041s] -- Looking for ignition-gazebo6 -- found version 6.11.0
+[1.046s] -- Searching for dependencies of ignition-gazebo6
+[1.047s] -- Looking for sdformat12 -- found version 12.5.0
+[1.047s] -- Searching for dependencies of sdformat12
+[1.051s] -- Looking for ignition-math6 -- found version 6.12.0
+[1.051s] -- Searching for dependencies of ignition-math6
+[1.053s] -- Looking for ignition-utils1 -- found version 1.4.0
+[1.053s] -- Searching for dependencies of ignition-utils1
+[1.055s] -- Looking for ignition-plugin1 -- found version 1.3.0
+[1.055s] -- Searching for dependencies of ignition-plugin1
+[1.055s] -- Searching for <ignition-plugin1> component [loader]
+[1.056s] -- Looking for ignition-plugin1-loader -- found version 1.3.0
+[1.056s] -- Searching for dependencies of ignition-plugin1-loader
+[1.057s] -- Searching for <ignition-plugin1> component [register]
+[1.057s] -- Looking for ignition-plugin1-register -- found version 1.3.0
+[1.057s] -- Searching for dependencies of ignition-plugin1-register
+[1.058s] -- Looking for ignition-transport11 -- found version 11.2.0
+[1.058s] -- Searching for dependencies of ignition-transport11
+[1.088s] -- Config-file not installed for ZeroMQ -- checking for pkg-config
+[1.090s] -- Checking for module 'libzmq >= 4'
+[1.102s] --   Found libzmq , version 4.3.4
+[1.123s] -- Checking for module 'uuid'
+[1.131s] --   Found uuid, version 2.37.2
+[1.147s] -- Looking for ignition-utils1 -- found version 1.4.0
+[1.148s] -- Searching for dependencies of ignition-utils1
+[1.148s] -- Searching for <ignition-utils1> component [cli]
+[1.148s] -- Looking for ignition-utils1-cli -- found version 1.4.0
+[1.149s] -- Searching for dependencies of ignition-utils1-cli
+[1.149s] -- Looking for ignition-msgs8 -- found version 8.6.0
+[1.149s] -- Searching for dependencies of ignition-msgs8
+[1.166s] -- Looking for ignition-math6 -- found version 6.12.0
+[1.172s] -- Searching for <ignition-transport11> component [log]
+[1.173s] -- Looking for ignition-transport11-log -- found version 11.2.0
+[1.173s] -- Searching for dependencies of ignition-transport11-log
+[1.174s] -- Looking for ignition-msgs8 -- found version 8.6.0
+[1.174s] -- Looking for ignition-common4 -- found version 4.5.2
+[1.175s] -- Searching for dependencies of ignition-common4
+[1.175s] -- Looking for dlfcn.h - found
+[1.175s] -- Looking for libdl - found
+[1.181s] -- Searching for <ignition-common4> component [profiler]
+[1.182s] -- Looking for ignition-common4-profiler -- found version 4.5.2
+[1.182s] -- Searching for dependencies of ignition-common4-profiler
+[1.183s] -- Searching for <ignition-common4> component [events]
+[1.183s] -- Looking for ignition-common4-events -- found version 4.5.2
+[1.183s] -- Searching for dependencies of ignition-common4-events
+[1.183s] -- Looking for ignition-math6 -- found version 6.12.0
+[1.184s] -- Searching for <ignition-common4> component [av]
+[1.185s] -- Looking for ignition-common4-av -- found version 4.5.2
+[1.185s] -- Searching for dependencies of ignition-common4-av
+[1.188s] -- Checking for module 'libswscale'
+[1.196s] --   Found libswscale, version 5.9.100
+[1.218s] -- Checking for module 'libavdevice >= 56.4.100'
+[1.227s] --   Found libavdevice , version 58.13.100
+[1.252s] -- Checking for module 'libavformat'
+[1.260s] --   Found libavformat, version 58.76.100
+[1.282s] -- Checking for module 'libavcodec'
+[1.291s] --   Found libavcodec, version 58.134.100
+[1.314s] -- Checking for module 'libavutil'
+[1.323s] --   Found libavutil, version 56.70.100
+[1.343s] -- Looking for ignition-fuel_tools7 -- found version 7.1.0
+[1.343s] -- Searching for dependencies of ignition-fuel_tools7
+[1.374s] -- Checking for module 'jsoncpp'
+[1.382s] --   Found jsoncpp, version 1.9.5
+[1.403s] -- Checking for module 'libzip'
+[1.412s] --   Found libzip, version 1.7.3
+[1.430s] -- Looking for ignition-common4 -- found version 4.5.2
+[1.430s] -- Looking for ignition-math6 -- found version 6.12.0
+[1.430s] -- Looking for ignition-msgs8 -- found version 8.6.0
+[1.432s] -- Looking for ignition-gui6 -- found version 6.6.1
+[1.432s] -- Searching for dependencies of ignition-gui6
+[1.453s] -- Looking for ignition-math6 -- found version 6.12.0
+[1.454s] -- Looking for ignition-common4 -- found version 4.5.2
+[1.454s] -- Looking for ignition-plugin1 -- found version 1.3.0
+[1.454s] -- Looking for ignition-transport11 -- found version 11.2.0
+[1.455s] -- Looking for ignition-rendering6 -- found version 6.5.1
+[1.455s] -- Searching for dependencies of ignition-rendering6
+[1.455s] -- Looking for ignition-math6 -- found version 6.12.0
+[1.455s] -- Searching for dependencies of ignition-math6
+[1.455s] -- Searching for <ignition-math6> component [eigen3]
+[1.456s] -- Looking for ignition-math6-eigen3 -- found version 6.12.0
+[1.456s] -- Searching for dependencies of ignition-math6-eigen3
+[1.457s] -- Looking for ignition-common4 -- found version 4.5.2
+[1.457s] -- Searching for dependencies of ignition-common4
+[1.457s] -- Looking for dlfcn.h - found
+[1.457s] -- Looking for libdl - found
+[1.463s] -- Searching for <ignition-common4> component [graphics]
+[1.463s] -- Looking for ignition-common4-graphics -- found version 4.5.2
+[1.463s] -- Searching for dependencies of ignition-common4-graphics
+[1.464s] -- Looking for ignition-math6 -- found version 6.12.0
+[1.464s] -- Looking for ignition-utils1 -- found version 1.4.0
+[1.465s] -- Searching for <ignition-common4> component [events]
+[1.465s] -- Looking for ignition-plugin1 -- found version 1.3.0
+[1.465s] -- Searching for dependencies of ignition-plugin1
+[1.466s] -- Searching for <ignition-plugin1> component [all]
+[1.466s] -- Looking for all libraries of ignition-plugin1 -- found version 1.3.0
+[1.466s] -- Looking for ignition-plugin1 -- found version 1.3.0
+[1.468s] -- Looking for ignition-msgs8 -- found version 8.6.0
+[1.487s] -- Looking for ignition-physics5 -- found version 5.2.0
+[1.487s] -- Searching for dependencies of ignition-physics5
+[1.487s] -- Looking for ignition-math6 -- found version 6.12.0
+[1.488s] -- Looking for ignition-plugin1 -- found version 1.3.0
+[1.488s] -- Looking for ignition-utils1 -- found version 1.4.0
+[1.489s] -- Searching for <ignition-physics5> component [heightmap]
+[1.489s] -- Looking for ignition-physics5-heightmap -- found version 5.2.0
+[1.490s] -- Searching for dependencies of ignition-physics5-heightmap
+[1.490s] -- Looking for ignition-common4 -- found version 4.5.2
+[1.490s] -- Searching for <ignition-physics5> component [mesh]
+[1.491s] -- Looking for ignition-physics5-mesh -- found version 5.2.0
+[1.491s] -- Searching for dependencies of ignition-physics5-mesh
+[1.491s] -- Looking for ignition-common4 -- found version 4.5.2
+[1.492s] -- Searching for <ignition-physics5> component [sdf]
+[1.492s] -- Looking for ignition-physics5-sdf -- found version 5.2.0
+[1.493s] -- Searching for dependencies of ignition-physics5-sdf
+[1.493s] -- Looking for sdformat12 -- found version 12.5.0
+[1.494s] -- Looking for ignition-sensors6 -- found version 6.6.0
+[1.494s] -- Searching for dependencies of ignition-sensors6
+[1.510s] -- Looking for ignition-math6 -- found version 6.12.0
+[1.511s] -- Looking for ignition-common4 -- found version 4.5.2
+[1.511s] -- Looking for ignition-transport11 -- found version 11.2.0
+[1.511s] -- Looking for ignition-rendering6 -- found version 6.5.1
+[1.511s] -- Looking for ignition-msgs8 -- found version 8.6.0
+[1.511s] -- Looking for sdformat12 -- found version 12.5.0
+[1.512s] -- Searching for <ignition-sensors6> component [air_pressure]
+[1.513s] -- Looking for ignition-sensors6-air_pressure -- found version 6.6.0
+[1.513s] -- Searching for dependencies of ignition-sensors6-air_pressure
+[1.513s] -- Searching for <ignition-sensors6> component [altimeter]
+[1.514s] -- Looking for ignition-sensors6-altimeter -- found version 6.6.0
+[1.514s] -- Searching for dependencies of ignition-sensors6-altimeter
+[1.515s] -- Searching for <ignition-sensors6> component [imu]
+[1.515s] -- Looking for ignition-sensors6-imu -- found version 6.6.0
+[1.515s] -- Searching for dependencies of ignition-sensors6-imu
+[1.516s] -- Searching for <ignition-sensors6> component [force_torque]
+[1.516s] -- Looking for ignition-sensors6-force_torque -- found version 6.6.0
+[1.516s] -- Searching for dependencies of ignition-sensors6-force_torque
+[1.517s] -- Searching for <ignition-sensors6> component [logical_camera]
+[1.518s] -- Looking for ignition-sensors6-logical_camera -- found version 6.6.0
+[1.518s] -- Searching for dependencies of ignition-sensors6-logical_camera
+[1.518s] -- Searching for <ignition-sensors6> component [magnetometer]
+[1.519s] -- Looking for ignition-sensors6-magnetometer -- found version 6.6.0
+[1.519s] -- Searching for dependencies of ignition-sensors6-magnetometer
+[1.519s] -- Searching for <ignition-sensors6> component [navsat]
+[1.520s] -- Looking for ignition-sensors6-navsat -- found version 6.6.0
+[1.520s] -- Searching for dependencies of ignition-sensors6-navsat
+[1.521s] -- Searching for <ignition-sensors6> component [rendering]
+[1.521s] -- Looking for ignition-sensors6-rendering -- found version 6.6.0
+[1.522s] -- Searching for dependencies of ignition-sensors6-rendering
+[1.522s] -- Searching for <ignition-sensors6> component [lidar]
+[1.523s] -- Looking for ignition-sensors6-lidar -- found version 6.6.0
+[1.523s] -- Searching for dependencies of ignition-sensors6-lidar
+[1.523s] -- Searching for <ignition-sensors6> component [gpu_lidar]
+[1.524s] -- Looking for ignition-sensors6-gpu_lidar -- found version 6.6.0
+[1.524s] -- Searching for dependencies of ignition-sensors6-gpu_lidar
+[1.525s] -- Searching for <ignition-sensors6> component [camera]
+[1.525s] -- Looking for ignition-sensors6-camera -- found version 6.6.0
+[1.525s] -- Searching for dependencies of ignition-sensors6-camera
+[1.526s] -- Searching for <ignition-sensors6> component [boundingbox_camera]
+[1.527s] -- Looking for ignition-sensors6-boundingbox_camera -- found version 6.6.0
+[1.527s] -- Searching for dependencies of ignition-sensors6-boundingbox_camera
+[1.527s] -- Searching for <ignition-sensors6> component [segmentation_camera]
+[1.527s] -- Looking for ignition-sensors6-segmentation_camera -- found version 6.6.0
+[1.528s] -- Searching for dependencies of ignition-sensors6-segmentation_camera
+[1.528s] -- Searching for <ignition-sensors6> component [depth_camera]
+[1.529s] -- Looking for ignition-sensors6-depth_camera -- found version 6.6.0
+[1.529s] -- Searching for dependencies of ignition-sensors6-depth_camera
+[1.530s] -- Searching for <ignition-sensors6> component [rgbd_camera]
+[1.530s] -- Looking for ignition-sensors6-rgbd_camera -- found version 6.6.0
+[1.530s] -- Searching for dependencies of ignition-sensors6-rgbd_camera
+[1.531s] -- Searching for <ignition-sensors6> component [thermal_camera]
+[1.531s] -- Looking for ignition-sensors6-thermal_camera -- found version 6.6.0
+[1.531s] -- Searching for dependencies of ignition-sensors6-thermal_camera
+[1.533s] -- Looking for ignition-rendering6 -- found version 6.5.1
+[1.533s] -- Looking for ignition-math6 -- found version 6.12.0
+[1.533s] -- Looking for ignition-utils1 -- found version 1.4.0
+[1.551s] -- Compiling against Ignition Fortress
+[1.551s] -- Looking for ignition-plugin1 -- found version 1.3.0
+[1.839s] -- Found ament_lint_auto: 0.12.7 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.886s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.887s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.887s] -- Configured cppcheck include dirs: /home/nuctella/ros2_ws/ws/src/gazebosim/gz_ros2_control/ign_ros2_control/include
+[1.887s] -- Configured cppcheck exclude dirs and/or files: 
+[1.887s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.887s] -- Configured cpplint exclude dirs and/or files: 
+[1.887s] -- Added test 'lint_cmake' to check CMake code style
+[1.888s] -- Added test 'uncrustify' to check C / C++ code style
+[1.888s] -- Configured uncrustify additional arguments: 
+[1.888s] -- Added test 'xmllint' to check XML markup files
+[1.890s] -- Configuring done
+[1.921s] -- Generating done
+[1.922s] -- Build files have been written to: /home/nuctella/ros2_ws/ws/build/ign_ros2_control
+[1.941s] [35m[1mConsolidate compiler generated dependencies of target ign_ros2_control-system[0m
+[1.941s] [35m[1mConsolidate compiler generated dependencies of target ign_hardware_plugins[0m
+[1.958s] [ 25%] [32m[1mLinking CXX shared library libign_hardware_plugins.so[0m
+[1.958s] [ 50%] [32m[1mLinking CXX shared library libign_ros2_control-system.so[0m
+[2.286s] [ 75%] Built target ign_hardware_plugins
+[2.329s] [100%] Built target ign_ros2_control-system
+[2.336s] Invoked command in '/home/nuctella/ros2_ws/ws/build/ign_ros2_control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nuctella/my_ros2_ws/install/start_with_simple_nodes_py:/home/nuctella/my_ros2_ws/install/rosbot_object_recognition:/home/nuctella/my_ros2_ws/install/publisher_and_subscriber_py:/opt/ros/humble /usr/bin/cmake --build /home/nuctella/ros2_ws/ws/build/ign_ros2_control -- -j20 -l20
+[2.353s] Invoking command in '/home/nuctella/ros2_ws/ws/build/ign_ros2_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nuctella/my_ros2_ws/install/start_with_simple_nodes_py:/home/nuctella/my_ros2_ws/install/rosbot_object_recognition:/home/nuctella/my_ros2_ws/install/publisher_and_subscriber_py:/opt/ros/humble /usr/bin/cmake --install /home/nuctella/ros2_ws/ws/build/ign_ros2_control
+[2.356s] -- Install configuration: ""
+[2.357s] -- Execute custom install script
+[2.357s] -- Up-to-date symlink: /home/nuctella/ros2_ws/ws/install/ign_ros2_control/lib/libign_hardware_plugins.so
+[2.357s] -- Up-to-date symlink: /home/nuctella/ros2_ws/ws/install/ign_ros2_control/share/ign_ros2_control/environment/library_path.sh
+[2.357s] -- Up-to-date symlink: /home/nuctella/ros2_ws/ws/install/ign_ros2_control/share/ign_ros2_control/environment/library_path.dsv
+[2.357s] -- Up-to-date symlink: /home/nuctella/ros2_ws/ws/install/ign_ros2_control/lib/libign_ros2_control-system.so
+[2.357s] -- Up-to-date symlink: /home/nuctella/ros2_ws/ws/install/ign_ros2_control/share/ign_ros2_control//ign_hardware_plugins.xml
+[2.357s] -- Up-to-date symlink: /home/nuctella/ros2_ws/ws/install/ign_ros2_control/share/ament_index/resource_index/package_run_dependencies/ign_ros2_control
+[2.357s] -- Up-to-date symlink: /home/nuctella/ros2_ws/ws/install/ign_ros2_control/share/ament_index/resource_index/parent_prefix_path/ign_ros2_control
+[2.358s] -- Up-to-date symlink: /home/nuctella/ros2_ws/ws/install/ign_ros2_control/share/ign_ros2_control/environment/ament_prefix_path.sh
+[2.358s] -- Up-to-date symlink: /home/nuctella/ros2_ws/ws/install/ign_ros2_control/share/ign_ros2_control/environment/ament_prefix_path.dsv
+[2.358s] -- Up-to-date symlink: /home/nuctella/ros2_ws/ws/install/ign_ros2_control/share/ign_ros2_control/environment/path.sh
+[2.358s] -- Up-to-date symlink: /home/nuctella/ros2_ws/ws/install/ign_ros2_control/share/ign_ros2_control/environment/path.dsv
+[2.358s] -- Up-to-date symlink: /home/nuctella/ros2_ws/ws/install/ign_ros2_control/share/ign_ros2_control/local_setup.bash
+[2.358s] -- Up-to-date symlink: /home/nuctella/ros2_ws/ws/install/ign_ros2_control/share/ign_ros2_control/local_setup.sh
+[2.358s] -- Up-to-date symlink: /home/nuctella/ros2_ws/ws/install/ign_ros2_control/share/ign_ros2_control/local_setup.zsh
+[2.358s] -- Up-to-date symlink: /home/nuctella/ros2_ws/ws/install/ign_ros2_control/share/ign_ros2_control/local_setup.dsv
+[2.358s] -- Symlinking: /home/nuctella/ros2_ws/ws/install/ign_ros2_control/share/ign_ros2_control/package.dsv
+[2.362s] -- Up-to-date symlink: /home/nuctella/ros2_ws/ws/install/ign_ros2_control/share/ament_index/resource_index/packages/ign_ros2_control
+[2.362s] -- Up-to-date symlink: /home/nuctella/ros2_ws/ws/install/ign_ros2_control/share/ament_index/resource_index/ign_ros2_control__pluginlib__plugin/ign_ros2_control
+[2.363s] -- Up-to-date symlink: /home/nuctella/ros2_ws/ws/install/ign_ros2_control/share/ign_ros2_control/cmake/ament_cmake_export_include_directories-extras.cmake
+[2.363s] -- Up-to-date symlink: /home/nuctella/ros2_ws/ws/install/ign_ros2_control/share/ign_ros2_control/cmake/ament_cmake_export_libraries-extras.cmake
+[2.363s] -- Up-to-date symlink: /home/nuctella/ros2_ws/ws/install/ign_ros2_control/share/ign_ros2_control/cmake/ign_ros2_controlConfig.cmake
+[2.363s] -- Up-to-date symlink: /home/nuctella/ros2_ws/ws/install/ign_ros2_control/share/ign_ros2_control/cmake/ign_ros2_controlConfig-version.cmake
+[2.363s] -- Up-to-date symlink: /home/nuctella/ros2_ws/ws/install/ign_ros2_control/share/ign_ros2_control/package.xml
+[2.365s] Invoked command in '/home/nuctella/ros2_ws/ws/build/ign_ros2_control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nuctella/my_ros2_ws/install/start_with_simple_nodes_py:/home/nuctella/my_ros2_ws/install/rosbot_object_recognition:/home/nuctella/my_ros2_ws/install/publisher_and_subscriber_py:/opt/ros/humble /usr/bin/cmake --install /home/nuctella/ros2_ws/ws/build/ign_ros2_control

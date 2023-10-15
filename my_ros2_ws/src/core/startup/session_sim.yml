@@ -1,0 +1,17 @@
+name: nuctella-sim
+root: ./
+startup_window: startup-slam
+pre_window: |
+  source ~/.bashrc;
+  export DDS_CONFIG=DEFAULT; export RMW_IMPLEMENTATION=rmw_fastrtps_cpp;
+  export ROS_DOMAIN_ID=2
+windows:
+  - startup-slam:     #tmux list-windows
+      # layout: b3d5,212x48,0,0[212x23,0,0{105x23,0,0,0,106x23,106,0,1},212x24,0,24{105x24,0,24,2,106x24,106,24,3}]
+      panes:
+        - ros2 launch rosbot_xl_gazebo simulation.launch.py mecanum:=${MECANUM:-True}
+        - ros2 run rviz2 rviz2 -d /config/rosbot.rviz
+        - ros2 launch slam_toolbox online_sync_launch.py slam_params_file:=/config/slam_toolbox_params.yaml use_sim_time:=True
+        - bash -c "while true; do ros2 run nav2_map_server map_saver_cli --free 0.15 --fmt png -f /maps/map; sleep 5; done"
+        - ros2 run rosbot_object_recognition obj_rec
+        - ros2 run teleop_twist_keyboard teleop_twist_keyboard
