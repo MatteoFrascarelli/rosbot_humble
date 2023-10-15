@@ -25,7 +25,7 @@ AMENT_CMAKE_ENVIRONMENT_PARENT_PREFIX_PATH_GENERATION:BOOL=ON
 
 //Replace the CMake install command with a custom implementation
 // using symlinks instead of copying resources
-AMENT_CMAKE_SYMLINK_INSTALL:BOOL=1
+AMENT_CMAKE_SYMLINK_INSTALL:BOOL=OFF
 
 //Generate an uninstall target to revert the effects of the install
 // step
@@ -285,6 +285,10 @@ FastRTPS_LIBRARY_RELEASE:FILEPATH=/opt/ros/humble/lib/libfastrtps.so
 
 //Compile with a sanitizer. Options are: Address, Memory, MemoryWithOrigins,
 // Undefined, Thread, Leak, 'Address;Undefined', CFI
+GZ_SANITIZER:STRING=
+
+//Compile with a sanitizer. Options are: Address, Memory, MemoryWithOrigins,
+// Undefined, Thread, Leak, 'Address;Undefined', CFI
 IGN_SANITIZER:STRING=
 
 //Path to a library.
@@ -363,7 +367,7 @@ Qt5_DIR:PATH=/usr/lib/x86_64-linux-gnu/cmake/Qt5
 RMW_IMPLEMENTATION:STRING=rmw_fastrtps_cpp
 
 //Name of the computer/site where compile is being run
-SITE:STRING=8f94d32f7d06
+SITE:STRING=edo-ThinkPad-P1-Gen-5
 
 //Path to a library.
 SWSCALE_LIBRARY_swscale:FILEPATH=/usr/lib/x86_64-linux-gnu/libswscale.so
@@ -688,6 +692,9 @@ ignition-tools_DIR:PATH=/usr/lib/x86_64-linux-gnu/cmake/ignition-tools
 
 //The directory containing a CMake configuration file for ignition-transport11-log.
 ignition-transport11-log_DIR:PATH=/usr/lib/x86_64-linux-gnu/cmake/ignition-transport11-log
+
+//The directory containing a CMake configuration file for ignition-transport11-parameters.
+ignition-transport11-parameters_DIR:PATH=/usr/lib/x86_64-linux-gnu/cmake/ignition-transport11-parameters
 
 //The directory containing a CMake configuration file for ignition-transport11.
 ignition-transport11_DIR:PATH=/usr/lib/x86_64-linux-gnu/cmake/ignition-transport11
@@ -1225,7 +1232,7 @@ FIND_PACKAGE_MESSAGE_DETAILS_JSONCPP:INTERNAL=[TRUE][v()]
 //Details about finding OpenSSL
 FIND_PACKAGE_MESSAGE_DETAILS_OpenSSL:INTERNAL=[/usr/lib/x86_64-linux-gnu/libcrypto.so][/usr/include][c ][v3.0.2()]
 //Details about finding Protobuf
-FIND_PACKAGE_MESSAGE_DETAILS_Protobuf:INTERNAL=[/usr/lib/x86_64-linux-gnu/libprotobuf.so][/usr/include][v3.12.4(3)]
+FIND_PACKAGE_MESSAGE_DETAILS_Protobuf:INTERNAL=[/usr/lib/x86_64-linux-gnu/libprotobuf.so][/usr/include][v3.12.4()]
 //Details about finding Python3
 FIND_PACKAGE_MESSAGE_DETAILS_Python3:INTERNAL=[/usr/bin/python3.10][cfound components: Interpreter ][v3.10.12()]
 //Details about finding SWSCALE
@@ -1567,8 +1574,6 @@ _Python3_EXECUTABLE:INTERNAL=/usr/bin/python3.10
 //Python3 Properties
 _Python3_INTERPRETER_PROPERTIES:INTERNAL=Python;3;10;12;64;;cpython-310-x86_64-linux-gnu;/usr/lib/python3.10;/usr/lib/python3.10;/usr/lib/python3/dist-packages;/usr/lib/python3/dist-packages
 _Python3_INTERPRETER_SIGNATURE:INTERNAL=b91b4035ecb3bb3f5760d35922531bcd
-//Index for unique symlink install targets
-__AMENT_CMAKE_SYMLINK_INSTALL_TARGETS_INDEX:INTERNAL=2
 __pkg_config_arguments_AVCODEC:INTERNAL=libavcodec
 __pkg_config_arguments_AVDEVICE:INTERNAL=libavdevice >= 56.4.100
 __pkg_config_arguments_AVFORMAT:INTERNAL=libavformat

@@ -1,0 +1,5 @@
+[35m[1mConsolidate compiler generated dependencies of target rosbot_hardware_interfaces[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/rosbot_hardware_interfaces.dir/src/rosbot_imu_sensor.cpp.o[0m
+[ 66%] [32mBuilding CXX object CMakeFiles/rosbot_hardware_interfaces.dir/src/rosbot_system.cpp.o[0m
+[100%] [32m[1mLinking CXX shared library librosbot_hardware_interfaces.so[0m
+[100%] Built target rosbot_hardware_interfaces

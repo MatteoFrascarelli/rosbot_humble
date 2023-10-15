@@ -1,1 +1,1 @@
-/home/nuctella/ros2_ws/ws/build/rosbot_xl_gazebo/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/rosbot_xl_gazebo
+rosbot_xl_bringup;launch;launch_ros;husarion_office_gz;ros_gz_sim;ros_gz_bridge;ign_ros2_control

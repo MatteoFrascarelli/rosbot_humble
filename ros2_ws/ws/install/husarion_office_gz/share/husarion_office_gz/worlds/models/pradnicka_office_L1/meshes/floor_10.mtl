@@ -1,1 +1,10 @@
-/home/nuctella/ros2_ws/ws/src/husarion/gazebo_worlds/world/models/pradnicka_office_L1/meshes/floor_10.mtl
+# The Great Editor v0.0.1
+newmtl floor_10
+Ka 1.0 1.0 1.0
+Kd 1.0 1.0 1.0
+Ke 0.0 0.0 0.0
+Ns 50.0
+Ni 1.0
+d 1.0
+illum 2
+map_Kd white_carpet.png
