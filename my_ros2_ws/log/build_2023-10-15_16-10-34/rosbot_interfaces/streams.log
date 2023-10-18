@@ -1,0 +1,77 @@
+[0.095s] Invoking command in '/home/nuctella/my_ros2_ws/build/rosbot_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nuctella/my_ros2_ws/install/rosbot_object_recognition:/opt/ros/humble /usr/bin/cmake --build /home/nuctella/my_ros2_ws/build/rosbot_interfaces -- -j20 -l20
+[0.130s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.223s] -- Found geometry_msgs: 4.2.3 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.244s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.246s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.251s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.260s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.271s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.339s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.501s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[0.740s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.836s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.850s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[0.864s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.864s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[0.864s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[0.889s] -- Found ament_lint_auto: 0.12.8 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.895s] -- Added test 'lint_cmake' to check CMake code style
+[0.895s] -- Added test 'xmllint' to check XML markup files
+[0.896s] -- Configuring done
+[0.913s] -- Generating done
+[0.915s] -- Build files have been written to: /home/nuctella/my_ros2_ws/build/rosbot_interfaces
+[0.930s] [35m[1mConsolidate compiler generated dependencies of target rosbot_interfaces__rosidl_generator_c[0m
+[0.936s] [  3%] Built target rosbot_interfaces__cpp
+[0.937s] [  6%] [32mBuilding C object CMakeFiles/rosbot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/rosbot_interfaces/msg/detail/obstacle_info__functions.c.o[0m
+[0.941s] [  6%] Built target ament_cmake_python_copy_rosbot_interfaces
+[0.942s] [35m[1mConsolidate compiler generated dependencies of target rosbot_interfaces__rosidl_typesupport_cpp[0m
+[0.943s] [35m[1mConsolidate compiler generated dependencies of target rosbot_interfaces__rosidl_typesupport_fastrtps_cpp[0m
+[0.943s] [35m[1mConsolidate compiler generated dependencies of target rosbot_interfaces__rosidl_typesupport_introspection_cpp[0m
+[0.950s] [  9%] [32mBuilding CXX object CMakeFiles/rosbot_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rosbot_interfaces/msg/obstacle_info__type_support.cpp.o[0m
+[0.951s] [ 12%] [32mBuilding CXX object CMakeFiles/rosbot_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rosbot_interfaces/msg/detail/dds_fastrtps/obstacle_info__type_support.cpp.o[0m
+[0.951s] [ 16%] [32mBuilding CXX object CMakeFiles/rosbot_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rosbot_interfaces/msg/detail/obstacle_info__type_support.cpp.o[0m
+[1.000s] [ 19%] [32m[1mLinking C shared library librosbot_interfaces__rosidl_generator_c.so[0m
+[1.029s] [ 22%] Built target rosbot_interfaces__rosidl_generator_c
+[1.036s] [35m[1mConsolidate compiler generated dependencies of target rosbot_interfaces__rosidl_typesupport_fastrtps_c[0m
+[1.036s] [35m[1mConsolidate compiler generated dependencies of target rosbot_interfaces__rosidl_typesupport_c[0m
+[1.038s] [35m[1mConsolidate compiler generated dependencies of target rosbot_interfaces__rosidl_typesupport_introspection_c[0m
+[1.044s] [ 25%] [32mBuilding CXX object CMakeFiles/rosbot_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/rosbot_interfaces/msg/obstacle_info__type_support.cpp.o[0m
+[1.045s] [ 29%] [32mBuilding C object CMakeFiles/rosbot_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rosbot_interfaces/msg/detail/obstacle_info__type_support.c.o[0m
+[1.046s] [ 32%] [32mBuilding CXX object CMakeFiles/rosbot_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rosbot_interfaces/msg/detail/obstacle_info__type_support_c.cpp.o[0m
+[1.055s] running egg_info
+[1.064s] writing rosbot_interfaces.egg-info/PKG-INFO
+[1.064s] writing dependency_links to rosbot_interfaces.egg-info/dependency_links.txt
+[1.064s] writing top-level names to rosbot_interfaces.egg-info/top_level.txt
+[1.068s] [ 35%] [32m[1mLinking CXX shared library librosbot_interfaces__rosidl_typesupport_c.so[0m
+[1.070s] [ 38%] [32m[1mLinking C shared library librosbot_interfaces__rosidl_typesupport_introspection_c.so[0m
+[1.088s] reading manifest file 'rosbot_interfaces.egg-info/SOURCES.txt'
+[1.088s] writing manifest file 'rosbot_interfaces.egg-info/SOURCES.txt'
+[1.097s] [ 45%] Built target rosbot_interfaces__rosidl_typesupport_introspection_c
+[1.097s] [ 45%] Built target rosbot_interfaces__rosidl_typesupport_c
+[1.105s] [ 45%] Built target ament_cmake_python_build_rosbot_interfaces_egg
+[1.127s] [ 48%] [32m[1mLinking CXX shared library librosbot_interfaces__rosidl_typesupport_cpp.so[0m
+[1.152s] [ 51%] Built target rosbot_interfaces__rosidl_typesupport_cpp
+[1.194s] [ 54%] [32m[1mLinking CXX shared library librosbot_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[1.209s] [ 58%] [32m[1mLinking CXX shared library librosbot_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[1.233s] [ 61%] [32m[1mLinking CXX shared library librosbot_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[1.236s] [ 64%] Built target rosbot_interfaces__rosidl_typesupport_fastrtps_cpp
+[1.246s] [ 67%] Built target rosbot_interfaces__rosidl_typesupport_introspection_cpp
+[1.276s] [ 70%] Built target rosbot_interfaces__rosidl_typesupport_fastrtps_c
+[1.288s] [ 70%] Built target rosbot_interfaces
+[1.300s] [ 74%] Built target rosbot_interfaces__py
+[1.306s] [35m[1mConsolidate compiler generated dependencies of target rosbot_interfaces__rosidl_generator_py[0m
+[1.314s] [ 77%] [32mBuilding C object CMakeFiles/rosbot_interfaces__rosidl_generator_py.dir/rosidl_generator_py/rosbot_interfaces/msg/_obstacle_info_s.c.o[0m
+[1.382s] [ 80%] [32m[1mLinking C shared library rosidl_generator_py/rosbot_interfaces/librosbot_interfaces__rosidl_generator_py.so[0m
+[1.405s] [ 80%] Built target rosbot_interfaces__rosidl_generator_py
+[1.411s] [35m[1mConsolidate compiler generated dependencies of target rosbot_interfaces__rosidl_typesupport_fastrtps_c__pyext[0m
+[1.412s] [35m[1mConsolidate compiler generated dependencies of target rosbot_interfaces__rosidl_typesupport_introspection_c__pyext[0m
+[1.412s] [35m[1mConsolidate compiler generated dependencies of target rosbot_interfaces__rosidl_typesupport_c__pyext[0m
+[1.419s] [ 87%] [32mBuilding C object CMakeFiles/rosbot_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/rosbot_interfaces/_rosbot_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[1.419s] [ 90%] [32mBuilding C object CMakeFiles/rosbot_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/rosbot_interfaces/_rosbot_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[1.419s] [ 90%] [32mBuilding C object CMakeFiles/rosbot_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/rosbot_interfaces/_rosbot_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[1.476s] [ 96%] [32m[1mLinking C shared library rosidl_generator_py/rosbot_interfaces/rosbot_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[1.476s] [100%] [32m[1mLinking C shared library rosidl_generator_py/rosbot_interfaces/rosbot_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[1.476s] [100%] [32m[1mLinking C shared library rosidl_generator_py/rosbot_interfaces/rosbot_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[1.500s] [100%] Built target rosbot_interfaces__rosidl_typesupport_introspection_c__pyext
+[1.500s] [100%] Built target rosbot_interfaces__rosidl_typesupport_c__pyext
+[1.500s] [100%] Built target rosbot_interfaces__rosidl_typesupport_fastrtps_c__pyext

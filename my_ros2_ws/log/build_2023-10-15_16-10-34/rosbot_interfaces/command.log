@@ -1,0 +1,1 @@
+Invoking command in '/home/nuctella/my_ros2_ws/build/rosbot_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nuctella/my_ros2_ws/install/rosbot_object_recognition:/opt/ros/humble /usr/bin/cmake --build /home/nuctella/my_ros2_ws/build/rosbot_interfaces -- -j20 -l20
