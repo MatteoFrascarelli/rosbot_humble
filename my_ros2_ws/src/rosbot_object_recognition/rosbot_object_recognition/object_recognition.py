@@ -74,7 +74,7 @@ class ObjectRecognitionNode(Node):
             message.position.x = float(obstacle.position_x)
             message.position.y = float(obstacle.position_y)
             message.position.theta = float(obstacle.orientation)
-            message.area = float(obstacle.area) #**TO SET FLOAT IN INTERFACE**
+            message.area = float(obstacle.area)
             message.frame_id = obstacle.frame_ID
             self.obj_pub.publish(message)
         
@@ -113,7 +113,7 @@ class ObjectRecognitionNode(Node):
         #  ----------------- NEW VERSION --------------------
         h, l = eroded.shape
         mask = np.zeros_like(eroded)    #create the mask
-        cv2.rectangle(mask, (int(h*0.05), int(h*0.05)), (int(l-h*0.05), int(h- h*0.05)), (255, 255, 255), thickness=cv2.FILLED)
+        cv2.rectangle(mask, (int(h*0.03), int(h*0.03)), (int(l-h*0.03), int(h- h*0.03)), (255, 255, 255), thickness=cv2.FILLED)
         # cv2.imshow("msk", mask)
         eroded = cv2.bitwise_and(eroded, mask)  #mask the wall
         
@@ -160,6 +160,7 @@ class ObjectRecognitionNode(Node):
                     shape = "rectangle"
             else:  # the circle is approx. as a polygon so it could have a number of sides larger than four
                 shape = "circle"
+                #hough circle
 
             # Calculate the center of the objects in the frame "Cartesian coordinates Top-Left"
             M = cv2.moments(contour)

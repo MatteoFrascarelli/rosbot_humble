@@ -113,7 +113,7 @@ class ObjectRecognitionNode(Node):
         #  ----------------- NEW VERSION --------------------
         h, l = eroded.shape
         mask = np.zeros_like(eroded)    #create the mask
-        cv2.rectangle(mask, (int(h*0.05), int(h*0.05)), (int(l-h*0.05), int(h- h*0.05)), (255, 255, 255), thickness=cv2.FILLED)
+        cv2.rectangle(mask, (int(h*0.03), int(h*0.03)), (int(l-h*0.03), int(h- h*0.03)), (255, 255, 255), thickness=cv2.FILLED)
         # cv2.imshow("msk", mask)
         eroded = cv2.bitwise_and(eroded, mask)  #mask the wall
         
