@@ -1,0 +1,11 @@
+[100%] Built target monitor_battery
+[100%] Built target ament_cmake_python_copy_core
+running egg_info
+writing core.egg-info/PKG-INFO
+writing dependency_links to core.egg-info/dependency_links.txt
+writing top-level names to core.egg-info/top_level.txt
+reading manifest file 'core.egg-info/SOURCES.txt'
+writing manifest file 'core.egg-info/SOURCES.txt'
+[100%] Built target ament_cmake_python_build_core_egg
+-- Install configuration: ""
+-- Up-to-date: /home/nuctella/my_ros2_ws/install/core/lib/core/monitor_battery

@@ -5,3 +5,4 @@ Summary: TODO: Package description
 Maintainer: nuctella
 Maintainer-email: nuctella@todo.todo
 License: TODO: License declaration
+Requires-Dist: setuptools

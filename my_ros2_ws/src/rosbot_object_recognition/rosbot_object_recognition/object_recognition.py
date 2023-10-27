@@ -74,7 +74,7 @@ class ObjectRecognitionNode(Node):
             message.position.x = float(obstacle.position_x)
             message.position.y = float(obstacle.position_y)
             message.position.theta = float(obstacle.orientation)
-            message.area = float(obstacle.area) #**TO SET FLOAT IN INTERFACE**
+            message.area = float(obstacle.area)
             message.frame_id = obstacle.frame_ID
             self.obj_pub.publish(message)
         
@@ -87,9 +87,6 @@ class ObjectRecognitionNode(Node):
         gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)  # convert in grayscale
         _, binary = cv2.threshold(gray, 127, 255, cv2.THRESH_BINARY_INV)  # convert in binary color
         
-        #edges = cv2.Canny(binary, 30, 100)  # edge detection (https://docs.opencv.org/4.x/da/d22/tutorial_py_canny.html)
-        #cv2.imshow("edges", edges)
-
         # Image processing to clean the edge detected
         # (https://docs.opencv.org/3.4/db/df6/tutorial_erosion_dilatation.html)
         dilated = cv2.dilate(binary, None, iterations=2)
@@ -101,15 +98,27 @@ class ObjectRecognitionNode(Node):
         #   2) cv2.CHAIN_APPROX_SIMPLE : assuming that the countours are almost straight line, save only the 2 end-points for each line
         #      [https://docs.opencv.org/4.x/d4/d73/tutorial_py_contours_begin.html]
 
+        #  ----------------- OLD VERSION --------------------
+        # contours, _ = cv2.findContours(eroded, cv2.RETR_EXTERNAL, cv2.CHAIN_APPROX_SIMPLE)
+        # # Checks whether the algorithm has detected the walls of the room as boundaries,
+        # # if so they are eliminated by mask filtering
+        # if cv2.contourArea(contours[0]) > 150000:   #if detect the outer walls
+        #     mask = np.zeros_like(eroded)    #create the mask
+        #     cv2.rectangle(mask, (20, 20), (370, 560), (255, 255, 255), thickness=cv2.FILLED)
+        #     # cv2.imshow("msk", mask)
+        #     eroded = cv2.bitwise_and(eroded, mask)  #mask the wall
+        #     contours, _ = cv2.findContours(eroded, cv2.RETR_EXTERNAL, cv2.CHAIN_APPROX_SIMPLE)
+        #  ----------------- OLD VERSION --------------------
+
+        #  ----------------- NEW VERSION --------------------
+        h, l = eroded.shape
+        mask = np.zeros_like(eroded)    #create the mask
+        cv2.rectangle(mask, (int(h*0.03), int(h*0.03)), (int(l-h*0.03), int(h- h*0.03)), (255, 255, 255), thickness=cv2.FILLED)
+        # cv2.imshow("msk", mask)
+        eroded = cv2.bitwise_and(eroded, mask)  #mask the wall
+        
         contours, _ = cv2.findContours(eroded, cv2.RETR_EXTERNAL, cv2.CHAIN_APPROX_SIMPLE)
-        # Checks whether the algorithm has detected the walls of the room as boundaries,
-        # if so they are eliminated by mask filtering
-        if cv2.contourArea(contours[0]) > 150000:   #if detect the outer walls
-            mask = np.zeros_like(eroded)    #create the mask
-            cv2.rectangle(mask, (20, 20), (370, 560), (255, 255, 255), thickness=cv2.FILLED)
-            # cv2.imshow("msk", mask)
-            eroded = cv2.bitwise_and(eroded, mask)  #mask the wall
-            contours, _ = cv2.findContours(eroded, cv2.RETR_EXTERNAL, cv2.CHAIN_APPROX_SIMPLE)
+        #  ----------------- NEW VERSION --------------------
 
         # Introduce a variable to count the number of real objects
         j = 0
@@ -151,6 +160,7 @@ class ObjectRecognitionNode(Node):
                     shape = "rectangle"
             else:  # the circle is approx. as a polygon so it could have a number of sides larger than four
                 shape = "circle"
+                #hough circle
 
             # Calculate the center of the objects in the frame "Cartesian coordinates Top-Left"
             M = cv2.moments(contour)
